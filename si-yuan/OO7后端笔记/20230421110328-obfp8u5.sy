@@ -1,0 +1,94 @@
+{
+	"ID": "20230421110328-obfp8u5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f525",
+		"id": "20230421110328-obfp8u5",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230421110328-9wliopo\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230423205611-ratfemf\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230421110650-vt02sy7\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
+		"title": "核心技能",
+		"updated": "20230423205611"
+	},
+	"Children": [
+		{
+			"ID": "20230421110328-9wliopo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230421110328-9wliopo",
+				"updated": "20230421110704"
+			},
+			"Children": [
+				{
+					"ID": "20230421110650-wh2xwhq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230421110650-wh2xwhq",
+						"updated": "20230421110650"
+					},
+					"Children": [
+						{
+							"ID": "20230421110650-vt02sy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230421110650-vt02sy7",
+								"updated": "20230421110658"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230421110407-9zrk62f",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Node.js - 方向"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230421110658-01iziy5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230421110658-01iziy5",
+						"updated": "20230421110704"
+					},
+					"Children": [
+						{
+							"ID": "20230421110658-8febbli",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230421110658-8febbli",
+								"updated": "20230421110704"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230421110427-19oontv",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Golang - 方向"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230423205611-ratfemf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230423205611-ratfemf"
+			}
+		}
+	]
+}

@@ -1,0 +1,335 @@
+{
+	"ID": "20230530212604-7uby35y",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f7e2",
+		"id": "20230530212604-7uby35y",
+		"title": "Node.js - Jonas v2023",
+		"updated": "20230530214116"
+	},
+	"Children": [
+		{
+			"ID": "20230530214004-op60hzv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230530214004-op60hzv",
+				"updated": "20230530214017"
+			},
+			"Children": [
+				{
+					"ID": "20230530214004-5catt1o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230530214004-5catt1o",
+						"updated": "20230530214017"
+					},
+					"Children": [
+						{
+							"ID": "20230530214004-19orvfh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230530214004-19orvfh",
+								"updated": "20230530214017"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Udemy: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/learn/lecture/15080922#overview",
+									"TextMarkTextContent": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/learn/lecture/15080922#overview"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230530214004-qv40qxf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230530214004-qv40qxf",
+						"updated": "20230530214004"
+					},
+					"Children": [
+						{
+							"ID": "20230530214004-ot9hknk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230530214004-ot9hknk",
+								"updated": "20230530214004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Github:"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-zof2c11",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230530214004-zof2c11",
+				"style": "height: 500px;",
+				"updated": "20230530214116"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZWNoYXJ0cw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n6\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n6\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n6\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n6\n]\n    }\n  ]\n}"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-isgmf4v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230530214004-isgmf4v",
+				"style": "background-color: var(--b3-font-background13); color: var(--b3-font-color13);",
+				"updated": "20230530214004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 简介"
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-xtcev8f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230530214004-xtcev8f",
+				"updated": "20230530214004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1 课程大纲"
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-lfavzcy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230530214004-lfavzcy",
+				"updated": "20230530214004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-62hxnl0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230530214004-62hxnl0",
+				"updated": "20230530214021"
+			},
+			"Children": [
+				{
+					"ID": "20230530214004-15nnre0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230530214004-15nnre0",
+						"updated": "20230530214020"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230530214004-wtwg4il",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230530214004-wtwg4il",
+								"updated": "20230530214004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230530214004-r2k1pwo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230530214004-r2k1pwo",
+						"updated": "20230530214020"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230530214004-qbvymca",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230530214004-qbvymca",
+								"updated": "20230530214004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230530214004-cnfjbau",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230530214004-cnfjbau",
+						"updated": "20230530214021"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230530214004-8tcc3p1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230530214004-8tcc3p1",
+								"updated": "20230530214004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-ppu00ly",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230530214004-ppu00ly",
+				"updated": "20230530214004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-d1vwtph",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230530214004-d1vwtph",
+				"updated": "20230530214035"
+			},
+			"Children": [
+				{
+					"ID": "20230530214004-92atpfz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230530214004-92atpfz",
+						"updated": "20230530214035"
+					},
+					"Children": [
+						{
+							"ID": "20230530214004-si04465",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230530214004-si04465",
+								"updated": "20230530214035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概况了解"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230530214004-d9dry08",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230530214004-d9dry08",
+				"updated": "20230530214004"
+			}
+		}
+	]
+}
