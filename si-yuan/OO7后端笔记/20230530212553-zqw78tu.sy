@@ -5,9 +5,9 @@
 	"Properties": {
 		"icon": "2714",
 		"id": "20230530212553-zqw78tu",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230530212553-t8a9e5x\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230530212933-isb0oyh\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230530212900-2kw67d3\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230530212553-t8a9e5x\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230530222723-pm0lfs8\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230530222723-pm0lfs8\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "系统性学习",
-		"updated": "20230530212933"
+		"updated": "20230530222723"
 	},
 	"Children": [
 		{
@@ -16,7 +16,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230530212553-t8a9e5x",
-				"updated": "20230530212845"
+				"updated": "20230530212856"
 			},
 			"Children": [
 				{
@@ -28,7 +28,7 @@
 					},
 					"Properties": {
 						"id": "20230530212849-psxymyw",
-						"updated": "20230530212849"
+						"updated": "20230530212856"
 					},
 					"Children": [
 						{
@@ -49,34 +49,14 @@
 							]
 						}
 					]
-				},
-				{
-					"ID": "20230530212900-gonwfs3",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20230530212900-gonwfs3"
-					},
-					"Children": [
-						{
-							"ID": "20230530212900-2kw67d3",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20230530212900-2kw67d3"
-							}
-						}
-					]
 				}
 			]
 		},
 		{
-			"ID": "20230530212933-isb0oyh",
+			"ID": "20230530222723-pm0lfs8",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230530212933-isb0oyh"
+				"id": "20230530222723-pm0lfs8"
 			}
 		}
 	]
