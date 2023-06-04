@@ -10,13 +10,13 @@ const allData = fs.readFileSync( path.join(__dirname,"data/data.json"), "utf-8")
 
 
 /**
- * TODO: express配置静态文件目录 ( 等待笔记 )
+ * TODO: express配置静态文件目录 ( 完成笔记 )
  */
 app.use(express.static(path.join(__dirname,"public")))
 
 
 /**
- * TODO: express配置路由, 支持单页面应用程序 ( 等待笔记 )
+ * TODO: express配置路由, 支持单页面应用程序 ( 完成笔记 )
  *      注意: 顺序很重要
  *      优先响应api接口, 非api路由则返回单页面应用程序
  */
@@ -40,7 +40,7 @@ app.get("/api/all-data",(req,res) => {
 
 // api: 请求指定id数据
 app.get("/api/find-data",(req,res) => {
-    const { id } = req.query;
+    const { id } = req.query; // 获取get入参
 
 
     if( id ){
