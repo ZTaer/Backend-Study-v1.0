@@ -1,0 +1,258 @@
+{
+	"ID": "20230612003848-vfizwa0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f9ea",
+		"id": "20230612003848-vfizwa0",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230612003848-vfizwa0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230612003848-o0efkn8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230612004447-92w9djb\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230612004451-6h60eu8\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "研究项目",
+		"updated": "20230612004509"
+	},
+	"Children": [
+		{
+			"ID": "20230612003848-o0efkn8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230612003848-o0efkn8",
+				"updated": "20230612004509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 视频流后端API服务构建"
+				}
+			]
+		},
+		{
+			"ID": "20230612004051-rq0ij4c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230612004051-rq0ij4c",
+				"updated": "20230612004211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究状态"
+				}
+			]
+		},
+		{
+			"ID": "20230612004051-lsxqq1z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230612004051-lsxqq1z",
+				"updated": "20230612004339"
+			},
+			"Children": [
+				{
+					"ID": "20230612004118-x7osoxr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230612004118-x7osoxr"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230612004118-md8rbbo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612004118-md8rbbo",
+								"updated": "20230612004215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "成功"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230612004124-xt2szmf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230612004124-xt2szmf"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230612004124-hp61er7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612004124-hp61er7",
+								"updated": "20230612004214"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "失败"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230612004226-dri1tlx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230612004226-dri1tlx",
+						"updated": "20230612004339"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230612004226-aci9d8c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612004226-aci9d8c",
+								"updated": "20230612004229"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "研究中"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230612004051-zidwu2p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230612004051-zidwu2p",
+				"updated": "20230612004239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究要求"
+				}
+			]
+		},
+		{
+			"ID": "20230612004240-1o27ti6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230612004240-1o27ti6",
+				"updated": "20230612004241"
+			},
+			"Children": [
+				{
+					"ID": "20230612004245-x5i2wm8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230612004245-x5i2wm8",
+						"updated": "20230612004245"
+					},
+					"Children": [
+						{
+							"ID": "20230612004245-lr2m6jy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612004245-lr2m6jy",
+								"updated": "20230612004329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要求与YouTube视频流 || B站视频流 || 亚马逊S3文件流类似"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230612004437-dqyfqr7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230612004437-dqyfqr7",
+				"updated": "20230612004446"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究日志"
+				}
+			]
+		},
+		{
+			"ID": "20230612004447-92w9djb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230612004447-92w9djb",
+				"updated": "20230612004448"
+			},
+			"Children": [
+				{
+					"ID": "20230612004451-ldcst8d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230612004451-ldcst8d",
+						"updated": "20230612004451"
+					},
+					"Children": [
+						{
+							"ID": "20230612004451-6h60eu8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612004451-6h60eu8",
+								"updated": "20230612004451"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -5,9 +5,9 @@
 	"Properties": {
 		"icon": "1f7e2",
 		"id": "20230530212604-7uby35y",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230530212604-7uby35y\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230530214004-op60hzv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230601213209-vu6yqdo\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230530214004-zof2c11\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230530212604-7uby35y\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230608221151-llu1l68\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230610232649-bea1klk\u0026quot;,\u0026quot;scrollTop\u0026quot;:6785.5556640625}",
 		"title": "Node.js - Jonas v2023",
-		"updated": "20230608232625"
+		"updated": "20230612004658"
 	},
 	"Children": [
 		{
@@ -90,7 +90,7 @@
 			"Properties": {
 				"id": "20230530214004-zof2c11",
 				"style": "height: 500px;",
-				"updated": "20230608232625"
+				"updated": "20230612004658"
 			},
 			"Children": [
 				{
@@ -103,7 +103,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介', '2. Node.js \u0026amp; Npm 简介','3. Node.js 后端WEB开发简介', '4. Node.js 工作原理'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n3,20,5,11\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n3,20,5,4\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n3,20,5,4\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n3,20,5,4\n]\n    }\n  ]\n}"
+					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介', '2. Node.js \u0026amp; Npm 简介','3. Node.js 后端WEB开发简介', '4. Node.js 工作原理'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n3,20,5,11\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n3,20,5,11\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n3,20,5,11\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n3,20,5,11\n]\n    }\n  ]\n}"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -15065,10 +15065,6405 @@
 			}
 		},
 		{
-			"ID": "20230608221200-zpl6qqc",
+			"ID": "20230610144823-qkh4kqu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610144823-qkh4kqu",
+				"updated": "20230610144849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.5 事件循环实践"
+				}
+			]
+		},
+		{
+			"ID": "20230610144823-gi5lg5z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610144823-gi5lg5z",
+				"updated": "20230610144823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610144823-ab5umwx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610144823-ab5umwx",
+				"updated": "20230611221808"
+			},
+			"Children": [
+				{
+					"ID": "20230610144823-5d0adom",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610144823-5d0adom",
+						"updated": "20230610211133"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610144823-3ox6ziy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610144823-3ox6ziy",
+								"updated": "20230610144823"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610144823-yty4tmh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610144823-yty4tmh",
+						"updated": "20230611221807"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610144823-cl4gck9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610144823-cl4gck9",
+								"updated": "20230610144823"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610144823-zqu1u8l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610144823-zqu1u8l",
+						"updated": "20230611221808"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610144823-w0tiq3l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610144823-w0tiq3l",
+								"updated": "20230610144823"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610144823-gnnig18",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610144823-gnnig18",
+				"updated": "20230610144823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610144852-hum2qiq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610144852-hum2qiq",
+				"updated": "20230611221800"
+			},
+			"Children": [
+				{
+					"ID": "20230610144856-bl017w4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610144856-bl017w4",
+						"updated": "20230610151044"
+					},
+					"Children": [
+						{
+							"ID": "20230610144856-tmdseza",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610144856-tmdseza",
+								"updated": "20230610202030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": " 4:40 - 异步逻辑顺序测试"
+								}
+							]
+						},
+						{
+							"ID": "20230610202310-0wyc8sh",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610202310-0wyc8sh"
+							},
+							"Children": [
+								{
+									"ID": "20230610202309-zyk79av",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610202309-zyk79av"
+									},
+									"Children": [
+										{
+											"ID": "20230610202309-d286dl1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610202309-d286dl1",
+												"updated": "20230610202329"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "什么是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code u",
+													"TextMarkTextContent": "setImmediate"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": " ?"
+												}
+											]
+										},
+										{
+											"ID": "20230610202320-6w8m7sq",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230610202320-6w8m7sq"
+											},
+											"Children": [
+												{
+													"ID": "20230610202320-ceyeh7q",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230610202320-ceyeh7q"
+													},
+													"Children": [
+														{
+															"ID": "20230610202322-x12tbb9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202322-x12tbb9",
+																"updated": "20230610202322"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 是 Node.js 提供的一个全局函数，用于在当前事件循环结束时执行回调函数。这个函数将会把你的回调函数插入到事件队列的尾部，在所有 I/O 事件，和所有定时器完成后调用。"
+																}
+															]
+														},
+														{
+															"ID": "20230610202322-zg4tpj3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202322-zg4tpj3",
+																"updated": "20230610202322"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "这里有一个使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的例子："
+																}
+															]
+														},
+														{
+															"ID": "20230610202322-1oluct9",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230610202322-1oluct9",
+																"updated": "20230610202322"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "amF2YXNjcmlwdA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "console.log('first');\nsetImmediate(() =\u003e {\n    console.log('second');\n});\nconsole.log('third');\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230610202322-8p0nkk8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202322-8p0nkk8",
+																"updated": "20230610202322"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在上述代码中， "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 会确保 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "second"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 总是在 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "third"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 之后打印。尽管回调函数是立即定义的，但 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 会把回调函数推迟到下一次事件循环。"
+																}
+															]
+														},
+														{
+															"ID": "20230610202322-lt72jwz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202322-lt72jwz",
+																"updated": "20230610202322"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "需要注意的是， "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 和 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setTimeout(fn, 0)"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 在某些情况下是有差别的。 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setTimeout(fn, 0)"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 会在定时器阶段调用回调函数，而 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 则会在 check 阶段调用回调函数。如果两者在同一事件循环中调用，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的回调可能会比 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setTimeout(fn, 0)"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的回调先执行，这取决于它们被调用的位置和事件循环的当前阶段。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610201151-b7cu6qp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230610201151-b7cu6qp",
+						"updated": "20230611221744"
+					},
+					"Children": [
+						{
+							"ID": "20230610201151-x2o701f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610201151-x2o701f",
+								"updated": "20230611221744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "8:45 - 在I/O异步中嵌套，异步测试 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610202526-wgofgxm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230610202526-wgofgxm",
+						"updated": "20230611221748"
+					},
+					"Children": [
+						{
+							"ID": "20230610202526-wf1fi7e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610202526-wf1fi7e",
+								"updated": "20230611221748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "10:12 - 加入process微任务, 异步测试 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230610202726-po7qnmb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610202726-po7qnmb"
+							},
+							"Children": [
+								{
+									"ID": "20230610202725-e9wyccj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610202725-e9wyccj"
+									},
+									"Children": [
+										{
+											"ID": "20230610202725-g0hicws",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610202725-g0hicws",
+												"updated": "20230610205847"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "什么是"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code u",
+													"TextMarkTextContent": "process.nextTick"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": " ?"
+												}
+											]
+										},
+										{
+											"ID": "20230610202743-pd0hfif",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230610202743-pd0hfif"
+											},
+											"Children": [
+												{
+													"ID": "20230610202739-nyimxhf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230610202739-nyimxhf"
+													},
+													"Children": [
+														{
+															"ID": "20230610202747-uoccqzr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202747-uoccqzr",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在Node.js中，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "process.nextTick()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 是一个特殊的函数，它的工作原理和 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "setImmediate()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 很类似，都是在当前执行堆栈清空后，事件循环进入下一轮循环前调用的函数。但是，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "process.nextTick()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的优先级高于其他任何形式的异步操作，这意味着它在任何 I/O 或者定时器之前执行。"
+																}
+															]
+														},
+														{
+															"ID": "20230610202747-ktzvi4f",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202747-ktzvi4f",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "以下是一个简单的 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "process.nextTick()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的例子："
+																}
+															]
+														},
+														{
+															"ID": "20230610202747-dp8mks8",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230610202747-dp8mks8",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "amF2YXNjcmlwdA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "console.log('start');\nprocess.nextTick(() =\u003e {\n  console.log('nextTick callback');\n});\nconsole.log('scheduled');\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230610202747-r8a1rhv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202747-r8a1rhv",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "这段代码的输出将会是："
+																}
+															]
+														},
+														{
+															"ID": "20230610202747-c6655wf",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230610202747-c6655wf",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker"
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "start\nscheduled\nnextTick callback\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230610202747-uakdq6b",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202747-uakdq6b",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "即使 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "process.nextTick()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的回调函数在 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "console.log('scheduled');"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 之前被注册，但是它会在其他所有同步操作执行完毕之后才被调用。"
+																}
+															]
+														},
+														{
+															"ID": "20230610202747-audjqms",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610202747-audjqms",
+																"updated": "20230610202747"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "需要注意的是，如果你在一个 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "nextTick"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 回调中再次调用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "nextTick"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​，那么新的回调会被立即执行，这可能会导致事件循环被阻塞，因为任何在这个队列中的回调都将在I/O事件或定时器之前执行。所以，除非你确实需要在所有其他事件之前执行某个操作，否则应该尽量避免使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "process.nextTick()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610203125-iy1j6g0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230610203125-iy1j6g0",
+						"updated": "20230611221751"
+					},
+					"Children": [
+						{
+							"ID": "20230610203125-7vljmzb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610203125-7vljmzb",
+								"updated": "20230611221751"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "14:52 - 加入crypto加密逻辑，异步测试 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230610203348-y342vf4",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610203348-y342vf4",
+								"updated": "20230611214432"
+							},
+							"Children": [
+								{
+									"ID": "20230610203348-0za6dtw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610203348-0za6dtw"
+									},
+									"Children": [
+										{
+											"ID": "20230610203348-foo9ae8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610203348-foo9ae8",
+												"updated": "20230610203413"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认4线程, 所以加密逻辑同时完成"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230611213317-erufpgw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230611213317-erufpgw"
+									},
+									"Children": [
+										{
+											"ID": "20230611213317-8e48osj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611213317-8e48osj",
+												"updated": "20230611214342"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "crypto.pbkdf2 使用"
+												}
+											]
+										},
+										{
+											"ID": "20230611213336-rp1o62h",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611213336-rp1o62h"
+											},
+											"Children": [
+												{
+													"ID": "20230611213336-uin96ir",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230611213336-uin96ir"
+													},
+													"Children": [
+														{
+															"ID": "20230611213341-9b2qhbm",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611213341-9b2qhbm",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 是 Node.js 内建模块 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 提供的一个函数，用于实现 PBKDF2 密码基准密钥导出函数。PBKDF2 是一个用于从密码中导出密钥的方法，它可以增加获取原始密码的难度，从而提高密码的安全性。"
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-ogubv4p",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611213341-ogubv4p",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 函数的签名如下："
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-uruutcx",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230611213341-uruutcx",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "amF2YXNjcmlwdA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "crypto.pbkdf2(password, salt, iterations, keylen, digest, callback);\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-35mwgka",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611213341-35mwgka",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "这里是参数的含义："
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-7kz7i5d",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20230611213341-7kz7i5d",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"ID": "20230611213341-agehj3k",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20230611213341-agehj3k",
+																		"updated": "20230611213341"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230611213341-80vsu8c",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230611213341-80vsu8c",
+																				"updated": "20230611213341"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "password"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​：原始密码，可以是字符串或者 Buffer。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230611213341-o104qce",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20230611213341-o104qce",
+																		"updated": "20230611213341"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230611213341-5cjvwwy",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230611213341-5cjvwwy",
+																				"updated": "20230611213341"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "salt"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​：用于和密码一起哈希的盐值，可以是字符串或者 Buffer。盐值应该是随机生成的，并且每个密码应该有不同的盐值。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230611213341-rzkknrj",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20230611213341-rzkknrj",
+																		"updated": "20230611213341"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230611213341-zp8p0hl",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230611213341-zp8p0hl",
+																				"updated": "20230611213341"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "iterations"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​：哈希的迭代次数。增加迭代次数可以增加攻击者获取原始密码的难度，但也会相应地增加 CPU 的负载。迭代次数应该至少为 1000。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230611213341-xq1mzrt",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20230611213341-xq1mzrt",
+																		"updated": "20230611213341"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230611213341-3s0tbw3",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230611213341-3s0tbw3",
+																				"updated": "20230611213341"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "keylen"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​：导出的密钥的长度，以字节为单位。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230611213341-botrv9u",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20230611213341-botrv9u",
+																		"updated": "20230611213341"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230611213341-w2x27qa",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230611213341-w2x27qa",
+																				"updated": "20230611213341"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "digest"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​：用于哈希密码的摘要算法。常见的算法有 'sha256', 'sha512' 等。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20230611213341-btay7ah",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20230611213341-btay7ah",
+																		"updated": "20230611213341"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20230611213341-2cx69ta",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20230611213341-2cx69ta",
+																				"updated": "20230611213341"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "​"
+																				},
+																				{
+																					"Type": "NodeTextMark",
+																					"TextMarkType": "code",
+																					"TextMarkTextContent": "callback"
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "​​：当密钥导出完成后调用的回调函数。这个函数接收两个参数：第一个参数是一个可能出现的错误对象，第二个参数是导出的密钥。"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-6pn0wh7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611213341-6pn0wh7",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "以下是一个使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 的例子："
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-dwk15ez",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230611213341-dwk15ez",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "amF2YXNjcmlwdA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "const crypto = require('crypto');\n\ncrypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', (err, derivedKey) =\u003e {\n  if (err) throw err;\n  console.log(derivedKey.toString('hex'));  // 打印导出的密钥\n});\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230611213341-e9k85w3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611213341-e9k85w3",
+																"updated": "20230611213341"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "请注意，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 是异步的，所以你应该在回调函数中处理导出的密钥。如果你想在异步函数中使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​，你可以使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "util.promisify()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 将其转换为返回 Promise 的函数。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230611214349-2abkjso",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230611214349-2abkjso",
+										"updated": "20230611214432"
+									},
+									"Children": [
+										{
+											"ID": "20230611214349-idw1n0z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611214349-idw1n0z",
+												"updated": "20230611214432"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "crypto.pbkdf2 使用场景: 用于验证用户密码"
+												}
+											]
+										},
+										{
+											"ID": "20230611214416-c03y1t0",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611214416-c03y1t0",
+												"updated": "20230611214417"
+											},
+											"Children": [
+												{
+													"ID": "20230611214416-v85xx21",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230611214416-v85xx21",
+														"updated": "20230611214417"
+													},
+													"Children": [
+														{
+															"ID": "20230611214417-f7rq0uc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611214417-f7rq0uc",
+																"updated": "20230611214417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "首先需要明确的是，PBKDF2 不是一种加密算法，而是一种密码基准密钥导出函数。也就是说，它用于从密码生成密钥，这个过程是不可逆的，即没有解密的过程。"
+																}
+															]
+														},
+														{
+															"ID": "20230611214417-79d45gk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611214417-79d45gk",
+																"updated": "20230611214417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 函数通常用于存储用户的密码。当用户注册时，你可以使用 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "crypto.pbkdf2()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 函数从用户的密码生成一个密钥，然后将这个密钥存储在数据库中。然后，当用户登录时，你可以再次使用相同的 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "salt"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 和 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "iterations"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​ 参数从用户输入的密码生成一个密钥，然后将这个密钥和数据库中存储的密钥进行比较。如果两个密钥相同，那么用户输入的密码就是正确的。"
+																}
+															]
+														},
+														{
+															"ID": "20230611214417-2aar2pj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611214417-2aar2pj",
+																"updated": "20230611214417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "这种方式的优点是，即使你的数据库被攻击者盗取，攻击者也无法从密钥中恢复用户的原始密码。而且，由于 PBKDF2 函数的计算量较大，即使攻击者使用暴力破解的方式也难以破解用户的密码。"
+																}
+															]
+														},
+														{
+															"ID": "20230611214417-ous03ei",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611214417-ous03ei",
+																"updated": "20230611214417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "下面是一个示例代码："
+																}
+															]
+														},
+														{
+															"ID": "20230611214417-vns259a",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230611214417-vns259a",
+																"updated": "20230611214417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "amF2YXNjcmlwdA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "const crypto = require('crypto');\n\n// 用户注册时，从密码生成密钥并存储密钥\nconst password = 'user input password';\ncrypto.pbkdf2(password, 'salt', 100000, 64, 'sha512', (err, derivedKey) =\u003e {\n  if (err) throw err;\n  const storedKey = derivedKey.toString('hex');\n\n  // 用户登录时，从用户输入的密码生成密钥并比较\n  const userInput = 'user input password';\n  crypto.pbkdf2(userInput, 'salt', 100000, 64, 'sha512', (err, derivedKey) =\u003e {\n    if (err) throw err;\n    if (storedKey === derivedKey.toString('hex')) {\n      console.log('Password is correct');\n    } else {\n      console.log('Password is incorrect');\n    }\n  });\n});\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														},
+														{
+															"ID": "20230611214417-ndwgc01",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611214417-ndwgc01",
+																"updated": "20230611214417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在这个例子中，\"salt\" 是硬编码的，但在实际应用中，你应该为每个用户生成一个随机的盐值，并将这个盐值和生成的密钥一起存储在数据库中。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610203636-bgdj6ak",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230610203636-bgdj6ak",
+						"updated": "20230611221758"
+					},
+					"Children": [
+						{
+							"ID": "20230610203636-9zl49de",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610203636-9zl49de",
+								"updated": "20230611221758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "15:58 - 通过 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "process.env.UV_THREADPOOL_SIZE = 1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 可修改Node.js线程数量 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230610203636-qfyznz5",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610203636-qfyznz5",
+								"updated": "20230610203636"
+							},
+							"Children": [
+								{
+									"ID": "20230610203520-zi7wk24",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610203520-zi7wk24"
+									},
+									"Children": [
+										{
+											"ID": "20230610203520-7hrcxea",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610203520-7hrcxea",
+												"updated": "20230610203658"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这里配置为1，那么加密逻辑将无法同时完成"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230610203702-vrh3vqd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230610203702-vrh3vqd"
+									},
+									"Children": [
+										{
+											"ID": "20230610203702-q1uc7f1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610203702-q1uc7f1",
+												"updated": "20230610203717"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "遵守Libuv规则最大线程数量128"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610205807-d6rv903",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20230610205807-d6rv903",
+						"updated": "20230611221800"
+					},
+					"Children": [
+						{
+							"ID": "20230610205807-wvw0z3d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610205807-wvw0z3d",
+								"updated": "20230611221800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "18:09 - 阻塞写法: 使用同步加密，测试异步 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230611215906-4v14os7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20230611215906-4v14os7",
+						"updated": "20230611221614"
+					},
+					"Children": [
+						{
+							"ID": "20230611215906-yvtrxcl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230611215906-yvtrxcl",
+								"updated": "20230611215917"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码示例"
+								}
+							]
+						},
+						{
+							"ID": "20230611215920-0ksybju",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230611215920-0ksybju",
+								"updated": "20230611215925"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const fs = require('fs');\nconst crypto = require('crypto'); // 加密库\n\n/**\n * 异步顺序验证\n *      a) 常见顺序\n *          同步任务\n *          微任务\n *          setImmediate\n *          timer\n *          I/O\n *      b) 具体底层细节请查看笔记\n */\n\nconst startTime = Date.now()\nprocess.env.UV_THREADPOOL_SIZE = 1; // 配置多线程数量, 默认为4最大128\n\nconsole.log('start-0')\n\nsetTimeout( () =\u003e console.log('setTimeout-1'),0 );\n\nsetImmediate( () =\u003e console.log('setImmediate-2') );\n\nfs.readFile( \"test.txt\", ( error, data ) =\u003e {\n    console.log('I/O-fs-3')\n\n    setTimeout( () =\u003e console.log('setTimeout-4'),0 );\n    setTimeout( () =\u003e console.log('setTimeout-5'),3000 );\n    setImmediate( () =\u003e console.log('setImmediate-6') );\n\n    process.nextTick( () =\u003e console.log('process.nextTick-7') );\n  \n    // 加密任务,异步写法 - I/O需多线程处理 \n    crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', (error, derivedKey) =\u003e {\n        console.log(`I/O-crypto-${Date.now()-startTime}-8.1: `,derivedKey.toString('hex'));  // 打印导出的密钥\n    });\n    crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', (error, derivedKey) =\u003e {\n        console.log(`I/O-crypto-${Date.now()-startTime}-8.2: `,derivedKey.toString('hex'));  // 打印导出的密钥\n    });\n    crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', (error, derivedKey) =\u003e {\n        console.log(`I/O-crypto-${Date.now()-startTime}-8.3: `,derivedKey.toString('hex'));  // 打印导出的密钥\n    });\n} )\n\nprocess.nextTick( () =\u003e console.log('process.nextTick-9') ); // 微任务\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230611221551-3hget3y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230611221551-3hget3y",
+								"updated": "20230611221614"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "运行结果: 注意异步逻辑影响的顺序变化"
+								}
+							]
+						},
+						{
+							"ID": "20230611221536-zg09eu7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230611221536-zg09eu7",
+								"updated": "20230611221536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230611221536-1asr5kq.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610210030-vcu0q3e",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610210030-vcu0q3e",
+				"updated": "20230610210030"
+			}
+		},
+		{
+			"ID": "20230610210003-9h2nk6u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610210003-9h2nk6u",
+				"updated": "20230610210632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.6 Node.js下的观察者模式, 其实就是监听响应机制"
+				}
+			]
+		},
+		{
+			"ID": "20230610210003-85ssyee",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610210003-85ssyee",
+				"updated": "20230610210003"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610210003-ovulvv0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610210003-ovulvv0",
+				"updated": "20230610211026"
+			},
+			"Children": [
+				{
+					"ID": "20230610210003-n1mf4y9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610210003-n1mf4y9",
+						"updated": "20230610211025"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610210003-5lsvky9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210003-5lsvky9",
+								"updated": "20230610210003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610210003-bbc676b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610210003-bbc676b",
+						"updated": "20230610211026"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610210003-qnpe6wh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210003-qnpe6wh",
+								"updated": "20230610210003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610210003-53poc6c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610210003-53poc6c",
+						"updated": "20230610211026"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610210003-czk98x7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210003-czk98x7",
+								"updated": "20230610210003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610210003-q2refna",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610210003-q2refna",
+				"updated": "20230610210003"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610210016-a9ml7md",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610210016-a9ml7md",
+				"updated": "20230610210935"
+			},
+			"Children": [
+				{
+					"ID": "20230610210020-9qm6ajg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610210020-9qm6ajg",
+						"updated": "20230610210020"
+					},
+					"Children": [
+						{
+							"ID": "20230610210020-yepdl0t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210020-yepdl0t",
+								"updated": "20230610210901"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "观察者模式如 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "server.on( \u0026quot;request\u0026quot;, ( req,res ) =\u0026gt; {} )"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 监听request事件做出响应"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610210638-wyl2cz1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230610210638-wyl2cz1"
+					},
+					"Children": [
+						{
+							"ID": "20230610210748-37tsywn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210748-37tsywn",
+								"updated": "20230610210748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2KIF9VR46OPZ7VJIG3_tmb"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/2KIF9VR46OPZ7VJIG3_tmb-20230610210748-kjr5e64.jpg"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610210911-bz9lplv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230610210911-bz9lplv",
+						"updated": "20230610210935"
+					},
+					"Children": [
+						{
+							"ID": "20230610210911-lz4rhkn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210911-lz4rhkn",
+								"updated": "20230610210935"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "为什么Node.js采用观察者模式?"
+								}
+							]
+						},
+						{
+							"ID": "20230610210930-gclvbpy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210930-gclvbpy",
+								"updated": "20230610210930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Node.js 采用了观察者模式，主要体现在它的事件处理中。在 Node.js 中，EventEmitter 类是处理事件的核心，是实现观察者模式的关键。"
+								}
+							]
+						},
+						{
+							"ID": "20230610210930-mnujxfb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210930-mnujxfb",
+								"updated": "20230610210930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先，让我们看看如何在 Node.js 中使用 EventEmitter："
+								}
+							]
+						},
+						{
+							"ID": "20230610210930-df63sac",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230610210930-df63sac",
+								"updated": "20230610210930"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const events = require('events');\n\n// 创建 eventEmitter 对象\nconst eventEmitter = new events.EventEmitter();\n\n// 创建事件处理程序\nconst connectHandler = function connected() {\n    console.log('连接成功');\n\n    // 触发 data_received 事件\n    eventEmitter.emit('data_received');\n}\n\n// 绑定 connection 事件处理程序\neventEmitter.on('connection', connectHandler);\n\n// 使用匿名函数绑定 data_received 事件\neventEmitter.on('data_received', function() {\n    console.log('数据接收成功');\n});\n\n// 触发 connection 事件\neventEmitter.emit('connection');\n\nconsole.log(\"程序执行完毕。\");\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230610210930-xew7mtn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210930-xew7mtn",
+								"updated": "20230610210930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在这个例子中，我们创建了一个 EventEmitter 对象，然后定义了两个事件，'connection' 和 'data_received'。我们定义了一个处理程序 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "connectHandler"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，并且将它绑定到 'connection' 事件上。我们还定义了一个匿名函数，用来处理 'data_received' 事件。"
+								}
+							]
+						},
+						{
+							"ID": "20230610210930-ta4s3es",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210930-ta4s3es",
+								"updated": "20230610210930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在这里，'connection' 和 'data_received' 就是事件，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "connectHandler"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 和匿名函数就是观察者。当 'connection' 事件发生时，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "connectHandler"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 会被调用，然后在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "connectHandler"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中我们触发了 'data_received' 事件，对应的匿名函数被调用。"
+								}
+							]
+						},
+						{
+							"ID": "20230610210930-9mi7ehz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610210930-9mi7ehz",
+								"updated": "20230610210930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这就是 Node.js 中的观察者模式。这种模式是 Node.js 实现异步编程的重要手段，尤其适用于处理各种网络事件，例如 HTTP 请求。通过观察者模式，Node.js 可以轻松处理大量并发操作。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610210033-xkc1yck",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610210033-xkc1yck",
+				"updated": "20230610210033"
+			}
+		},
+		{
+			"ID": "20230610211415-tb958m9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610211415-tb958m9",
+				"updated": "20230610211443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.7 实践事件"
+				}
+			]
+		},
+		{
+			"ID": "20230610211415-68nk3r0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610211415-68nk3r0",
+				"updated": "20230610211415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610211415-pzu23q1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610211415-pzu23q1",
+				"updated": "20230611224117"
+			},
+			"Children": [
+				{
+					"ID": "20230610211415-w3iwygy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610211415-w3iwygy",
+						"updated": "20230610232812"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610211415-luikd6l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610211415-luikd6l",
+								"updated": "20230610211415"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610211415-prkcvak",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610211415-prkcvak",
+						"updated": "20230611224116"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610211415-ti0bxj0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610211415-ti0bxj0",
+								"updated": "20230610211415"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610211415-ey6d6ed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610211415-ey6d6ed",
+						"updated": "20230611224117"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610211415-o78cjbv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610211415-o78cjbv",
+								"updated": "20230610211415"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610211415-5ftz1zn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610211415-5ftz1zn",
+				"updated": "20230610211415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610211415-p9dzldc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610211415-p9dzldc",
+				"updated": "20230611224112"
+			},
+			"Children": [
+				{
+					"ID": "20230610211415-iastys4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610211415-iastys4",
+						"updated": "20230611224105"
+					},
+					"Children": [
+						{
+							"ID": "20230610211415-6c4avwd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610211415-6c4avwd",
+								"updated": "20230611224105"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5:34 - 使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "events"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 库，自定义事件, 观察者模式基础演示"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color2);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color2);\"}"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230611224014-alrd4zp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230611224014-alrd4zp",
+								"updated": "20230611224026"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const events = require('events');\n\n// 初始化event库\nconst Events = new events();\n\n// 监听事件 \nEvents.on(\"start\", (data) =\u003e {\n    console.log('on-event: start-1',data )\n})\n\nEvents.on(\"start\", (data) =\u003e {\n    console.log('on-event: start-2',data )\n})\n\n// 促发事件\nEvents.emit(\"start\", \"props-data\")\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610212545-5xxbq6r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230610212545-5xxbq6r",
+						"updated": "20230611224110"
+					},
+					"Children": [
+						{
+							"ID": "20230610212545-uaanbkp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610212545-uaanbkp",
+								"updated": "20230611224110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "7:30 - 使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ES6 class"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 继承 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "events"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 库方法, 另外一种使用自定义事件方法"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color2);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color2);\"}"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230611224035-nyzchxn",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230611224035-nyzchxn",
+								"updated": "20230611224038"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const events = require('events');\n\n// class继承event库: 方便自定义events库\nclass NewEvents extends events {\n    constructor(){\n        super();\n    }\n};\n\nconst Events  = new NewEvents();\n\n// 监听事件 \nEvents.on(\"start\", (data) =\u003e {\n    console.log('on-event: start-1',data )\n})\n\nEvents.on(\"start\", (data) =\u003e {\n    console.log('on-event: start-2',data )\n})\n\n// 促发事件\nEvents.emit(\"start\", \"props-data\")\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610213732-rgcxrkk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230610213732-rgcxrkk",
+						"updated": "20230611224112"
+					},
+					"Children": [
+						{
+							"ID": "20230610213732-q2gea9c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610213732-q2gea9c",
+								"updated": "20230611224112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "12:51 - 使用server演示观察者模式"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color2);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color2);\"}"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230611224046-02bod81",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230611224046-02bod81",
+								"updated": "20230611224051"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const http = require('http');\n\nconst server = http.createServer();\n\n/**\n * 观察者模式演示使用\n */\n\nserver.on(\"request\", (req, res) =\u003e {\n    res.end(\"request success\");\n})\n\nserver.on(\"close\", (req, res) =\u003e {\n    res.end(\"request close\");\n})\n\nserver.listen(\"3000\", \"127.0.0.1\", () =\u003e {\n    console.log('start-port:3000')\n});\n\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610211415-7zifbbw",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610211415-7zifbbw",
+				"updated": "20230610211415"
+			}
+		},
+		{
+			"ID": "20230610213947-abqvyer",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610213947-abqvyer",
+				"updated": "20230610223525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.8 Node.js流介绍"
+				}
+			]
+		},
+		{
+			"ID": "20230610213947-ucfdsty",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610213947-ucfdsty",
+				"updated": "20230610213947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610213947-tc5dwt1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610213947-tc5dwt1",
+				"updated": "20230611224623"
+			},
+			"Children": [
+				{
+					"ID": "20230610213947-tzp29vl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610213947-tzp29vl",
+						"updated": "20230610232813"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610213947-zv4jgt0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610213947-zv4jgt0",
+								"updated": "20230610213947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610213947-3s9jm4j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610213947-3s9jm4j",
+						"updated": "20230611224622"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610213947-do0ghq3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610213947-do0ghq3",
+								"updated": "20230610213947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610213947-4328629",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610213947-4328629",
+						"updated": "20230611224623"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610213947-n3kps7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610213947-n3kps7q",
+								"updated": "20230610213947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610213947-l4ypf1x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610213947-l4ypf1x",
+				"updated": "20230610213947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610213947-jcs94t1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610213947-jcs94t1",
+				"updated": "20230610214949"
+			},
+			"Children": [
+				{
+					"ID": "20230610213947-vhvow9d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610213947-vhvow9d",
+						"updated": "20230610213947"
+					},
+					"Children": [
+						{
+							"ID": "20230610213947-lpyxgne",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610213947-lpyxgne",
+								"updated": "20230610214126"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "什么是流?"
+								}
+							]
+						},
+						{
+							"ID": "20230610214120-o5ymj0t",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610214120-o5ymj0t"
+							},
+							"Children": [
+								{
+									"ID": "20230610214119-puj3a0w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610214119-puj3a0w"
+									},
+									"Children": [
+										{
+											"ID": "20230610214120-4b25e82",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214120-4b25e82",
+												"updated": "20230610214120"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 Node.js 中，流（stream）是处理流式数据的抽象接口。流可以用于读取数据源、写入目的地，或者进行任何适应流接口的数据转换操作。"
+												}
+											]
+										},
+										{
+											"ID": "20230610214120-d4uo0ly",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214120-d4uo0ly",
+												"updated": "20230610214120"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "流在 Node.js 中有四种基本类型："
+												}
+											]
+										},
+										{
+											"ID": "20230610214120-14ra668",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230610214120-14ra668",
+												"updated": "20230610214120"
+											},
+											"Children": [
+												{
+													"ID": "20230610214120-9ajowc3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230610214120-9ajowc3",
+														"updated": "20230610214120"
+													},
+													"Children": [
+														{
+															"ID": "20230610214120-2j6rg5l",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610214120-2j6rg5l",
+																"updated": "20230610214120"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "可读流"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": " (Readable)：从这种类型的流中可以读取数据。例如，当我们从文件或请求体中读取数据时，这些数据可以视为可读流。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610214120-zd4ena9",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230610214120-zd4ena9",
+														"updated": "20230610214120"
+													},
+													"Children": [
+														{
+															"ID": "20230610214120-p34v3mr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610214120-p34v3mr",
+																"updated": "20230610214120"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "可写流"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": " (Writable)：可以写入这种类型的流。例如，当我们将数据写入文件或响应体时，目标可以视为可写流。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610214120-hs2dyy9",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230610214120-hs2dyy9",
+														"updated": "20230610214120"
+													},
+													"Children": [
+														{
+															"ID": "20230610214120-r0rcx22",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610214120-r0rcx22",
+																"updated": "20230610214120"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "双工流"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": " (Duplex)：既可以读也可以写的流。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610214120-lttzbq7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230610214120-lttzbq7",
+														"updated": "20230610214120"
+													},
+													"Children": [
+														{
+															"ID": "20230610214120-oj49y2f",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610214120-oj49y2f",
+																"updated": "20230610214120"
+															},
+															"Children": [
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "strong",
+																	"TextMarkTextContent": "转换流"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": " (Transform)：这种类型的流可以在读写过程中修改或转换数据。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230610214120-jl5sfj7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214120-jl5sfj7",
+												"updated": "20230610214120"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "流在 Node.js 中非常重要，因为它们可以处理大数据，同时还可以减少内存占用。通过流，我们可以将数据从源头搬运到目的地，而无需一次性加载所有数据到内存中。这样，我们就可以读取和处理比可用内存大得多的数据。"
+												}
+											]
+										},
+										{
+											"ID": "20230610214120-w3o069m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214120-w3o069m",
+												"updated": "20230610214120"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "例如，如果你要读取一个大文件，你可能无法一次性将整个文件加载到内存中。但是，你可以创建一个可读流，每次读取文件的一小块，处理它，然后继续读取下一块，直到读取完整个文件。这就是所谓的流式处理。"
+												}
+											]
+										},
+										{
+											"ID": "20230610214120-f7wiue6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214120-f7wiue6",
+												"updated": "20230610214120"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用流还可以实现数据的管道操作。你可以创建一个读取源头数据的流，然后将这个流“连接”到另一个写入目的地的流。这样，数据就可以从源头“流动”到目的地。这种模式被称为管道操作，是 Node.js 中处理大数据的常见模式。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230610214224-mkxm6zp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230610214224-mkxm6zp"
+									},
+									"Children": [
+										{
+											"ID": "20230610214224-n73gaj2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214224-n73gaj2",
+												"updated": "20230610214238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是处理大量数据的非常好的方法"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230610214238-5jhefue",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230610214238-5jhefue"
+									},
+									"Children": [
+										{
+											"ID": "20230610214238-f1mjmcl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610214238-f1mjmcl",
+												"updated": "20230610214305"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如视频流媒体公司: YouTube, Netflix"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610214129-ibi6ote",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230610214129-ibi6ote",
+						"updated": "20230610214949"
+					},
+					"Children": [
+						{
+							"ID": "20230610214129-uh6lwbj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610214129-uh6lwbj",
+								"updated": "20230610214901"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "6:00 - Node.js下流使用例子"
+								}
+							]
+						},
+						{
+							"ID": "20230610214949-ut7gg7o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610214949-ut7gg7o",
+								"updated": "20230610214949"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "PHWE5IWY16126IQB6Q_tmb"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/PHWE5IWY16126IQB6Q_tmb-20230610214949-5ppi9j8.jpg"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610213947-5ufkhpc",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610213947-5ufkhpc",
+				"updated": "20230610213947"
+			}
+		},
+		{
+			"ID": "20230610215035-2vd9429",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610215035-2vd9429",
+				"updated": "20230610223520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.9 Node.js流实践"
+				}
+			]
+		},
+		{
+			"ID": "20230610215035-hfgb5c8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610215035-hfgb5c8",
+				"updated": "20230610215035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610215035-tzgjzgy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610215035-tzgjzgy",
+				"updated": "20230612003822"
+			},
+			"Children": [
+				{
+					"ID": "20230610215035-fq4m2rb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610215035-fq4m2rb",
+						"updated": "20230610232815"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610215035-yi7vu7v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610215035-yi7vu7v",
+								"updated": "20230610215035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610215035-8o11l0w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610215035-8o11l0w",
+						"updated": "20230612003821"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610215035-dklx2k3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610215035-dklx2k3",
+								"updated": "20230610215035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610215035-gtys38w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610215035-gtys38w",
+						"updated": "20230612003822"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610215035-hp0oqe4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610215035-hp0oqe4",
+								"updated": "20230610215035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610215035-ljo8un7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610215035-ljo8un7",
+				"updated": "20230610215035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610215035-3gk2tft",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610215035-3gk2tft",
+				"updated": "20230610222607"
+			},
+			"Children": [
+				{
+					"ID": "20230610215035-rhszsd2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610215035-rhszsd2",
+						"updated": "20230611234715"
+					},
+					"Children": [
+						{
+							"ID": "20230610215035-cow07fy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610215035-cow07fy",
+								"updated": "20230611234715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4:42 - 构建: 非流, 请求文件服务，禁用写法 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230610215942-b0cdk79",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610215942-b0cdk79",
+								"updated": "20230611234606"
+							},
+							"Children": [
+								{
+									"ID": "20230610215942-ajhkdd2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610215942-ajhkdd2",
+										"updated": "20230611234606"
+									},
+									"Children": [
+										{
+											"ID": "20230610215942-fp7ie7e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610215942-fp7ie7e",
+												"updated": "20230611234606"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 生产环境禁止使用, 因为这种方法先读取完整文件到内存在发送, 所以对大文件不友好"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230611233950-finnuz2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230611233950-finnuz2",
+										"updated": "20230611234531"
+									},
+									"Children": [
+										{
+											"ID": "20230611233950-dpopyt3",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611233950-dpopyt3",
+												"updated": "20230611234531"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "/**\n * 构建: 非流, 请求文件服务，禁用写法\n */\n\nconst fs = require('fs');\nconst http = require('http');\n\nconst server = http.createServer();\n\nserver.on( \"request\", (req,res) =\u003e {\n    fs.readFile( \"sample.mp4\", (error, data) =\u003e {\n        res.end(data)\n    } )\n} )\n\nserver.listen(\"3000\", \"127.0.0.1\", () =\u003e {\n    console.log('start-port:3000')\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610215957-rdktjsn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230610215957-rdktjsn",
+						"updated": "20230611234718"
+					},
+					"Children": [
+						{
+							"ID": "20230610215957-fn07s4u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610215957-fn07s4u",
+								"updated": "20230611234718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "11:16 - 构建: 可写流, 请求文件服务, 不推荐写法 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230610221736-g727615",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610221736-g727615",
+								"updated": "20230611234619"
+							},
+							"Children": [
+								{
+									"ID": "20230610221736-gjwbq4z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610221736-gjwbq4z"
+									},
+									"Children": [
+										{
+											"ID": "20230610221736-1z7ea4m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610221736-1z7ea4m",
+												"updated": "20230610221744"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 生产环境不推荐写法"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230611234610-j8r5kv4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230611234610-j8r5kv4",
+										"updated": "20230611234619"
+									},
+									"Children": [
+										{
+											"ID": "20230611234610-urzcjiw",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611234610-urzcjiw",
+												"updated": "20230611234619"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "/**\n * 构建: 可写流, 请求文件服务, 不推荐写法\n */\n\nconst fs = require('fs');\nconst http = require('http');\n\nconst server = http.createServer();\n\nserver.on( \"request\", (req,res) =\u003e {\n\n    const stream = fs.createReadStream(\"sample.mp4\");\n\n    // 监听: 数据进行切片\n    stream.on(\"data\", (chunk) =\u003e { \n        res.write(chunk); \n    });\n\n    // 监听: 数据发送完毕促发\n    stream.on(\"end\", () =\u003e {\n        res.end();\n    } )\n\n    // 监听: 数据错误促发\n    stream.on(\"error\", () =\u003e {\n        res.statusCode = 500;\n        res.end(\"error\");\n    }  )\n  \n} )\n\nserver.listen(\"3000\", \"127.0.0.1\", () =\u003e {\n    console.log('start-port:3000')\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610222209-127k7d7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230610222209-127k7d7",
+						"updated": "20230611234721"
+					},
+					"Children": [
+						{
+							"ID": "20230610222209-h5gtxj3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610222209-h5gtxj3",
+								"updated": "20230611234721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "15:46 - 构建: 使用管道 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "pipe"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 函数, 构建管道只读流, 请求文件服务 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230610222343-gu30ugk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610222343-gu30ugk",
+								"updated": "20230611234637"
+							},
+							"Children": [
+								{
+									"ID": "20230610222343-33g5mlm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610222343-33g5mlm"
+									},
+									"Children": [
+										{
+											"ID": "20230610222343-bf2pwl9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222343-bf2pwl9",
+												"updated": "20230610222411"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 推荐写法，最佳处理流解决方案, 大道至简"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230610222420-cf4oe84",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230610222420-cf4oe84"
+									},
+									"Children": [
+										{
+											"ID": "20230610222420-dzx1ji0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222420-dzx1ji0",
+												"updated": "20230610222539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "感悟: "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "pipe"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​​ 管道操作符，真的像一个管道一样，将文件流传输到另外一个地方"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230611234634-br6asdb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230611234634-br6asdb",
+										"updated": "20230611234637"
+									},
+									"Children": [
+										{
+											"ID": "20230611234634-2x3wkzz",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611234634-2x3wkzz",
+												"updated": "20230611234637"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "/**\n * 构建: 构建: 使用管道 `pipe` 函数, 构建管道只读流, 请求文件服务\n */\n\nconst fs = require('fs');\nconst http = require('http');\n\nconst server = http.createServer();\n\nserver.on( \"request\", (req,res) =\u003e {\n\n    const stream = fs.createReadStream(\"sample.mp4\"); // fs以流的方式读取文件\n    res.writeHead(200, { 'Content-Type': 'video/mp4' }); // 改变数据头\n\n    stream.pipe(res); // 使用pipe管道发送数据\n  \n} )\n\nserver.listen(\"3000\", \"127.0.0.1\", () =\u003e {\n    console.log('start-port:3000')\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610222514-9z6lnyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230610222514-9z6lnyz",
+						"updated": "20230610222607"
+					},
+					"Children": [
+						{
+							"ID": "20230610222514-yn70jnw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610222514-yn70jnw",
+								"updated": "20230610231053"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用示例: 管道操作符, 操控文件流"
+								}
+							]
+						},
+						{
+							"ID": "20230610222606-ha6t08k",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610222606-ha6t08k",
+								"updated": "20230610222607"
+							},
+							"Children": [
+								{
+									"ID": "20230610222606-t2alb7e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610222606-t2alb7e",
+										"updated": "20230610222607"
+									},
+									"Children": [
+										{
+											"ID": "20230610222607-t0tpe4u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222607-t0tpe4u",
+												"updated": "20230610222607"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在Node.js中，你可以使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "pipe()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​函数将源头（readable）流和目的地（writable）流连接起来。这样，源头的数据就会被自动写入到目的地。这就是管道（pipe）操作。"
+												}
+											]
+										},
+										{
+											"ID": "20230610222607-4yfj12g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222607-4yfj12g",
+												"updated": "20230610222607"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "下面是一个简单的示例，从一个文件读取数据并写入到另一个文件："
+												}
+											]
+										},
+										{
+											"ID": "20230610222607-6xi0yfl",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230610222607-6xi0yfl",
+												"updated": "20230610222607"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const fs = require('fs');\n\n// 创建一个可读流\nconst readerStream = fs.createReadStream('input.txt');\n\n// 创建一个可写流\nconst writerStream = fs.createWriteStream('output.txt');\n\n// 管道读写操作\n// 读取 input.txt 文件内容，并将内容写入到 output.txt 文件中\nreaderStream.pipe(writerStream);\n\nconsole.log(\"程序执行完毕\");\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230610222607-gurcdcw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222607-gurcdcw",
+												"updated": "20230610222607"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在上述例子中，我们创建了一个从 'input.txt' 读取数据的可读流，然后创建了一个写入到 'output.txt' 的可写流，然后我们使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "pipe()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 函数将这两个流连接起来。"
+												}
+											]
+										},
+										{
+											"ID": "20230610222607-oopmrxn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222607-oopmrxn",
+												"updated": "20230610222607"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这样，'input.txt' 的内容就会被读取出来，然后写入到 'output.txt'，完成了从一个文件到另一个文件的数据复制。这种方式特别适用于大文件的复制，因为数据是一点一点地从源头读取然后写入到目的地，不会一次性将所有数据加载到内存中，大大减小了内存的压力。"
+												}
+											]
+										},
+										{
+											"ID": "20230610222607-q841wz4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610222607-q841wz4",
+												"updated": "20230610222607"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需要注意的是，管道操作不仅可以用于文件操作，也可以用于任何实现了流接口的对象，例如 HTTP 请求和响应。例如，你可以将一个 HTTP 请求体的数据直接写入到文件，或者将文件的数据直接写入到 HTTP 响应体。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610215035-qf476um",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610215035-qf476um",
+				"updated": "20230610215035"
+			}
+		},
+		{
+			"ID": "20230610231107-3gq3wz0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610231107-3gq3wz0",
+				"updated": "20230610231132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.10 require 模块是如何工作的"
+				}
+			]
+		},
+		{
+			"ID": "20230610231107-pocx34k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610231107-pocx34k",
+				"updated": "20230610231107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610231107-wbrbj4m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610231107-wbrbj4m",
+				"updated": "20230610232635"
+			},
+			"Children": [
+				{
+					"ID": "20230610231107-rf1mdtq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610231107-rf1mdtq",
+						"updated": "20230610232634"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610231107-swe75wn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610231107-swe75wn",
+								"updated": "20230610231107"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610231107-cwsby3d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610231107-cwsby3d",
+						"updated": "20230610232634"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610231107-q2ar5z4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610231107-q2ar5z4",
+								"updated": "20230610231107"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610231107-pgiw33e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610231107-pgiw33e",
+						"updated": "20230610232635"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610231107-qujwxgf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610231107-qujwxgf",
+								"updated": "20230610231107"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610231107-oii03ku",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610231107-oii03ku",
+				"updated": "20230610231107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610231632-yjo2e0x",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610231632-yjo2e0x",
+				"updated": "20230610231651"
+			},
+			"Children": [
+				{
+					"ID": "20230610231637-6lw14or",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610231637-6lw14or",
+						"updated": "20230610231651"
+					},
+					"Children": [
+						{
+							"ID": "20230610231637-qoikq97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610231637-qoikq97",
+								"updated": "20230610231651"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "require 模块是如何工作的?"
+								}
+							]
+						},
+						{
+							"ID": "20230610231639-npt2gr8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230610231639-npt2gr8",
+								"updated": "20230610231640"
+							},
+							"Children": [
+								{
+									"ID": "20230610231639-3dyosok",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230610231639-3dyosok",
+										"updated": "20230610231640"
+									},
+									"Children": [
+										{
+											"ID": "20230610231640-x2vurc7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610231640-x2vurc7",
+												"updated": "20230610231640"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Node.js 中的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "require"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 是一个用于导入模块的函数。当你使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "require"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 导入一个模块时，Node.js 会执行以下步骤："
+												}
+											]
+										},
+										{
+											"ID": "20230610231640-75yd2w8",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230610231640-75yd2w8",
+												"updated": "20230610231640"
+											},
+											"Children": [
+												{
+													"ID": "20230610231640-8kt1r22",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230610231640-8kt1r22",
+														"updated": "20230610231640"
+													},
+													"Children": [
+														{
+															"ID": "20230610231640-m1zcywm",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610231640-m1zcywm",
+																"updated": "20230610231640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "解析："
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "require"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 函数接收一个模块标识符作为参数。模块标识符可以是一个文件的路径，也可以是一个模块的名字。Node.js 首先会解析这个模块标识符，确定需要加载的具体文件。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610231640-ax0dk5q",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230610231640-ax0dk5q",
+														"updated": "20230610231640"
+													},
+													"Children": [
+														{
+															"ID": "20230610231640-3djkmu6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610231640-3djkmu6",
+																"updated": "20230610231640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "加载：Node.js 会读取这个文件的内容，然后将文件的内容作为一个模块进行处理。一个模块就是一个独立的 JavaScript 文件，它有自己的作用域，不会干扰到其他模块或全局作用域。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610231640-wttdnrm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230610231640-wttdnrm",
+														"updated": "20230610231640"
+													},
+													"Children": [
+														{
+															"ID": "20230610231640-iwsmj7t",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610231640-iwsmj7t",
+																"updated": "20230610231640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "包装：Node.js 会用一个函数来包装模块的代码。这个函数有五个参数："
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "exports"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "require"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "module"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "__filename"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "__dirname"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​。这个函数就是模块的作用域。"
+																}
+															]
+														},
+														{
+															"ID": "20230610231640-iwpgc3u",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20230610231640-iwpgc3u",
+																"updated": "20230610231640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "amF2YXNjcmlwdA=="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "(function(exports, require, module, __filename, __dirname) {\n  // 模块的代码在这里\n})\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610231640-i3t18zo",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230610231640-i3t18zo",
+														"updated": "20230610231640"
+													},
+													"Children": [
+														{
+															"ID": "20230610231640-k1h5p71",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610231640-k1h5p71",
+																"updated": "20230610231640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "执行：Node.js 会执行这个包装后的函数，并将 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "exports"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "require"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "module"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "__filename"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "__dirname"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 这五个参数传给这个函数。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230610231640-7sq049s",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230610231640-7sq049s",
+														"updated": "20230610231640"
+													},
+													"Children": [
+														{
+															"ID": "20230610231640-hvx66lo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230610231640-hvx66lo",
+																"updated": "20230610231640"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "返回：最后，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "require"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 函数会返回 "
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "module.exports"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​ 的值。这个值就是这个模块对外提供的接口。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230610231640-i3sstdv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230610231640-i3sstdv",
+												"updated": "20230610231640"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这个过程是同步的，也就是说，当 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "require"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 函数被调用时，Node.js 会停下来等待模块加载完成，然后继续执行下一行代码。这个设计可以简化模块的依赖管理，但是也意味着如果模块的加载或执行过程很慢，那么会阻塞整个应用的执行。因此，通常情况下，模块的代码应该只包含定义函数和对象的代码，而不应该包含耗时的操作，比如网络请求或读取文件。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610231107-j7ri1ik",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610231107-j7ri1ik",
+				"updated": "20230610231107"
+			}
+		},
+		{
+			"ID": "20230610232649-cnvcuxj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230610232649-cnvcuxj",
+				"updated": "20230610232656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.11 require 模块实践"
+				}
+			]
+		},
+		{
+			"ID": "20230610232649-1xa4wty",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610232649-1xa4wty",
+				"updated": "20230610232649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230610232649-2awswau",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230610232649-2awswau",
+				"updated": "20230612003709"
+			},
+			"Children": [
+				{
+					"ID": "20230610232649-0pojzio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610232649-0pojzio",
+						"updated": "20230612002229"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610232649-vo8sy51",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610232649-vo8sy51",
+								"updated": "20230610232649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610232649-hzwv58u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610232649-hzwv58u",
+						"updated": "20230612003708"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610232649-8x3i9fq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610232649-8x3i9fq",
+								"updated": "20230610232649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230610232649-m2zvzwj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230610232649-m2zvzwj",
+						"updated": "20230612003709"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230610232649-7b3kwrb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610232649-7b3kwrb",
+								"updated": "20230610232649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610232649-04f0qxt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230610232649-04f0qxt",
+				"updated": "20230610232649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230610232649-xwjlp2z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230610232649-xwjlp2z",
+				"updated": "20230612003115"
+			},
+			"Children": [
+				{
+					"ID": "20230610232649-i5utg4w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230610232649-i5utg4w",
+						"updated": "20230610232708"
+					},
+					"Children": [
+						{
+							"ID": "20230610232649-z5adi00",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230610232649-z5adi00",
+								"updated": "20230611203212"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3:22 - 查看变量arguments, 以及模块的 .wrapper"
+								}
+							]
+						},
+						{
+							"ID": "20230611203222-2snzav7",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230611203222-2snzav7"
+							},
+							"Children": [
+								{
+									"ID": "20230611203221-yj6lhmu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230611203221-yj6lhmu"
+									},
+									"Children": [
+										{
+											"ID": "20230611203221-q0svu57",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203221-q0svu57",
+												"updated": "20230611203240"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "什么是arguments?"
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-tpzil9t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203302-tpzil9t",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在JavaScript中，所有函数内部都可以访问一个特别的变量，名为"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "arguments"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​。这个"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "arguments"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​对象包含了函数调用时传递给函数的所有参数。"
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-mdwt0v2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203302-mdwt0v2",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这是一个类数组对象，它具有数组的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "length"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​属性，可以使用索引访问各个参数（例如"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "arguments[0]"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​），但它并不是一个真正的数组，所以它没有数组的方法，例如"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "push"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "pop"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​或"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "slice"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​。"
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-iat66o9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203302-iat66o9",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以下是一个例子："
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-wv57rwa",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611203302-wv57rwa",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "function myFunction() {\n  console.log(arguments[0]);\n  console.log(arguments[1]);\n  console.log(arguments.length);\n}\n\nmyFunction('Hello', 'World', '!');\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-kk5bn95",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203302-kk5bn95",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "输出："
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-4yev7ia",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611203302-4yev7ia",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker"
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "Hello\nWorld\n3\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-zhp9uag",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203302-zhp9uag",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在箭头函数中，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "arguments"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​对象并不可用。如果你需要在箭头函数中访问函数的参数，你需要显式地在函数的参数列表中定义它们。"
+												}
+											]
+										},
+										{
+											"ID": "20230611203302-tu4h93m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611203302-tu4h93m",
+												"updated": "20230611203302"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意：在最新的JavaScript版本中，我们更倾向于使用...rest参数代替arguments对象，因为它是一个真正的数组，并且更具可读性。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230611203704-7z5cyt0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230611203704-7z5cyt0"
+					},
+					"Children": [
+						{
+							"ID": "20230611203704-cktwczr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230611203704-cktwczr",
+								"updated": "20230612002253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "6:46 - module.exports 有变量导出 class 并使用演示"
+								}
+							]
+						},
+						{
+							"ID": "20230611204410-f9620qv",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230611204410-f9620qv"
+							},
+							"Children": [
+								{
+									"ID": "20230611204410-t6e2ure",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230611204410-t6e2ure"
+									},
+									"Children": [
+										{
+											"ID": "20230611204410-h0bew04",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204410-h0bew04",
+												"updated": "20230611204434"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "module.exports 常见情况使用演示"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-tanzksq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204429-tanzksq",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 Node.js 中，每个模块都有一个 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 属性。这个属性的值就是当其他模块使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "require"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 导入这个模块时得到的对象。你可以把任何 JavaScript 的值赋值给 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​。"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-dweo425",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204429-dweo425",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以下是几种常见的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 使用情况的示例："
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-i83pcd2",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611204429-i83pcd2",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"ID": "20230611204429-47nshqk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230611204429-47nshqk",
+														"updated": "20230611204429"
+													},
+													"Children": [
+														{
+															"ID": "20230611204429-2aoscnm",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611204429-2aoscnm",
+																"updated": "20230611204429"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "导出一个函数："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-k830l6l",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204429-k830l6l",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// greeting.js\nmodule.exports = function(name) {\n  console.log('Hello, ' + name);\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-hof7ibt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204429-hof7ibt",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后你可以在其他模块中使用这个函数："
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-rrhkvx9",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204429-rrhkvx9",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// app.js\nconst greeting = require('./greeting');\ngreeting('World');  // 输出 \"Hello, World\"\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-oczp8pu",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611204429-oczp8pu",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"ID": "20230611204429-0lwazkh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230611204429-0lwazkh",
+														"updated": "20230611204429"
+													},
+													"Children": [
+														{
+															"ID": "20230611204429-0bjibwx",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611204429-0bjibwx",
+																"updated": "20230611204429"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "导出一个对象："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-a8b9n44",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204429-a8b9n44",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// math.js\nmodule.exports = {\n  add: function(x, y) {\n    return x + y;\n  },\n  subtract: function(x, y) {\n    return x - y;\n  }\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-jxw5hac",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204429-jxw5hac",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后你可以在其他模块中使用这个对象："
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-jpuig7u",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204429-jpuig7u",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// app.js\nconst math = require('./math');\nconsole.log(math.add(1, 2));  // 输出 3\nconsole.log(math.subtract(1, 2));  // 输出 -1\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-3cs30mg",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611204429-3cs30mg",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"ID": "20230611204429-ttfsrti",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230611204429-ttfsrti",
+														"updated": "20230611204429"
+													},
+													"Children": [
+														{
+															"ID": "20230611204429-o6cbe7m",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611204429-o6cbe7m",
+																"updated": "20230611204429"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "导出一个类："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-x9m3nvw",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204429-x9m3nvw",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// Person.js\nmodule.exports = class Person {\n  constructor(name, age) {\n    this.name = name;\n    this.age = age;\n  }\n\n  greet() {\n    console.log('Hello, my name is ' + this.name);\n  }\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-glatv21",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204429-glatv21",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后你可以在其他模块中使用这个类："
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-5yqot5c",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204429-5yqot5c",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// app.js\nconst Person = require('./Person');\nconst john = new Person('John', 30);\njohn.greet();  // 输出 \"Hello, my name is John\"\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204429-d6augrh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204429-d6augrh",
+												"updated": "20230611204429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些只是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 使用情况的几个例子。你可以根据你的需要导出任何 JavaScript 的值，包括数组、字符串、数字，甚至是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "undefined"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230611204024-a6kwqz3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230611204024-a6kwqz3"
+					},
+					"Children": [
+						{
+							"ID": "20230611204024-sc47k2l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230611204024-sc47k2l",
+								"updated": "20230612002256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "11:41 - exports导出多个函数使用演示"
+								}
+							]
+						},
+						{
+							"ID": "20230611204848-k1gbzkh",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230611204848-k1gbzkh"
+							},
+							"Children": [
+								{
+									"ID": "20230611204848-dt3qbsq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230611204848-dt3qbsq"
+									},
+									"Children": [
+										{
+											"ID": "20230611204848-rkjv36m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204848-rkjv36m",
+												"updated": "20230611204913"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "exports常见情况使用演示"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-uh2mzcp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204854-uh2mzcp",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 Node.js 中，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 的一个引用，也就是说，它们指向的是同一个对象。你可以通过 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 为模块添加属性，这样当模块被其他模块使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "require"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 导入时，这些属性就会成为导出的接口。"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-nh1haq3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204854-nh1haq3",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以下是几种常见的 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 使用情况的示例："
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-mf7e0ir",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611204854-mf7e0ir",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"ID": "20230611204854-xm87hhx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230611204854-xm87hhx",
+														"updated": "20230611204854"
+													},
+													"Children": [
+														{
+															"ID": "20230611204854-9pb75xi",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611204854-9pb75xi",
+																"updated": "20230611204854"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "导出一个函数："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-zklf7h0",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204854-zklf7h0",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// greeting.js\nexports.sayHello = function(name) {\n  console.log('Hello, ' + name);\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-swvpi0e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204854-swvpi0e",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后你可以在其他模块中使用这个函数："
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-1pgm07i",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204854-1pgm07i",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// app.js\nconst greeting = require('./greeting');\ngreeting.sayHello('World');  // 输出 \"Hello, World\"\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-3hevs0l",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230611204854-3hevs0l",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"ID": "20230611204854-lad7hdh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230611204854-lad7hdh",
+														"updated": "20230611204854"
+													},
+													"Children": [
+														{
+															"ID": "20230611204854-l4lqal3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230611204854-l4lqal3",
+																"updated": "20230611204854"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "导出多个函数："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-a8if9t6",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204854-a8if9t6",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// math.js\nexports.add = function(x, y) {\n  return x + y;\n};\nexports.subtract = function(x, y) {\n  return x - y;\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-kfvkdll",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204854-kfvkdll",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后你可以在其他模块中使用这些函数："
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-q4dx6b6",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204854-q4dx6b6",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// app.js\nconst math = require('./math');\nconsole.log(math.add(1, 2));  // 输出 3\nconsole.log(math.subtract(1, 2));  // 输出 -1\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-hylgusu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204854-hylgusu",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要注意的一点是，尽管 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 和 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 指向的是同一个对象，但是你不能直接给 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 赋值。例如，以下代码是无效的："
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-mvzng1j",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230611204854-mvzng1j",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "// invalid.js\nexports = function(name) {\n  console.log('Hello, ' + name);\n};\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230611204854-4d46apg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230611204854-4d46apg",
+												"updated": "20230611204854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这是因为这样做会使 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 指向一个新的对象，而 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 仍然指向原来的对象。在 Node.js 中，导出的实际上是 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 的值，所以这样的代码不会导出任何东西。如果你想导出的是一个函数或者类，你应该使用 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "module.exports"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230611205455-cs8hn2u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230611205455-cs8hn2u",
+						"updated": "20230612003115"
+					},
+					"Children": [
+						{
+							"ID": "20230611205455-p2jv032",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230611205455-p2jv032",
+								"updated": "20230612003115"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "15:00 - Node.js对 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "require"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 加载模块是有缓存的，重复多次加载模块，也只相当于加载一次 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230612002948-i32wqpj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612002948-i32wqpj",
+								"updated": "20230612002952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "构建模块"
+								}
+							]
+						},
+						{
+							"ID": "20230612002340-nf124z0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230612002340-nf124z0",
+								"updated": "20230612002919"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// test-module.js\n\nconsole.log('load-require')\nmodule.exports = () =\u003e {\n    console.log('require-start')\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230612002954-3vxovgg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612002954-3vxovgg",
+								"updated": "20230612002957"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用模块"
+								}
+							]
+						},
+						{
+							"ID": "20230612002935-hd6ycyl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230612002935-hd6ycyl",
+								"updated": "20230612002945"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// test-require.js\n\nrequire('./test-module')();\nrequire('./test-module')();\nrequire('./test-module')();\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230612002959-qatkj9q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612002959-qatkj9q",
+								"updated": "20230612003103"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输出结果: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "重复多次加载模块，也只相当于加载一次"
+								}
+							]
+						},
+						{
+							"ID": "20230612003032-9agq8br",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230612003032-9agq8br",
+								"updated": "20230612003032"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230612003032-sremsfo.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230610232649-bea1klk",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230610232649-bea1klk",
+				"updated": "20230610232649"
+			}
+		},
+		{
+			"ID": "20230611205042-b2gzc45",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230608221200-zpl6qqc"
+				"id": "20230611205042-b2gzc45"
 			}
 		}
 	]
