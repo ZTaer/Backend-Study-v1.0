@@ -5,9 +5,9 @@
 	"Properties": {
 		"icon": "1f7e2",
 		"id": "20230530212604-7uby35y",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230530212604-7uby35y\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230530214004-op60hzv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230601213209-vu6yqdo\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230530214004-zof2c11\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230530212604-7uby35y\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230614214815-tjxf2dn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230617202753-6bvurp3\u0026quot;,\u0026quot;scrollTop\u0026quot;:5563.33349609375}",
 		"title": "Node.js - Jonas v2023",
-		"updated": "20230614222156"
+		"updated": "20230619002914"
 	},
 	"Children": [
 		{
@@ -96,7 +96,7 @@
 			"Properties": {
 				"id": "20230530214004-zof2c11",
 				"style": "height: 500px;",
-				"updated": "20230614222156"
+				"updated": "20230615232004"
 			},
 			"Children": [
 				{
@@ -109,7 +109,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介', '2. Node.js \u0026amp; Npm 简介','3. Node.js 后端WEB开发简介', '4. Node.js 工作原理','5. 异步方法运用Promises \u0026amp; async/await',\n'6. Express构建RESTful API'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    }\n  ]\n}"
+					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介', '2. Node.js \u0026amp; Npm 简介','3. Node.js 后端WEB开发简介', '4. Node.js 工作原理','5. 异步方法运用Promises \u0026amp; async/await',\n'6. Express构建RESTful API'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n10\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    }\n  ]\n}"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -25518,7 +25518,7 @@
 			},
 			"Properties": {
 				"id": "20230614213024-b3bizpr",
-				"updated": "20230614213045"
+				"updated": "20230618225237"
 			},
 			"Children": [
 				{
@@ -25564,11 +25564,12 @@
 					},
 					"Properties": {
 						"id": "20230614213024-rhr8zz3",
-						"updated": "20230614213045"
+						"updated": "20230618225237"
 					},
 					"Children": [
 						{
-							"Type": "NodeTaskListItemMarker"
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20230614213024-wz0vfru",
@@ -25596,11 +25597,12 @@
 					},
 					"Properties": {
 						"id": "20230614213024-jawdhsg",
-						"updated": "20230614213045"
+						"updated": "20230618225237"
 					},
 					"Children": [
 						{
-							"Type": "NodeTaskListItemMarker"
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20230614213024-fhio00d",
@@ -25643,7 +25645,7 @@
 			},
 			"Properties": {
 				"id": "20230614213043-lqttd58",
-				"updated": "20230614214810"
+				"updated": "20230618214602"
 			},
 			"Children": [
 				{
@@ -25687,7 +25689,7 @@
 					},
 					"Properties": {
 						"id": "20230614214209-slywxbq",
-						"updated": "20230614214810"
+						"updated": "20230618214602"
 					},
 					"Children": [
 						{
@@ -25695,7 +25697,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20230614214209-xmgruvx",
-								"updated": "20230614214810"
+								"updated": "20230618214602"
 							},
 							"Children": [
 								{
@@ -25705,14 +25707,174 @@
 								{
 									"Type": "NodeTextMark",
 									"Properties": {
-										"style": "color: var(--b3-font-color2);"
+										"style": "color: var(--b3-font-color4);"
 									},
 									"TextMarkType": "text",
-									"TextMarkTextContent": "( 等待笔记 )"
+									"TextMarkTextContent": "( 完成笔记 )"
 								},
 								{
 									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"color: var(--b3-font-color2);\"}"
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230618214200-ezc13bc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618214200-ezc13bc",
+								"updated": "20230618214200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下面是一个完整的示例代码，展示了如何使用Express创建一个简单的Web应用程序，并添加POST和GET请求的接口。"
+								}
+							]
+						},
+						{
+							"ID": "20230618214200-mbs8ex9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230618214200-mbs8ex9",
+								"updated": "20230618214200"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst bodyParser = require('body-parser');\n\nconst app = express();\napp.use(bodyParser.json());\n\n// POST请求的接口\napp.post('/api/users', (req, res) =\u003e {\n  // 处理POST请求的逻辑\n  // 从请求体中获取数据\n  const { username, email } = req.body;\n\n  // 执行一些操作，例如将数据保存到数据库\n\n  // 发送响应\n  res.status(200).json({ message: '用户创建成功' });\n});\n\n// GET请求的接口\napp.get('/api/users/:id', (req, res) =\u003e {\n  // 处理GET请求的逻辑\n  // 从请求参数中获取ID\n  const userId = req.params.id;\n\n  // 执行一些操作，例如从数据库中获取用户数据\n\n  // 发送响应\n  res.status(200).json({ id: userId, username: 'JohnDoe', email: 'johndoe@example.com' });\n});\n\napp.listen(3000, () =\u003e {\n  console.log('应用程序已启动，监听端口3000');\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230618214200-j17r1pg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618214200-j17r1pg",
+								"updated": "20230618214200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在上述代码中，我们引入了Express和body-parser模块，并创建了一个Express应用程序实例。我们使用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app.use(bodyParser.json())"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​中间件来解析POST请求的JSON数据。"
+								}
+							]
+						},
+						{
+							"ID": "20230618214200-c2ut74i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618214200-c2ut74i",
+								"updated": "20230618214200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "然后，我们定义了两个路由接口。第一个是POST请求的接口"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/api/users"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，当收到POST请求时，我们从请求体中获取"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "username"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​和"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "email"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，可以在这里执行一些操作（例如保存到数据库），最后返回一个成功的JSON响应。"
+								}
+							]
+						},
+						{
+							"ID": "20230618214200-teutvbn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618214200-teutvbn",
+								"updated": "20230618214200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "第二个是GET请求的接口"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/api/users/:id"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，我们使用冒号(:)定义了一个参数"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "id"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，允许我们从请求参数中获取一个动态的用户ID。我们可以根据这个ID执行一些操作（例如从数据库中获取用户数据），最后返回一个包含用户信息的JSON响应。"
+								}
+							]
+						},
+						{
+							"ID": "20230618214200-wltuizt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618214200-wltuizt",
+								"updated": "20230618214200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最后，我们通过调用"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app.listen"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​方法启动Express服务器，并监听端口3000。您可以在终端中运行该脚本，并使用适当的HTTP工具（例如cURL、Postman）或编写前端代码来发送POST和GET请求，以与您的应用程序进行交互。"
 								}
 							]
 						}
@@ -26793,10 +26955,2875 @@
 			}
 		},
 		{
-			"ID": "20230614222121-wzu45w8",
+			"ID": "20230615205641-1xvc20f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615205641-1xvc20f",
+				"updated": "20230618211850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.5 express构建GET请求API"
+				}
+			]
+		},
+		{
+			"ID": "20230615205641-xvh4wvo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615205641-xvh4wvo",
+				"updated": "20230615205641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615205641-qm027hc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615205641-qm027hc",
+				"updated": "20230618225232"
+			},
+			"Children": [
+				{
+					"ID": "20230615205641-izngdc9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615205641-izngdc9",
+						"updated": "20230615205641"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615205641-5au63uu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615205641-5au63uu",
+								"updated": "20230615205641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615205641-vgue5sr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615205641-vgue5sr",
+						"updated": "20230618225232"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615205641-0158wcv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615205641-0158wcv",
+								"updated": "20230615205641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615205641-wd3m3p9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615205641-wd3m3p9",
+						"updated": "20230618225232"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615205641-kr0efc3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615205641-kr0efc3",
+								"updated": "20230615205641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615205641-kvckog8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615205641-kvckog8",
+				"updated": "20230615205641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615205641-sq1drww",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615205641-sq1drww",
+				"updated": "20230618231615"
+			},
+			"Children": [
+				{
+					"ID": "20230615205641-6ny7j0m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615205641-6ny7j0m",
+						"updated": "20230618215433"
+					},
+					"Children": [
+						{
+							"ID": "20230615205641-jzu4ny7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615205641-jzu4ny7",
+								"updated": "20230618214825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "10:37 - express构建Get请求API "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230618214807-v2vbyep",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618214807-v2vbyep",
+								"updated": "20230618214814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注意: 因为没有接入数据库，暂时使用本地写入的方式模拟数据请求以及写入"
+								}
+							]
+						},
+						{
+							"ID": "20230618214747-oleowfp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230618214747-oleowfp",
+								"updated": "20230618215433"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst fs = require('fs');\nconst app = express();\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n/**\n * express构建GET请求API\n */\napp.get('/api/v1/tous', (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n});\n\napp.listen(3000, () =\u003e {\n  console.log('start: 3000 port');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618231552-0fmvp1h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230618231552-0fmvp1h",
+						"updated": "20230618231615"
+					},
+					"Children": [
+						{
+							"ID": "20230618231552-u1z36m8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618231552-u1z36m8",
+								"updated": "20230618231557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求结果"
+								}
+							]
+						},
+						{
+							"ID": "20230618231615-3m8tmg1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618231615-3m8tmg1",
+								"updated": "20230618231615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230618231615-2ndm5sx.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615205641-f7as9s4",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615205641-f7as9s4",
+				"updated": "20230615205641"
+			}
+		},
+		{
+			"ID": "20230615212009-s168ss7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615212009-s168ss7",
+				"updated": "20230618215213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.6 express构建POST请求API"
+				}
+			]
+		},
+		{
+			"ID": "20230615212009-phle074",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615212009-phle074",
+				"updated": "20230615212009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615212009-dqitvla",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615212009-dqitvla",
+				"updated": "20230618225230"
+			},
+			"Children": [
+				{
+					"ID": "20230615212009-k7mqk8i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615212009-k7mqk8i",
+						"updated": "20230615212009"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615212009-qbd44wg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615212009-qbd44wg",
+								"updated": "20230615212009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615212009-i92ngdf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615212009-i92ngdf",
+						"updated": "20230618225229"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615212009-69hr7b2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615212009-69hr7b2",
+								"updated": "20230615212009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615212009-hzwpdp2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615212009-hzwpdp2",
+						"updated": "20230618225230"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615212009-3psmx89",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615212009-3psmx89",
+								"updated": "20230615212009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615212009-k2nd6wf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615212009-k2nd6wf",
+				"updated": "20230615212009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615212009-uaus3hu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615212009-uaus3hu",
+				"updated": "20230618231225"
+			},
+			"Children": [
+				{
+					"ID": "20230615212744-prgwcde",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615212744-prgwcde",
+						"updated": "20230615212744"
+					},
+					"Children": [
+						{
+							"ID": "20230615212744-39mxvvi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615212744-39mxvvi",
+								"updated": "20230618224821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "6:39 - POST请求在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "req.body"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 中获取请求入参 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230615212820-3buj5si",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230615212820-3buj5si"
+							},
+							"Children": [
+								{
+									"ID": "20230615212820-f43qdgb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230615212820-f43qdgb"
+									},
+									"Children": [
+										{
+											"ID": "20230615212820-oindfg2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615212820-oindfg2",
+												"updated": "20230615212853"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要求加载express.json中间件: "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "app.use( express.json() );"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615213438-iy8h5o2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230615213438-iy8h5o2",
+						"updated": "20230615215246"
+					},
+					"Children": [
+						{
+							"ID": "20230615213438-1vugkmp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615213438-1vugkmp",
+								"updated": "20230618224823"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "13:14 - POST请求添加一条数据 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230615213859-krnthp8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230615213859-krnthp8",
+								"updated": "20230615215246"
+							},
+							"Children": [
+								{
+									"ID": "20230615213859-9adae9r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230615213859-9adae9r"
+									},
+									"Children": [
+										{
+											"ID": "20230615213859-v780t0u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615213859-v780t0u",
+												"updated": "20230615213921"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 因为没有接入数据库，暂时使用本地写入的方式模拟数据请求以及写入"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230615215245-6drgk8x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230615215245-6drgk8x",
+										"updated": "20230615215246"
+									},
+									"Children": [
+										{
+											"ID": "20230615215245-v6batr3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615215245-v6batr3",
+												"updated": "20230615215246"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "目的: 熟悉express工作原理及流程"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618224741-f58f1b0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230618224741-f58f1b0"
+					},
+					"Children": [
+						{
+							"ID": "20230618224741-xzoljzy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618224741-xzoljzy",
+								"updated": "20230618224745"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码示例"
+								}
+							]
+						},
+						{
+							"ID": "20230618224746-y5cy0wy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230618224746-y5cy0wy",
+								"updated": "20230618224756"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst fs = require('fs');\nconst fsAsync = require('node:fs/promises');\nconst app = express();\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n// 保证POST请求在req.body中获取请求入参\napp.use(express.json());\n\n/**\n * express构建GET请求API\n */\napp.get('/api/v1/tous', (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n});\n\n/**\n * express构建POST请求API\n */\napp.post('/api/v1/tous', async (req, res) =\u003e {\n  try {\n    // post请求入参\n    const { name = '', duration = 1, difficulty = 'easy' } = req.body;\n\n    // 新数据\n    tours.push({\n      id: tours.length + 100,\n      name,\n      duration,\n      difficulty,\n    });\n\n    // 注意: fs.writeFile只能写入字符串格式，否则报错 ( 完成笔记 )\n    await fsAsync.writeFile(\n      `${__dirname}/dev-data/data/tours-simple.json`,\n      JSON.stringify(tours)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: {\n        id: tours.length + 100,\n        name,\n        duration,\n        difficulty,\n      },\n    });\n  } catch (error) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '添加失败',\n    });\n  }\n});\n\napp.listen(3000, () =\u003e {\n  console.log('start: 3000 port');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618231125-zpedaxf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230618231125-zpedaxf",
+						"updated": "20230618231225"
+					},
+					"Children": [
+						{
+							"ID": "20230618231125-4iwvyh0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618231125-4iwvyh0",
+								"updated": "20230618231128"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求结果"
+								}
+							]
+						},
+						{
+							"ID": "20230618231129-7w4asfk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618231129-7w4asfk",
+								"updated": "20230618231225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230618231129-qlpfzu3.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230618231225-pes4guq.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615212009-ap9kgli",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615212009-ap9kgli",
+				"updated": "20230615212009"
+			}
+		},
+		{
+			"ID": "20230615214144-xctck3o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615214144-xctck3o",
+				"updated": "20230615214713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.7 GET请求根据URL路径参数查询目标"
+				}
+			]
+		},
+		{
+			"ID": "20230615214144-usl54fy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615214144-usl54fy",
+				"updated": "20230615214144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615214144-vvv6x5w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615214144-vvv6x5w",
+				"updated": "20230618231804"
+			},
+			"Children": [
+				{
+					"ID": "20230615214144-g7fi2am",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615214144-g7fi2am",
+						"updated": "20230615214144"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615214144-fqiqd2c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615214144-fqiqd2c",
+								"updated": "20230615214144"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615214144-22bq52b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615214144-22bq52b",
+						"updated": "20230618231804"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615214144-x0wpigh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615214144-x0wpigh",
+								"updated": "20230615214144"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615214144-5023t6a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615214144-5023t6a",
+						"updated": "20230618231804"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615214144-vvgcu77",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615214144-vvgcu77",
+								"updated": "20230615214144"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615214144-9bm5cci",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615214144-9bm5cci",
+				"updated": "20230615214144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615214144-f8311qv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615214144-f8311qv",
+				"updated": "20230618232224"
+			},
+			"Children": [
+				{
+					"ID": "20230615214144-4tzi4jp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615214144-4tzi4jp",
+						"updated": "20230618231813"
+					},
+					"Children": [
+						{
+							"ID": "20230615214144-qebmd1s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615214144-qebmd1s",
+								"updated": "20230618231813"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2:46 - "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "req.params"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 查看url路径入参 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615215010-sblrj4d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230615215010-sblrj4d",
+						"updated": "20230618231816"
+					},
+					"Children": [
+						{
+							"ID": "20230615215010-24h9ddk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615215010-24h9ddk",
+								"updated": "20230618231816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "7:16 - GET请求根据URL路径入参查询数据 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230615215045-9afbz6a",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230615215045-9afbz6a"
+							},
+							"Children": [
+								{
+									"ID": "20230615215045-2o84qkn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230615215045-2o84qkn"
+									},
+									"Children": [
+										{
+											"ID": "20230615215045-ksldudu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615215045-ksldudu",
+												"updated": "20230615215046"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 因为没有接入数据库，暂时使用本地写入的方式模拟数据请求以及写入"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230615215219-ivkayk0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230615215219-ivkayk0"
+									},
+									"Children": [
+										{
+											"ID": "20230615215219-mw1qxz1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615215219-mw1qxz1",
+												"updated": "20230615215235"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "目的: 熟悉express工作原理及流程"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615215357-pccidgz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230615215357-pccidgz",
+						"updated": "20230615215427"
+					},
+					"Children": [
+						{
+							"ID": "20230615215357-lfgo1dz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615215357-lfgo1dz",
+								"updated": "20230618230900"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "10:09 - 补充查询无结果响应逻辑 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 无需笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618230905-slx7t9q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230618230905-slx7t9q",
+						"updated": "20230618232224"
+					},
+					"Children": [
+						{
+							"ID": "20230618230905-fpdnkv1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618230905-fpdnkv1",
+								"updated": "20230618230907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码示例"
+								}
+							]
+						},
+						{
+							"ID": "20230618230909-nryl2j5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230618230909-nryl2j5",
+								"updated": "20230618232224"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst fs = require('fs');\nconst fsAsync = require('node:fs/promises');\nconst app = express();\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n// 保证POST请求在 req.body \u0026 req.params中获取请求入参\napp.use(express.json());\n\n/**\n * express构建GET请求API\n */\napp.get('/api/v1/tous', (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n});\n\n/**\n * GET请求根据URL路径参数查询目标\n */\napp.get('/api/v1/tous/:id', (req, res) =\u003e {\n  const { id } = req.params; // 注意: app.use(express.json()); 最好存在\n\n  // 根据id过滤查询\n  const result =\n    tours instanceof Array\n      ? tours.filter((item) =\u003e {\n          return item.id == id;\n        })\n      : [];\n\n  res.status(200).json({\n    code: 200,\n    data: result,\n  });\n});\n\napp.listen(3000, () =\u003e {\n  console.log('start: 3000 port');\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618231045-kf6gflw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230618231045-kf6gflw",
+						"updated": "20230618231049"
+					},
+					"Children": [
+						{
+							"ID": "20230618231045-swkmnax",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618231045-swkmnax",
+								"updated": "20230618231048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求结果"
+								}
+							]
+						},
+						{
+							"ID": "20230618231049-8z09u9t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618231049-8z09u9t",
+								"updated": "20230618231049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230618231049-3969k8f.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615214144-qpc7wni",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615214144-qpc7wni",
+				"updated": "20230615214144"
+			}
+		},
+		{
+			"ID": "20230615215642-ok16nr5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615215642-ok16nr5",
+				"updated": "20230615215908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.8 PATCH更新请求"
+				}
+			]
+		},
+		{
+			"ID": "20230615215642-m5yyx91",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615215642-m5yyx91",
+				"updated": "20230615215642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615215642-5jaaqik",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615215642-5jaaqik",
+				"updated": "20230618235253"
+			},
+			"Children": [
+				{
+					"ID": "20230615215642-5cflr25",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615215642-5cflr25",
+						"updated": "20230615215642"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615215642-cpn0mig",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615215642-cpn0mig",
+								"updated": "20230615215642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615215642-eml32yv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615215642-eml32yv",
+						"updated": "20230618235252"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615215642-eciidz1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615215642-eciidz1",
+								"updated": "20230615215642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615215642-94x0sb9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615215642-94x0sb9",
+						"updated": "20230618235253"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615215642-jwskj7c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615215642-jwskj7c",
+								"updated": "20230615215642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615215642-lcndc49",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615215642-lcndc49",
+				"updated": "20230615215642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615215642-m04y4ma",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615215642-m04y4ma",
+				"updated": "20230618235307"
+			},
+			"Children": [
+				{
+					"ID": "20230615215642-zahlz1j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615215642-zahlz1j",
+						"updated": "20230618235307"
+					},
+					"Children": [
+						{
+							"ID": "20230615215642-atsf1wl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615215642-atsf1wl",
+								"updated": "20230618235307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4:35 - 构建PATCH更新请求 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230615230923-wedd31y",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230615230923-wedd31y",
+								"updated": "20230615230926"
+							},
+							"Children": [
+								{
+									"ID": "20230615230922-3wtelen",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230615230922-3wtelen",
+										"updated": "20230615230926"
+									},
+									"Children": [
+										{
+											"ID": "20230615230922-pgakqzy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615230922-pgakqzy",
+												"updated": "20230615230926"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 目前并没有接入数据库，无法进行真正的更新"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618234920-qfdosxs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230618234920-qfdosxs",
+						"updated": "20230618235240"
+					},
+					"Children": [
+						{
+							"ID": "20230618234920-84ay59w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618234920-84ay59w",
+								"updated": "20230618234928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码示例"
+								}
+							]
+						},
+						{
+							"ID": "20230618234929-y5s2hqy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230618234929-y5s2hqy",
+								"updated": "20230618235240"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst fs = require('fs');\nconst fsAsync = require('node:fs/promises');\nconst app = express();\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n// 保证POST请求在 req.body \u0026 req.params中获取请求入参\napp.use(express.json());\n\n/**\n * express构建GET请求API\n */\napp.get('/api/v1/tous', (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n});\n\n/**\n * PATCH更新请求\n */\napp.patch('/api/v1/tous', async (req, res) =\u003e {\n  const { id, name, difficulty, duration } = req.body;\n  let isId = false; // 是否查询到此Id\n  let result = {}; // 查询目标数据\n\n  if (!(tours instanceof Array) || !id) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '更新失败',\n    });\n\n    return; // 终止下方逻辑执行\n  }\n\n  // 更新目标数据\n  tours.map((item) =\u003e {\n    if (item.id === id) {\n      isId = true; // true代表查询到目标id\n      result = {\n        ...item,\n        name: name || item.name,\n        difficulty: difficulty || item.difficulty,\n        duration: duration || item.duration,\n      };\n\n      return result;\n    }\n  });\n\n  if (isId) {\n    await fsAsync.writeFile(\n      `${__dirname}/dev-data/data/tours-simple.json`,\n      JSON.stringify(tours)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: result,\n      message: '更新成功',\n    });\n  } else {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '查询无此id',\n    });\n  }\n});\n\napp.listen(3000, () =\u003e {\n  console.log('start: 3000 port');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615215642-7j67zph",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615215642-7j67zph",
+				"updated": "20230615215642"
+			}
+		},
+		{
+			"ID": "20230615230846-88sycvj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615230846-88sycvj",
+				"updated": "20230615230849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.9 DELETE删除请求"
+				}
+			]
+		},
+		{
+			"ID": "20230615230846-qpkl4fo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615230846-qpkl4fo",
+				"updated": "20230615230846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615230846-a6dgcte",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615230846-a6dgcte",
+				"updated": "20230619001410"
+			},
+			"Children": [
+				{
+					"ID": "20230615230846-mq3sdn4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615230846-mq3sdn4",
+						"updated": "20230615230846"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615230846-0v1e29s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615230846-0v1e29s",
+								"updated": "20230615230846"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615230846-knptdp3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615230846-knptdp3",
+						"updated": "20230619001409"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615230846-6k8yipj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615230846-6k8yipj",
+								"updated": "20230615230846"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615230846-965z3xd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615230846-965z3xd",
+						"updated": "20230619001410"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615230846-t5mwypr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615230846-t5mwypr",
+								"updated": "20230615230846"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615230846-vp9lv5e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615230846-vp9lv5e",
+				"updated": "20230615230846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615230846-tbioqv2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615230846-tbioqv2",
+				"updated": "20230619001408"
+			},
+			"Children": [
+				{
+					"ID": "20230615230846-zu260tv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615230846-zu260tv",
+						"updated": "20230619001408"
+					},
+					"Children": [
+						{
+							"ID": "20230615230846-cu9nffh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615230846-cu9nffh",
+								"updated": "20230619001408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1:27 - 构建DELETE删除请求"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " ( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230615230854-w9kivht",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230615230854-w9kivht",
+								"updated": "20230615230916"
+							},
+							"Children": [
+								{
+									"ID": "20230615230854-u8h98sz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230615230854-u8h98sz",
+										"updated": "20230615230916"
+									},
+									"Children": [
+										{
+											"ID": "20230615230854-3ir4egu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230615230854-3ir4egu",
+												"updated": "20230615230916"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 目前并没有接入数据库，无法进行真正的删除"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619001314-v1pxjsf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619001314-v1pxjsf",
+						"updated": "20230619001349"
+					},
+					"Children": [
+						{
+							"ID": "20230619001314-ipzvm3g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619001314-ipzvm3g",
+								"updated": "20230619001320"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码示例"
+								}
+							]
+						},
+						{
+							"ID": "20230619001320-oqoyrp4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230619001320-oqoyrp4",
+								"updated": "20230619001349"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst fs = require('fs');\nconst fsAsync = require('node:fs/promises');\nconst app = express();\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n// 保证POST请求在 req.body \u0026 req.params中获取请求入参\napp.use(express.json());\n\n/**\n * express构建GET请求API\n */\napp.get('/api/v1/tous', (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n});\n\n/**\n * DELETE删除请求\n */\napp.delete('/api/v1/tous/:id', async (req, res) =\u003e {\n  const { id } = req.params;\n  let isId = false; // 是否查询到此Id\n  let result = tours;\n\n  if (!(tours instanceof Array) || !id) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '删除失败',\n    });\n\n    return; // 终止下方逻辑执行\n  }\n\n  // 删除目标数据\n  result = result.filter((item) =\u003e {\n    if (item.id == id) {\n      isId = true; // 如果目标存在则为true\n      return false;\n    }\n    return true;\n  });\n\n  if (isId) {\n    await fsAsync.writeFile(\n      `${__dirname}/dev-data/data/tours-simple.json`,\n      JSON.stringify(result)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: id,\n      message: '删除成功',\n    });\n  } else {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '查询无此id',\n    });\n  }\n});\n\napp.listen(3000, () =\u003e {\n  console.log('start: 3000 port');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615230846-kfhsct6",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615230846-kfhsct6",
+				"updated": "20230615230846"
+			}
+		},
+		{
+			"ID": "20230615231232-hkdivbd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615231232-hkdivbd",
+				"updated": "20230615231314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.10 重新构建路由"
+				}
+			]
+		},
+		{
+			"ID": "20230615231232-w8n2w86",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615231232-w8n2w86",
+				"updated": "20230615231232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615231232-dofjzz4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615231232-dofjzz4",
+				"updated": "20230619002811"
+			},
+			"Children": [
+				{
+					"ID": "20230615231232-retfo10",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615231232-retfo10",
+						"updated": "20230615231232"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615231232-sco9fr8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231232-sco9fr8",
+								"updated": "20230615231232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615231232-jg3mwew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615231232-jg3mwew",
+						"updated": "20230619002811"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615231232-8w85h59",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231232-8w85h59",
+								"updated": "20230615231232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615231232-dve5n87",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615231232-dve5n87",
+						"updated": "20230619001510"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615231232-lvfjpsm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231232-lvfjpsm",
+								"updated": "20230615231232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615231232-r9d91w7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615231232-r9d91w7",
+				"updated": "20230615231232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615231232-s0ksiff",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615231232-s0ksiff",
+				"updated": "20230619002908"
+			},
+			"Children": [
+				{
+					"ID": "20230615231321-8j2tiam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615231321-8j2tiam",
+						"updated": "20230619002908"
+					},
+					"Children": [
+						{
+							"ID": "20230615231321-4mlth02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231321-4mlth02",
+								"updated": "20230619002908"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5:43 - 用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app.route()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 构建更好更方便的路由API "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619002824-iornhdh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619002824-iornhdh",
+						"updated": "20230619002851"
+					},
+					"Children": [
+						{
+							"ID": "20230619002824-mi1yejt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619002824-mi1yejt",
+								"updated": "20230619002830"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码示例"
+								}
+							]
+						},
+						{
+							"ID": "20230619002831-28jxhi1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230619002831-28jxhi1",
+								"updated": "20230619002851"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst fs = require('fs');\nconst fsAsync = require('node:fs/promises');\nconst app = express();\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n// 保证POST请求在 req.body \u0026 req.params中获取请求入参\napp.use(express.json());\n\n/**\n * express构建GET请求API\n */\nconst handleGetAllTour = (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n};\n\n/**\n * express构建POST请求API\n */\nconst handlePostAddTour = async (req, res) =\u003e {\n  try {\n    // post请求入参\n    const { name = '', duration = 1, difficulty = 'easy' } = req.body;\n\n    // 新数据\n    tours.push({\n      id: tours.length + 100,\n      name,\n      duration,\n      difficulty,\n    });\n\n    // 注意: fs.writeFile只能写入字符串格式，否则报错 ( 完成笔记 )\n    await fsAsync.writeFile(\n      `${__dirname}/dev-data/data/tours-simple.json`,\n      JSON.stringify(tours)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: {\n        id: tours.length + 100,\n        name,\n        duration,\n        difficulty,\n      },\n    });\n  } catch (error) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '添加失败',\n    });\n  }\n};\n\n/**\n * GET请求根据URL路径参数查询目标\n */\nconst handleGetIdTour = (req, res) =\u003e {\n  const { id } = req.params; // 注意: app.use(express.json()); 最好存在\n\n  // 根据id过滤查询\n  const result =\n    tours instanceof Array\n      ? tours.filter((item) =\u003e {\n          return item.id == id;\n        })\n      : [];\n\n  res.status(200).json({\n    code: 200,\n    data: result,\n  });\n};\n\n/**\n * PATCH更新请求\n */\nconst handlePatchTour = async (req, res) =\u003e {\n  const { id, name, difficulty, duration } = req.body;\n  let isId = false; // 是否查询到此Id\n  let result = {}; // 查询目标数据\n\n  if (!(tours instanceof Array) || !id) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '更新失败',\n    });\n\n    return; // 终止下方逻辑执行\n  }\n\n  // 更新目标数据\n  tours.map((item) =\u003e {\n    if (item.id === id) {\n      isId = true; // true代表查询到目标id\n      result = {\n        ...item,\n        name: name || item.name,\n        difficulty: difficulty || item.difficulty,\n        duration: duration || item.duration,\n      };\n\n      return result;\n    }\n  });\n\n  if (isId) {\n    await fsAsync.writeFile(\n      `${__dirname}/dev-data/data/tours-simple.json`,\n      JSON.stringify(tours)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: result,\n      message: '更新成功',\n    });\n  } else {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '查询无此id',\n    });\n  }\n};\n\n/**\n * DELETE删除请求\n */\nconst handleDeleteTour = async (req, res) =\u003e {\n  const { id } = req.params;\n  let isId = false; // 是否查询到此Id\n  let result = tours;\n\n  if (!(tours instanceof Array) || !id) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '删除失败',\n    });\n\n    return; // 终止下方逻辑执行\n  }\n\n  // 删除目标数据\n  result = result.filter((item) =\u003e {\n    if (item.id == id) {\n      isId = true; // 如果目标存在则为true\n      return false;\n    }\n    return true;\n  });\n\n  if (isId) {\n    await fsAsync.writeFile(\n      `${__dirname}/dev-data/data/tours-simple.json`,\n      JSON.stringify(result)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: id,\n      message: '删除成功',\n    });\n  } else {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '查询无此id',\n    });\n  }\n};\n\n/**\n * 改进路由\n */\n\napp\n  .route('/api/v1/tours')\n  .get(handleGetAllTour)\n  .post(handlePostAddTour)\n  .patch(handlePatchTour);\napp.route('/api/v1/tours/:id')\n   .get(handleGetIdTour)\n   .delete(handleDeleteTour);\n\napp.listen(3000, () =\u003e {\n  console.log('start: 3000 port');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615231232-3luqcoq",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615231232-3luqcoq",
+				"updated": "20230615231232"
+			}
+		},
+		{
+			"ID": "20230615231928-fzoyxo2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230615231928-fzoyxo2",
+				"updated": "20230615231939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.11 express中间件"
+				}
+			]
+		},
+		{
+			"ID": "20230615231928-4b84d6d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615231928-4b84d6d",
+				"updated": "20230615231928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230615231928-v58m0xg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230615231928-v58m0xg",
+				"updated": "20230619002914"
+			},
+			"Children": [
+				{
+					"ID": "20230615231928-38vgrwo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615231928-38vgrwo",
+						"updated": "20230618205743"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615231928-rw194qt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231928-rw194qt",
+								"updated": "20230615231928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615231928-t7f60og",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615231928-t7f60og",
+						"updated": "20230619002914"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615231928-q7dgknq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231928-q7dgknq",
+								"updated": "20230615231928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230615231928-lfeytg0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230615231928-lfeytg0",
+						"updated": "20230619002914"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230615231928-i559d8p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231928-i559d8p",
+								"updated": "20230615231928"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615231928-a42v6ju",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230615231928-a42v6ju",
+				"updated": "20230615231928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230615231928-yin66oa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230615231928-yin66oa",
+				"updated": "20230618205833"
+			},
+			"Children": [
+				{
+					"ID": "20230615231928-a3cc460",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230615231928-a3cc460",
+						"updated": "20230618205659"
+					},
+					"Children": [
+						{
+							"ID": "20230615231928-whl5i34",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230615231928-whl5i34",
+								"updated": "20230618204612"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4:39 - 中间件工作原理"
+								}
+							]
+						},
+						{
+							"ID": "20230618205723-ipz3o3h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205723-ipz3o3h",
+								"updated": "20230618205723"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "68e0df421cfee87f6a5af9c5a5c94d7"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/68e0df421cfee87f6a5af9c5a5c94d7-20230618205723-6lotjae.jpg"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230618205749-ij4qauj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230618205749-ij4qauj",
+						"updated": "20230618205833"
+					},
+					"Children": [
+						{
+							"ID": "20230618205749-89fu0l2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205749-89fu0l2",
+								"updated": "20230618205828"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "express的中间件应用场景?"
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-q5lh2mh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205833-q5lh2mh",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Express是一个流行的Node.js Web应用程序框架，它提供了一种灵活的方式来构建Web应用程序和API。Express中的中间件是实现请求-响应周期处理的关键组件之一。中间件允许您在请求到达路由处理程序之前或响应返回给客户端之前执行一些操作。"
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-u7k8o8t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205833-u7k8o8t",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Express中的中间件可以执行以下任务："
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-a7hy4n1",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230618205833-a7hy4n1",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"ID": "20230618205833-k2rf6ny",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230618205833-k2rf6ny",
+										"updated": "20230618205833"
+									},
+									"Children": [
+										{
+											"ID": "20230618205833-rk69jsw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230618205833-rk69jsw",
+												"updated": "20230618205833"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "执行公共任务：中间件可以在每个请求处理程序之前或之后执行一些公共任务，例如记录请求日志、验证身份、解析请求体等。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230618205833-89lzq8p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230618205833-89lzq8p",
+										"updated": "20230618205833"
+									},
+									"Children": [
+										{
+											"ID": "20230618205833-udt9ol3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230618205833-udt9ol3",
+												"updated": "20230618205833"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改请求和响应对象：中间件可以修改请求和响应对象的属性和方法，以便后续的中间件或路由处理程序能够访问修改后的值。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230618205833-uvhb9ry",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230618205833-uvhb9ry",
+										"updated": "20230618205833"
+									},
+									"Children": [
+										{
+											"ID": "20230618205833-m1mepvv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230618205833-m1mepvv",
+												"updated": "20230618205833"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "路由级中间件：可以将中间件应用于特定的路由或路由组。这使您可以根据需要选择性地应用中间件。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230618205833-pqcvrtc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230618205833-pqcvrtc",
+										"updated": "20230618205833"
+									},
+									"Children": [
+										{
+											"ID": "20230618205833-6divmr1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230618205833-6divmr1",
+												"updated": "20230618205833"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "错误处理中间件：用于捕获和处理应用程序中发生的错误。这样可以集中处理错误逻辑，而不是在每个路由处理程序中重复代码。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-n093h5l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205833-n093h5l",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以下是使用Express中间件的示例："
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-18n201l",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230618205833-18n201l",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst app = express();\n\n// 使用全局中间件\napp.use((req, res, next) =\u003e {\n  console.log('中间件执行');\n  next(); // 调用next()将控制权传递给下一个中间件或路由处理程序\n});\n\n// 使用路由级中间件\napp.get('/api/users', (req, res, next) =\u003e {\n  console.log('用户请求');\n  next();\n});\n\n// 路由处理程序\napp.get('/api/users', (req, res) =\u003e {\n  res.send('获取用户列表');\n});\n\n// 错误处理中间件\napp.use((err, req, res, next) =\u003e {\n  console.error(err);\n  res.status(500).send('服务器错误');\n});\n\napp.listen(3000, () =\u003e {\n  console.log('应用程序已启动，监听端口3000');\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-zbo69pb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205833-zbo69pb",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在上述示例中，第一个中间件是全局中间件，它会在每个请求到达之前执行，并在控制台输出一条消息。接下来，我们定义了一个特定的路由"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/api/users"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，并附加了一个中间件来记录用户请求。最后，我们定义了一个错误处理中间件，用于捕获并处理应用程序中发生的错误。"
+								}
+							]
+						},
+						{
+							"ID": "20230618205833-chiaegh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230618205833-chiaegh",
+								"updated": "20230618205833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这只是Express中间件的基本概念和用法。Express提供了许多内置中间件和第三方中间件，可以用于处理常见任务，例如身份验证、会话管理、静态文件服务等。您还可以编写自己的自定义中间件，以满足特定的应用程序需求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230615231928-tl7uyj7",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230615231928-tl7uyj7",
+				"updated": "20230615231928"
+			}
+		},
+		{
+			"ID": "20230617202753-6bvurp3",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20230614222121-wzu45w8"
+				"id": "20230617202753-6bvurp3"
 			}
 		}
 	]
