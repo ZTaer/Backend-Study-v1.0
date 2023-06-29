@@ -1,0 +1,1153 @@
+{
+	"ID": "20230627221302-q33h513",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230627221302-q33h513",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230627221302-q33h513\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230627221302-g6zt1cv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230627223050-elhx4nz\u0026quot;,\u0026quot;scrollTop\u0026quot;:984,\u0026quot;focusId\u0026quot;:\u0026quot;20230629232741-uuzo4z2\u0026quot;,\u0026quot;focusStart\u0026quot;:3644,\u0026quot;focusEnd\u0026quot;:3644}",
+		"title": "6.12 express中间件  ( 案例 )",
+		"updated": "20230629232959"
+	},
+	"Children": [
+		{
+			"ID": "20230627221302-g6zt1cv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230627221302-g6zt1cv",
+				"updated": "20230604222747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 案例说明"
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-nlhopyk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230627221302-nlhopyk",
+				"updated": "20230627221644"
+			},
+			"Children": [
+				{
+					"ID": "20230627221302-wehweuf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230627221302-wehweuf",
+						"updated": "20230627221644"
+					},
+					"Children": [
+						{
+							"ID": "20230627221302-ztbev7n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221302-ztbev7n",
+								"updated": "20230627221644"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "源代码参考: ( 等待补充 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627221302-9ltyuej",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230627221302-9ltyuej",
+						"updated": "20230627221524"
+					},
+					"Children": [
+						{
+							"ID": "20230627221302-o657w5g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221302-o657w5g",
+								"updated": "20230627221524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "此笔记主要记录: 全局中间件/自定义/第三方/路由中间件使用，更好的文件结构，更优的路由使用方式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-al0m0gi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230627221302-al0m0gi",
+				"updated": "20230604223359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 要求功能"
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-jahrubv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230627221302-jahrubv",
+				"updated": "20230627223028"
+			},
+			"Children": [
+				{
+					"ID": "20230627221302-nqa7c02",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230627221302-nqa7c02",
+						"updated": "20230604223039"
+					},
+					"Children": [
+						{
+							"ID": "20230627221302-v37gsgr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221302-v37gsgr",
+								"updated": "20230627221603"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全局中间件/自定义/第三方/路由中间件使用示例"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627221605-3qr3z1u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230627221605-3qr3z1u"
+					},
+					"Children": [
+						{
+							"ID": "20230627221605-dm7gso2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221605-dm7gso2",
+								"updated": "20230627221614"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MVC文件结构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627221614-erpwxdh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230627221614-erpwxdh"
+					},
+					"Children": [
+						{
+							"ID": "20230627221614-wdafat2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221614-wdafat2",
+								"updated": "20230627221629"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更优路由方式示例"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627221905-6ah649a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230627221905-6ah649a",
+						"updated": "20230627223028"
+					},
+					"Children": [
+						{
+							"ID": "20230627221905-2xw4u54",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221905-2xw4u54",
+								"updated": "20230627221918"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求tour相关数据接口正常"
+								}
+							]
+						},
+						{
+							"ID": "20230627221928-ng5wp0h",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230627221928-ng5wp0h",
+								"updated": "20230627223028"
+							},
+							"Children": [
+								{
+									"ID": "20230627221928-h9fylo0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230627221928-h9fylo0",
+										"updated": "20230627223028"
+									},
+									"Children": [
+										{
+											"ID": "20230627221928-3kl2syu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230627221928-3kl2syu",
+												"updated": "20230627223028"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "增删改查接口"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-h7sljz0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230627221302-h7sljz0",
+				"updated": "20230604224507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 项目结构"
+				}
+			]
+		},
+		{
+			"ID": "20230629231806-05m3zg1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230629231806-05m3zg1",
+				"updated": "20230629231806"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20230629231806-aggn4i0.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-dvgdvm5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230627221302-dvgdvm5",
+				"updated": "20230627221804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 基本代码"
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-ykhjpgd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230627221302-ykhjpgd",
+				"updated": "20230629232118"
+			},
+			"Children": [
+				{
+					"ID": "20230627221302-n5y2w85",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230627221302-n5y2w85",
+						"updated": "20230627222918"
+					},
+					"Children": [
+						{
+							"ID": "20230627221302-2jcbdx6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221302-2jcbdx6",
+								"updated": "20230604224958"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "package.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 文件"
+								}
+							]
+						},
+						{
+							"ID": "20230627221302-acqemnh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230627221302-acqemnh",
+								"updated": "20230629231837"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"name\": \"api-test\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"app.js\",\n  \"devDependencies\": {\n    \"eslint\": \"^8.43.0\",\n    \"eslint-config-airbnb\": \"^19.0.4\",\n    \"eslint-config-prettier\": \"^8.8.0\",\n    \"eslint-plugin-import\": \"^2.27.5\",\n    \"eslint-plugin-jsx-a11y\": \"^6.7.1\",\n    \"eslint-plugin-node\": \"^11.1.0\",\n    \"eslint-plugin-prettier\": \"^4.2.1\",\n    \"eslint-plugin-react\": \"^7.32.2\",\n    \"nodemon\": \"^2.0.22\",\n    \"prettier\": \"^2.8.8\"\n  },\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" \u0026\u0026 exit 1\",\n    \"start:dev\": \"nodemon server.js\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"dotenv\": \"^16.3.1\",\n    \"express\": \"^4.18.2\",\n    \"morgan\": \"^1.10.0\"\n  },\n  \"engines\": {\n    \"node\": \"\u003e=10.6.0\"\n  }\n}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627222021-1lo62s2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230627222021-1lo62s2"
+					},
+					"Children": [
+						{
+							"ID": "20230627222021-7hhlfuy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627222021-7hhlfuy",
+								"updated": "20230629231857"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "config.env"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 环境变量文件"
+								}
+							]
+						},
+						{
+							"ID": "20230629231858-wynyb6v",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629231858-wynyb6v",
+								"updated": "20230629231938"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZW52"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 环境变量文件\n\nNODE_ENV = development\nPORT = 3000\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629231958-iu13qtw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629231958-iu13qtw"
+					},
+					"Children": [
+						{
+							"ID": "20230629231958-yluzl47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629231958-yluzl47",
+								"updated": "20230629232014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".eslintrc.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ eslint规范代码文件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232016-o7z3k00",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629232016-o7z3k00",
+								"updated": "20230629232052"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"extends\": [\"airbnb\", \"prettier\", \"plugin:node/recommended\"],\n  \"plugins\": [\"prettier\"],\n  \"rules\": {\n    \"prettier/prettier\": \"error\",\n    \"spaced-comment\": \"off\",\n    \"no-console\": \"warn\",\n    \"consistent-return\": \"off\",\n    \"func-names\": \"off\",\n    \"object-shorthand\": \"off\",\n    \"no-process-exit\": \"off\",\n    \"no-param-reassign\": \"off\",\n    \"no-return-await\": \"off\",\n    \"no-underscore-dangle\": \"off\",\n    \"class-methods-use-this\": \"off\",\n    \"prefer-destructuring\": [\"error\", { \"object\": true, \"array\": false }],\n    \"no-unused-vars\": [\"error\", { \"argsIgnorePattern\": \"req|res|next|val\" }]\n  }\n}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629232053-rg48069",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230629232053-rg48069",
+						"updated": "20230629232118"
+					},
+					"Children": [
+						{
+							"ID": "20230629232053-rzqjgzn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232053-rzqjgzn",
+								"updated": "20230629232118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".prettierrc"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​  格式化文件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232056-lclnjmf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629232056-lclnjmf",
+								"updated": "20230629232100"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"singleQuote\": true,\n  \"endOfLine\": \"auto\"\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-5uy82et",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230627221302-5uy82et",
+				"updated": "20230629232617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 核心代码"
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-lyzbbev",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230627221302-lyzbbev",
+				"updated": "20230629232855"
+			},
+			"Children": [
+				{
+					"ID": "20230627221302-lar3bwm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230627221302-lar3bwm",
+						"updated": "20230627222920"
+					},
+					"Children": [
+						{
+							"ID": "20230627221302-9eusmyz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627221302-9eusmyz",
+								"updated": "20230629232302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "server.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 初始化server文件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232155-wjbmf7a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232155-wjbmf7a",
+								"updated": "20230629232228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置环境变量文件"
+								}
+							]
+						},
+						{
+							"ID": "20230627221302-yfp5w1q",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230627221302-yfp5w1q",
+								"updated": "20230629232148"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const dotenv = require('dotenv');\n\n/**\n * 配置环境变量文件\n *    a) process.env.XXX 可访问\n *    b) 注意: 环境变量配置要在，所有的变量最上方，方便其他文件访问环境变量 ( 核心 )\n *    c) 注意: 在 `package.json` 改变node.js环境变量, 以用于区分生产和开发环境命令配置\n */\ndotenv.config({\n  path: `${__dirname}/config.env`,\n});\n\nconst app = require('./app');\n\n/**\n * 初始化server\n */\nconst port = process.env.PORT || 3000;\napp.listen(port, () =\u003e {\n  console.log('start:3000');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230627222039-sg3vz53",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230627222039-sg3vz53"
+					},
+					"Children": [
+						{
+							"ID": "20230627222039-6pismrv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230627222039-6pismrv",
+								"updated": "20230629232308"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 存放中间件文件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232340-5g9plng",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232340-5g9plng",
+								"updated": "20230629232344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "第三方中间件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232349-w3v5bnb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232349-w3v5bnb",
+								"updated": "20230629232349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义全局中间件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232353-77kgnpk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232353-77kgnpk",
+								"updated": "20230629232354"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "中间件的方式挂载多个路由"
+								}
+							]
+						},
+						{
+							"ID": "20230629232314-h3ci6u3",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629232314-h3ci6u3",
+								"updated": "20230629232422"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/* eslint-disable prettier/prettier */\nconst express = require('express');\nconst morgan = require('morgan');\nconst tourRoute = require('./routes/tours.route');\nconst userRoute = require('./routes/users.route');\n\nconst app = express();\n\n/**\n * 第三方中间件\n */\napp.use(express.json());\n\n// 配置静态目录 ( 核心 )\napp.use(express.static(`${__dirname}/public`)) \n\n// 当环境变量为开发环境时, 将在控制台打印请求日志\nif( process.env.NODE_ENV === \"development\" ) app.use(morgan('dev')); \n\n\n/**\n * 自定义全局中间件\n */\napp.use((req, res, next) =\u003e {\n  // 加工req.reqTime增加当前时间属性,方便API接口全局调用\n  req.reqTime = new Date().toISOString();\n  next(); // 中间件必写,保证逻辑不阻塞\n});\n\n/**\n * 中间件的方式挂载多个路由\n */\napp.use('/api/v1/tours', tourRoute);\napp.use('/api/v1/users', userRoute);\n\n// 配置单页面应用程序\napp.get(\"*\", (req,res) =\u003e {\n  res.sendFile(`${__dirname}/public/index.html`)\n} )\n\nmodule.exports = app;\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629232447-wau5he1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230629232447-wau5he1"
+					},
+					"Children": [
+						{
+							"ID": "20230629232447-eydpahm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232447-eydpahm",
+								"updated": "20230629232521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "routes\\tours.route.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ tours相关路由"
+								}
+							]
+						},
+						{
+							"ID": "20230629232535-wjgztm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232535-wjgztm5",
+								"updated": "20230629232539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "express更合理的路由写法"
+								}
+							]
+						},
+						{
+							"ID": "20230629232542-un4uzwe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232542-un4uzwe",
+								"updated": "20230629232543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参数中间件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232547-xgu9z0l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232547-xgu9z0l",
+								"updated": "20230629232547"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接多个路由级中间件函数"
+								}
+							]
+						},
+						{
+							"ID": "20230629232524-41n7tal",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629232524-41n7tal",
+								"updated": "20230629232532"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const express = require('express');\nconst {\n  // api逻辑\n  handleApiTourAll,\n  handleApiTourAdd,\n  handleApiTourDelete,\n  handleApiTourGet,\n  handleApiTourPatch,\n\n  // 中间件逻辑\n  handleMidTourCheckId,\n  handleMidTourCheckBody,\n} = require('../controller/tours.controller');\n\n/**\n * express更合理的路由写法\n */\n\nconst router = express.Router();\n\n/**\n * 参数中间件\n */\nrouter.param('id', handleMidTourCheckId); // 校验要求带/:id的url参数id是否合格\n\n/**\n * 连接多个路由级中间件函数\n *    a) 在指定路由生效的中间件，一条路由可以放多个中间件\n *    b) 常见: 登录校验，权限校验，错误校验等...， 特殊逻辑\n */\n\n// tour相关路由\nrouter\n  .route('/')\n  .get(handleApiTourAll)\n  .post(handleMidTourCheckBody, handleApiTourAdd)\n  .patch(handleMidTourCheckBody, handleApiTourPatch);\nrouter.route('/:id').get(handleApiTourGet).delete(handleApiTourDelete);\n\nmodule.exports = router;\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230629232650-2vrdd6t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230629232650-2vrdd6t",
+						"updated": "20230629232855"
+					},
+					"Children": [
+						{
+							"ID": "20230629232650-ed6if7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232650-ed6if7w",
+								"updated": "20230629232738"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controller\\tours.controller.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 存放"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "API逻辑"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "以及"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "u",
+									"TextMarkTextContent": "局部路由中间件"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "相关逻辑"
+								}
+							]
+						},
+						{
+							"ID": "20230629232801-uds5fyp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232801-uds5fyp",
+								"updated": "20230629232802"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tour相关中间件"
+								}
+							]
+						},
+						{
+							"ID": "20230629232834-g7mxx8d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232834-g7mxx8d",
+								"updated": "20230629232834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tour相关API逻辑"
+								}
+							]
+						},
+						{
+							"ID": "20230629232836-f6d5vzs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629232836-f6d5vzs",
+								"updated": "20230629232855"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注意: 暂时没有接入数据库，所以以读取本地json文件模拟数据库"
+								}
+							]
+						},
+						{
+							"ID": "20230629232741-uuzo4z2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230629232741-uuzo4z2",
+								"updated": "20230629232818"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const fs = require('fs');\nconst fsAsync = require('node:fs/promises');\n\nconst tours = JSON.parse(\n  fs.readFileSync(`${__dirname}/../dev-data/data/tours-simple.json`, 'utf-8')\n);\n\n/**\n * tour相关中间件\n */\n// 校验url参数id是否合格, 不合格return将拦截API逻辑\nexports.handleMidTourCheckId = (req, res, next, val) =\u003e {\n  const { id } = req.params;\n\n  if (id === '0') {\n    return res.status(200).json({\n      code: 400,\n      data: {},\n      message: '参数不正确',\n    });\n  }\n\n  next();\n};\n\n// 校验req.body下的参数是否合格\nexports.handleMidTourCheckBody = (req, res, next) =\u003e {\n  const { id } = req.body;\n\n  if (typeof id !== 'number') {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '参数不正确',\n    });\n  }\n\n  next();\n};\n\n/**\n * tour相关API逻辑\n */\n// 获取全部tour\nexports.handleApiTourAll = (req, res) =\u003e {\n  res.status(200).json({\n    code: 200,\n    data: tours,\n  });\n};\n\n// 增加tour\nexports.handleApiTourAdd = async (req, res) =\u003e {\n  try {\n    // post请求入参\n    const { name = '', duration = 1, difficulty = 'easy' } = req.body;\n\n    // 新数据\n    tours.push({\n      id: tours.length + 100,\n      name,\n      duration,\n      difficulty,\n    });\n\n    // 注意: fs.writeFile只能写入字符串格式，否则报错 ( 完成笔记 )\n    await fsAsync.writeFile(\n      `${__dirname}/../dev-data/data/tours-simple.json`,\n      JSON.stringify(tours)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: {\n        id: tours.length + 100,\n        name,\n        duration,\n        difficulty,\n      },\n    });\n  } catch (error) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '添加失败',\n    });\n  }\n};\n\n// 获取指定tour\nexports.handleApiTourGet = (req, res) =\u003e {\n  const { id } = req.params; // 注意: app.use(express.json()); 最好存在\n\n  // 根据id过滤查询\n  const result =\n    tours instanceof Array\n      ? tours.filter((item) =\u003e item.id.toString() === id)\n      : [];\n\n  res.status(200).json({\n    code: 200,\n    data: result,\n  });\n};\n\n// 更新指定tour\nexports.handleApiTourPatch = async (req, res) =\u003e {\n  const { id, name, difficulty, duration } = req.body;\n  let isId = false; // 是否查询到此Id\n  let result = {}; // 查询目标数据\n\n  if (!(tours instanceof Array) || !id) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '更新失败',\n    });\n\n    return; // 终止下方逻辑执行\n  }\n\n  // 更新目标数据\n  tours.map((item) =\u003e {\n    if (item.id === id) {\n      isId = true; // true代表查询到目标id\n      result = {\n        ...item,\n        name: name || item.name,\n        difficulty: difficulty || item.difficulty,\n        duration: duration || item.duration,\n      };\n\n      return result;\n    }\n    return item;\n  });\n\n  if (isId) {\n    await fsAsync.writeFile(\n      `${__dirname}/../dev-data/data/tours-simple.json`,\n      JSON.stringify(tours)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: result,\n      message: '更新成功',\n    });\n  } else {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '查询无此id',\n    });\n  }\n};\n\n// 删除指定tour\nexports.handleApiTourDelete = async (req, res) =\u003e {\n  const { id } = req.params;\n  let isId = false; // 是否查询到此Id\n  let result = tours;\n\n  if (!(tours instanceof Array) || !id) {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '删除失败',\n    });\n\n    return; // 终止下方逻辑执行\n  }\n\n  // 删除目标数据\n  result = result.filter((item) =\u003e {\n    if (item.id === Number(id)) {\n      isId = true; // 如果目标存在则为true\n      return false;\n    }\n    return true;\n  });\n\n  if (isId) {\n    await fsAsync.writeFile(\n      `${__dirname}/../dev-data/data/tours-simple.json`,\n      JSON.stringify(result)\n    );\n\n    res.status(200).json({\n      code: 200,\n      data: id,\n      message: '删除成功',\n    });\n  } else {\n    res.status(200).json({\n      code: 400,\n      data: {},\n      message: '查询无此id',\n    });\n  }\n};\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230627221302-zpl0rzw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230627221302-zpl0rzw",
+				"updated": "20230627222936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 最终效果"
+				}
+			]
+		},
+		{
+			"ID": "20230629232959-lvjtuxd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230629232959-lvjtuxd",
+				"updated": "20230629232959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20230629232959-jruj2t4.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230627223050-elhx4nz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230627223050-elhx4nz"
+			}
+		}
+	]
+}

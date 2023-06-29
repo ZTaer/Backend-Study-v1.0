@@ -5,9 +5,9 @@
 	"Properties": {
 		"icon": "1f7e2",
 		"id": "20230530212604-7uby35y",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230530212604-7uby35y\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230614214815-tjxf2dn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230617202753-6bvurp3\u0026quot;,\u0026quot;scrollTop\u0026quot;:5563.33349609375}",
+		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230530212604-7uby35y\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230530214004-op60hzv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230603130415-nte7m2o\u0026quot;,\u0026quot;scrollTop\u0026quot;:3100}",
 		"title": "Node.js - Jonas v2023",
-		"updated": "20230619002914"
+		"updated": "20230629233705"
 	},
 	"Children": [
 		{
@@ -96,7 +96,7 @@
 			"Properties": {
 				"id": "20230530214004-zof2c11",
 				"style": "height: 500px;",
-				"updated": "20230615232004"
+				"updated": "20230629233705"
 			},
 			"Children": [
 				{
@@ -109,7 +109,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介', '2. Node.js \u0026amp; Npm 简介','3. Node.js 后端WEB开发简介', '4. Node.js 工作原理','5. 异步方法运用Promises \u0026amp; async/await',\n'6. Express构建RESTful API'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n10\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n5\n]\n    }\n  ]\n}"
+					"Data": "{\n  title: {\n    text: '学习进度'\n  },\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'shadow'\n    }\n  },\n  legend: {},\n  grid: {\n    left: '3%',\n    right: '4%',\n    bottom: '3%',\n    containLabel: true\n  },\n  xAxis: {\n    type: 'value'\n  },\n  yAxis: {\n    type: 'category',\n    data: [ \n'1. 简介', '2. Node.js \u0026amp; Npm 简介','3. Node.js 后端WEB开发简介', '4. Node.js 工作原理','5. 异步方法运用Promises \u0026amp; async/await',\n'6. Express构建RESTful API','7. MongoDB'\n]\n  },\n  series: [\n    {\n      name: '需学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22,13\n]\n    },\n    {\n      name: '已学习',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22,0\n]\n    },\n   {\n      name: '已笔记 ( 含无需笔记 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22,0\n]\n    },\n    {\n      name: '已练习 ( 含无需练习 )',\n      type: 'bar',\n      data: [\n3,20,5,11,7,\n22,0\n]\n    }\n  ]\n}"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -5681,7 +5681,7 @@
 									"TextMarkType": "block-ref",
 									"TextMarkBlockRefID": "20230604222022-vwla7gf",
 									"TextMarkBlockRefSubtype": "d",
-									"TextMarkTextContent": "2.11 - 上古传说练习案例"
+									"TextMarkTextContent": "2.11 - 上古传说练习案例 ( 案例 )"
 								}
 							]
 						}
@@ -6223,7 +6223,7 @@
 									"TextMarkType": "block-ref",
 									"TextMarkBlockRefID": "20230604222022-vwla7gf",
 									"TextMarkBlockRefSubtype": "d",
-									"TextMarkTextContent": "2.11 - 上古传说练习案例"
+									"TextMarkTextContent": "2.11 - 上古传说练习案例 ( 案例 )"
 								}
 							]
 						}
@@ -7514,7 +7514,7 @@
 									"TextMarkType": "block-ref",
 									"TextMarkBlockRefID": "20230604222022-vwla7gf",
 									"TextMarkBlockRefSubtype": "d",
-									"TextMarkTextContent": "2.11 - 上古传说练习案例"
+									"TextMarkTextContent": "2.11 - 上古传说练习案例 ( 案例 )"
 								}
 							]
 						}
@@ -8028,7 +8028,7 @@
 									"TextMarkType": "block-ref",
 									"TextMarkBlockRefID": "20230604222022-vwla7gf",
 									"TextMarkBlockRefSubtype": "d",
-									"TextMarkTextContent": "2.11 - 上古传说练习案例"
+									"TextMarkTextContent": "2.11 - 上古传说练习案例 ( 案例 )"
 								}
 							]
 						}
@@ -26960,12 +26960,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615205641-1xvc20f",
-				"updated": "20230618211850"
+				"updated": "20230620215224"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.5 express构建GET请求API"
+					"Data": "6.6 express构建GET请求API"
 				}
 			]
 		},
@@ -27298,12 +27298,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615212009-s168ss7",
-				"updated": "20230618215213"
+				"updated": "20230620215230"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.6 express构建POST请求API"
+					"Data": "6.7 express构建POST请求API"
 				}
 			]
 		},
@@ -27857,12 +27857,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615214144-xctck3o",
-				"updated": "20230615214713"
+				"updated": "20230620215234"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.7 GET请求根据URL路径参数查询目标"
+					"Data": "6.8 GET请求根据URL路径参数查询目标"
 				}
 			]
 		},
@@ -28374,12 +28374,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615215642-ok16nr5",
-				"updated": "20230615215908"
+				"updated": "20230620215239"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.8 PATCH更新请求"
+					"Data": "6.9 PATCH更新请求"
 				}
 			]
 		},
@@ -28694,12 +28694,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615230846-88sycvj",
-				"updated": "20230615230849"
+				"updated": "20230620215242"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.9 DELETE删除请求"
+					"Data": "6.10 DELETE删除请求"
 				}
 			]
 		},
@@ -29014,12 +29014,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615231232-hkdivbd",
-				"updated": "20230615231314"
+				"updated": "20230620215246"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.10 重新构建路由"
+					"Data": "6.11 重新构建路由"
 				}
 			]
 		},
@@ -29237,6 +29237,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"fold": "0",
 						"id": "20230619002824-iornhdh",
 						"updated": "20230619002851"
 					},
@@ -29300,12 +29301,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20230615231928-fzoyxo2",
-				"updated": "20230615231939"
+				"updated": "20230627221240"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "6.11 express中间件"
+					"Data": "6.12 express中间件  ( 案例 )"
 				}
 			]
 		},
@@ -29820,10 +29821,7582 @@
 			}
 		},
 		{
-			"ID": "20230617202753-6bvurp3",
-			"Type": "NodeParagraph",
+			"ID": "20230619205455-902q24s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20230617202753-6bvurp3"
+				"id": "20230619205455-902q24s",
+				"updated": "20230620215253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.13 创建自己的express中间件"
+				}
+			]
+		},
+		{
+			"ID": "20230619205455-3ncy6tj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619205455-3ncy6tj",
+				"updated": "20230619205455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619205455-iamx6me",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619205455-iamx6me",
+				"updated": "20230629233205"
+			},
+			"Children": [
+				{
+					"ID": "20230619205455-1gfs562",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619205455-1gfs562",
+						"updated": "20230619211937"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619205455-kn1dagn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619205455-kn1dagn",
+								"updated": "20230619205455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619205455-akemmdd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619205455-akemmdd",
+						"updated": "20230629233205"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619205455-ee7c9mp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619205455-ee7c9mp",
+								"updated": "20230619205455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619205455-dze68ow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619205455-dze68ow",
+						"updated": "20230629233205"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619205455-rjl5rsx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619205455-rjl5rsx",
+								"updated": "20230619205455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619205455-flq8naf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619205455-flq8naf",
+				"updated": "20230619205455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230619205455-5gv8a73",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230619205455-5gv8a73",
+				"updated": "20230629233134"
+			},
+			"Children": [
+				{
+					"ID": "20230619205455-l0rmbo0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230619205455-l0rmbo0",
+						"updated": "20230629233125"
+					},
+					"Children": [
+						{
+							"ID": "20230619205455-q05tpj7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619205455-q05tpj7",
+								"updated": "20230629233125"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3:03 - 构建一个基本的express中间件 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230619212251-0mw5j4e",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619212251-0mw5j4e"
+							},
+							"Children": [
+								{
+									"ID": "20230619212251-hri2fe1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619212251-hri2fe1"
+									},
+									"Children": [
+										{
+											"ID": "20230619212251-w9uh3te",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619212251-w9uh3te",
+												"updated": "20230619212328"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "next()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 是结束此中间件逻辑，进行下一个逻辑"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619211934-wkxtvcl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619211934-wkxtvcl",
+						"updated": "20230629233134"
+					},
+					"Children": [
+						{
+							"ID": "20230619211934-ybmpbd6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619211934-ybmpbd6",
+								"updated": "20230629233134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "8:47 - 构建自定义中间件: 加工 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "req.requestTIme "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​增加当前时间属性，方便API接口全局调用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "new Date().toISOString()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628210256-bo9753y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230628210256-bo9753y",
+				"updated": "20230628210256"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230628210256-326n9vc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628210256-326n9vc",
+				"updated": "20230628210310"
+			},
+			"Children": [
+				{
+					"ID": "20230628210256-a0isdre",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628210256-a0isdre",
+						"updated": "20230628210310"
+					},
+					"Children": [
+						{
+							"ID": "20230628210256-k9j19dm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628210256-k9j19dm",
+								"updated": "20230628210310"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619205500-9cionzv",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619205500-9cionzv",
+				"updated": "20230619205500"
+			}
+		},
+		{
+			"ID": "20230619212947-lx5ey7x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230619212947-lx5ey7x",
+				"updated": "20230620215256"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.14 使用第三方中间件"
+				}
+			]
+		},
+		{
+			"ID": "20230619212947-y3hb1ku",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619212947-y3hb1ku",
+				"updated": "20230619212947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619212947-0dof2cs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619212947-0dof2cs",
+				"updated": "20230629233207"
+			},
+			"Children": [
+				{
+					"ID": "20230619212947-v3j4wsm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619212947-v3j4wsm",
+						"updated": "20230619212947"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619212947-77vgkcm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619212947-77vgkcm",
+								"updated": "20230619212947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619212947-sxnhyk1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619212947-sxnhyk1",
+						"updated": "20230629233206"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619212947-jn200t5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619212947-jn200t5",
+								"updated": "20230619212947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619212947-ymootmh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619212947-ymootmh",
+						"updated": "20230629233207"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619212947-as6neup",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619212947-as6neup",
+								"updated": "20230619212947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619212947-l8sn9xb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619212947-l8sn9xb",
+				"updated": "20230619212947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230619212947-c6qixw1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230619212947-c6qixw1",
+				"updated": "20230629233150"
+			},
+			"Children": [
+				{
+					"ID": "20230619212947-wad20qi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230619212947-wad20qi",
+						"updated": "20230629233150"
+					},
+					"Children": [
+						{
+							"ID": "20230619212947-zv3bi1o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619212947-zv3bi1o",
+								"updated": "20230629233150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "0:53 - 安装 morgan 库: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "yarn add morgan"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 中间件日志库 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230619213849-ql7tq0g",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619213849-ql7tq0g"
+							},
+							"Children": [
+								{
+									"ID": "20230619213849-86e4kgu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619213849-86e4kgu"
+									},
+									"Children": [
+										{
+											"ID": "20230619213849-cn8nyto",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619213849-cn8nyto",
+												"updated": "20230619213925"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将在 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "morgan(\u0026quot;dev\u0026quot;)"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 将在控制台打印请求日志"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619213423-wjvevm2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619213423-wjvevm2",
+						"updated": "20230619214401"
+					},
+					"Children": [
+						{
+							"ID": "20230619213423-fs3yhom",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619213423-fs3yhom",
+								"updated": "20230619214421"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "8:18 - express养成遇到不懂的查询文档的好习惯"
+								}
+							]
+						},
+						{
+							"ID": "20230619214135-rfwdub8",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619214135-rfwdub8",
+								"updated": "20230619214401"
+							},
+							"Children": [
+								{
+									"ID": "20230619214134-v2vwnso",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619214134-v2vwnso",
+										"updated": "20230619214401"
+									},
+									"Children": [
+										{
+											"ID": "20230619214134-hufypd7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619214134-hufypd7",
+												"updated": "20230619214401"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "描述req,res属性功能文档: "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://expressjs.com/en/4x/api.html#req.body",
+													"TextMarkTextContent": "https://expressjs.com/en/4x/api.html#req.body"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628212420-11fi0pc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230628212420-11fi0pc",
+				"updated": "20230628212420"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230628212420-z2igtsj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628212420-z2igtsj",
+				"updated": "20230628212420"
+			},
+			"Children": [
+				{
+					"ID": "20230628212420-diq1s7n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628212420-diq1s7n",
+						"updated": "20230628212420"
+					},
+					"Children": [
+						{
+							"ID": "20230628212420-vl5nhwy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628212420-vl5nhwy",
+								"updated": "20230628212420"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619212947-4i4t5re",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619212947-4i4t5re",
+				"updated": "20230619212947"
+			}
+		},
+		{
+			"ID": "20230619214559-cppde56",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230619214559-cppde56",
+				"updated": "20230620215300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.15 构建用户相关的API路由"
+				}
+			]
+		},
+		{
+			"ID": "20230619214559-spt0gmt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619214559-spt0gmt",
+				"updated": "20230619214559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619214559-21dkgaa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619214559-21dkgaa",
+				"updated": "20230629233210"
+			},
+			"Children": [
+				{
+					"ID": "20230619214559-da6vyv2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619214559-da6vyv2",
+						"updated": "20230619214559"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619214559-8nbtfy5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619214559-8nbtfy5",
+								"updated": "20230619214559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619214559-y1gmkjn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619214559-y1gmkjn",
+						"updated": "20230629233209"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619214559-6a2sx4j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619214559-6a2sx4j",
+								"updated": "20230619214559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619214559-pk1dufw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619214559-pk1dufw",
+						"updated": "20230629233210"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619214559-co86izh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619214559-co86izh",
+								"updated": "20230619214559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619214559-37ryxjr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619214559-37ryxjr",
+				"updated": "20230619214559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230619214559-f90u0bv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230619214559-f90u0bv",
+				"updated": "20230629233156"
+			},
+			"Children": [
+				{
+					"ID": "20230619214559-yi882nw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230619214559-yi882nw",
+						"updated": "20230629233156"
+					},
+					"Children": [
+						{
+							"ID": "20230619214559-hpkbv0k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619214559-hpkbv0k",
+								"updated": "20230629233156"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2:58 - 构建用户相关的API路由 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619215018-xhb5j9r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619215018-xhb5j9r",
+						"updated": "20230619215358"
+					},
+					"Children": [
+						{
+							"ID": "20230619215018-znoxgz0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215018-znoxgz0",
+								"updated": "20230619215356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "常见后端状态码以及表达意思"
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-18p2s6l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215358-18p2s6l",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以下是常见的HTTP状态码以及它们的大致意思："
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-c6m8tnj",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619215358-c6m8tnj",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-x3wh9hi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619215358-x3wh9hi",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-8jgyi10",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-8jgyi10",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "1xx（信息性状态码）：指示请求已被接收，继续处理。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-ign3zg8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20230619215358-ign3zg8",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-gvza2eg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-gvza2eg",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-fddtfrg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-fddtfrg",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "100（Continue）：服务器已收到请求的一部分，并且客户端应该继续发送剩余的请求。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-7o5ahuu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619215358-7o5ahuu",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-7u4ss3t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230619215358-7u4ss3t",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-zt83oq0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-zt83oq0",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "2xx（成功状态码）：指示请求已成功被服务器接收、理解和处理。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-nqdqx5r",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20230619215358-nqdqx5r",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-urxx7ic",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-urxx7ic",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-8gqo2ir",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-8gqo2ir",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "200（OK）：请求成功，服务器返回所请求的资源。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-ftfmm7l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-ftfmm7l",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-i0s5d9b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-i0s5d9b",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "201（Created）：请求已成功处理，并且服务器已创建了新的资源。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-c17yk9r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-c17yk9r",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-4ypnakj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-4ypnakj",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "204（No Content）：请求已成功处理，但服务器没有返回任何内容。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-w0k1v4m",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619215358-w0k1v4m",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-o88242h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230619215358-o88242h",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-3y08rnw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-3y08rnw",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "3xx（重定向状态码）：指示客户端需要执行附加操作以完成请求。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-9ro75jr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20230619215358-9ro75jr",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-wtqghgr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-wtqghgr",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-kacj30k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-kacj30k",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "301（Moved Permanently）：请求的资源已永久移动到新的URL。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-um9xswp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-um9xswp",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-gm330yl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-gm330yl",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "302（Found）：请求的资源临时移动到不同的URL。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-9p18jtq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-9p18jtq",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-ieefen8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-ieefen8",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "304（Not Modified）：客户端可以使用缓存的版本，因为资源未被修改。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-nwc0wrq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619215358-nwc0wrq",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-7s2bpls",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20230619215358-7s2bpls",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-953ufsv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-953ufsv",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "4xx（客户端错误状态码）：指示客户端发送的请求有错误或无效。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-aiokgex",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20230619215358-aiokgex",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-61bus4n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-61bus4n",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-8vv712m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-8vv712m",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "400（Bad Request）：服务器无法理解客户端发送的请求。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-4vc9oed",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-4vc9oed",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-0ahvbix",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-0ahvbix",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "401（Unauthorized）：请求需要身份验证或缺少有效的身份验证凭据。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-gjxcgnv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-gjxcgnv",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-k07gftl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-k07gftl",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "403（Forbidden）：服务器拒绝请求的访问权限。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-vkyt2jq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-vkyt2jq",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-x6he65k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-x6he65k",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "404（Not Found）：请求的资源在服务器上未找到。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-03ym5bk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-03ym5bk",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-hxv2x67",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-hxv2x67",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "429（Too Many Requests）：客户端发送的请求过多，服务器拒绝处理。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-c127l9l",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619215358-c127l9l",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-0i7sbzu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20230619215358-0i7sbzu",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-fmzdpcr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-fmzdpcr",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "5xx（服务器错误状态码）：指示服务器在处理请求时发生了错误。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-fx6azla",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20230619215358-fx6azla",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"ID": "20230619215358-pj2j6nq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-pj2j6nq",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-t0vpaax",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-t0vpaax",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "500（Internal Server Error）：服务器在处理请求时发生了意外的错误。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-aqjb7xo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-aqjb7xo",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-guij2ra",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-guij2ra",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "502（Bad Gateway）：作为代理或网关的服务器从上游服务器接收到无效的响应。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230619215358-eefy99l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230619215358-eefy99l",
+										"updated": "20230619215358"
+									},
+									"Children": [
+										{
+											"ID": "20230619215358-mq28647",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619215358-mq28647",
+												"updated": "20230619215358"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "503（Service Unavailable）：服务器当前无法处理请求，通常是由于过载或维护。"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20230619215358-v64hnws",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215358-v64hnws",
+								"updated": "20230619215358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这只是一些常见的HTTP状态码，还有其他状态码用于表示不同的情况。了解这些状态码可以帮助开发者更好地理解和处理与服务器通信时可能遇到的不同情况。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628223540-1gb0li1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230628223540-1gb0li1",
+				"updated": "20230628223540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230628223540-uowg53i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628223540-uowg53i",
+				"updated": "20230628223540"
+			},
+			"Children": [
+				{
+					"ID": "20230628223540-nefjxu6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628223540-nefjxu6",
+						"updated": "20230628223540"
+					},
+					"Children": [
+						{
+							"ID": "20230628223540-ajki29u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628223540-ajki29u",
+								"updated": "20230628223540"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619214559-8luhay6",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619214559-8luhay6",
+				"updated": "20230619214559"
+			}
+		},
+		{
+			"ID": "20230619215712-vmegig3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230619215712-vmegig3",
+				"updated": "20230628223723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.16 中间件的方式挂载多个路由"
+				}
+			]
+		},
+		{
+			"ID": "20230619215712-zstqtmm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619215712-zstqtmm",
+				"updated": "20230619215712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619215712-mpwm7jt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619215712-mpwm7jt",
+				"updated": "20230629233212"
+			},
+			"Children": [
+				{
+					"ID": "20230619215712-o3hyh7z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619215712-o3hyh7z",
+						"updated": "20230619215712"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619215712-sbxvwzl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215712-sbxvwzl",
+								"updated": "20230619215712"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619215712-ilmhnsb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619215712-ilmhnsb",
+						"updated": "20230629233211"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619215712-y049h7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215712-y049h7x",
+								"updated": "20230619215712"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619215712-qs0t1cr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619215712-qs0t1cr",
+						"updated": "20230629233212"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619215712-qezxopr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215712-qezxopr",
+								"updated": "20230619215712"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619215712-gywuee0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619215712-gywuee0",
+				"updated": "20230619215712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230619215712-y6ukplj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230619215712-y6ukplj",
+				"updated": "20230629233214"
+			},
+			"Children": [
+				{
+					"ID": "20230619215712-y07kh5u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230619215712-y07kh5u",
+						"updated": "20230629233214"
+					},
+					"Children": [
+						{
+							"ID": "20230619215712-icgoof5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619215712-icgoof5",
+								"updated": "20230629233214"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "7:18 - 以中间件方式挂载路由, 文件结构切片分装 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628225155-n1gqhm8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230628225155-n1gqhm8",
+				"updated": "20230628225155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230628225155-2b18nok",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628225155-2b18nok",
+				"updated": "20230628225155"
+			},
+			"Children": [
+				{
+					"ID": "20230628225155-pqdacr4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628225155-pqdacr4",
+						"updated": "20230628225155"
+					},
+					"Children": [
+						{
+							"ID": "20230628225155-96fsgei",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628225155-96fsgei",
+								"updated": "20230628225155"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619215712-jd6xn8u",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619215712-jd6xn8u",
+				"updated": "20230619215712"
+			}
+		},
+		{
+			"ID": "20230619221353-qda2jv6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230619221353-qda2jv6",
+				"updated": "20230620215307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.17 更好的文件结构"
+				}
+			]
+		},
+		{
+			"ID": "20230619221353-nvb8zfe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619221353-nvb8zfe",
+				"updated": "20230619221353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619221353-iebz2ch",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619221353-iebz2ch",
+				"updated": "20230629233219"
+			},
+			"Children": [
+				{
+					"ID": "20230619221353-dotc7vs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619221353-dotc7vs",
+						"updated": "20230619221353"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619221353-m0n59d3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619221353-m0n59d3",
+								"updated": "20230619221353"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619221353-y9xfhrt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619221353-y9xfhrt",
+						"updated": "20230629233219"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619221353-kywmufn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619221353-kywmufn",
+								"updated": "20230619221353"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619221353-1hvcf84",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619221353-1hvcf84",
+						"updated": "20230629233219"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619221353-wq5spev",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619221353-wq5spev",
+								"updated": "20230619221353"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619221353-oo5k0p7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619221353-oo5k0p7",
+				"updated": "20230619221353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230619221353-rzhotbd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230619221353-rzhotbd",
+				"updated": "20230629233231"
+			},
+			"Children": [
+				{
+					"ID": "20230619221353-d5vi3rl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230619221353-d5vi3rl",
+						"updated": "20230629233222"
+					},
+					"Children": [
+						{
+							"ID": "20230619221353-log2kqv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619221353-log2kqv",
+								"updated": "20230629233222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2:08 - 切片路由示例 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619221823-nkmcabq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619221823-nkmcabq",
+						"updated": "20230629233225"
+					},
+					"Children": [
+						{
+							"ID": "20230619221823-njtlmzp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619221823-njtlmzp",
+								"updated": "20230629233225"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "7:08 - "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "app.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 主要存放中间件 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619222956-0hew6tx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230619222956-0hew6tx",
+						"updated": "20230629233227"
+					},
+					"Children": [
+						{
+							"ID": "20230619222956-3nodkwh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619222956-3nodkwh",
+								"updated": "20230629233227"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "9:59 - 构建 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controllers/tourController.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 用于存放API相关逻辑 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230619223100-h26t9eb",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619223100-h26t9eb"
+							},
+							"Children": [
+								{
+									"ID": "20230619223100-iuy67vw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619223100-iuy67vw"
+									},
+									"Children": [
+										{
+											"ID": "20230619223100-097n2ma",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619223100-097n2ma",
+												"updated": "20230619223111"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "controllers"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 文件夹主要存放API相关方法逻辑"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619222926-r41dxyj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230619222926-r41dxyj",
+						"updated": "20230629233228"
+					},
+					"Children": [
+						{
+							"ID": "20230619222926-tlr6fvn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619222926-tlr6fvn",
+								"updated": "20230629233228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "11:58 - 使用 tour controllers "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619223638-znbwwnq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230619223638-znbwwnq",
+						"updated": "20230629233231"
+					},
+					"Children": [
+						{
+							"ID": "20230619223638-yapd6sw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619223638-yapd6sw",
+								"updated": "20230629233231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "16:04 - "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "server.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 文件主要存放express初始化相关逻辑 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230628230128-z4koph4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230628230128-z4koph4",
+				"updated": "20230628230128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230628230128-u9ue0jh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230628230128-u9ue0jh",
+				"updated": "20230628230128"
+			},
+			"Children": [
+				{
+					"ID": "20230628230128-djhgphw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230628230128-djhgphw",
+						"updated": "20230628230128"
+					},
+					"Children": [
+						{
+							"ID": "20230628230128-evknbd4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230628230128-evknbd4",
+								"updated": "20230628230128"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619221353-ehanp76",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619221353-ehanp76",
+				"updated": "20230619221353"
+			}
+		},
+		{
+			"ID": "20230619223951-1pthwho",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230619223951-1pthwho",
+				"updated": "20230620215311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.18 参数中间件"
+				}
+			]
+		},
+		{
+			"ID": "20230619223951-aoconwv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619223951-aoconwv",
+				"updated": "20230619223951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619223951-tpbg8bv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619223951-tpbg8bv",
+				"updated": "20230629233236"
+			},
+			"Children": [
+				{
+					"ID": "20230619223951-rw5aidu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619223951-rw5aidu",
+						"updated": "20230619223951"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619223951-b8ao1xd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619223951-b8ao1xd",
+								"updated": "20230619223951"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619223951-9rxegrx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619223951-9rxegrx",
+						"updated": "20230629233236"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619223951-9dmr3wd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619223951-9dmr3wd",
+								"updated": "20230619223951"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619223951-zobjg6y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619223951-zobjg6y",
+						"updated": "20230629233236"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619223951-7u8bk4s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619223951-7u8bk4s",
+								"updated": "20230619223951"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619223951-am0vf9k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619223951-am0vf9k",
+				"updated": "20230619223951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230619223951-8xtxa6t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230619223951-8xtxa6t",
+				"updated": "20230629233241"
+			},
+			"Children": [
+				{
+					"ID": "20230619223951-jjdos0o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230619223951-jjdos0o",
+						"updated": "20230629233239"
+					},
+					"Children": [
+						{
+							"ID": "20230619223951-8i7yk0x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619223951-8i7yk0x",
+								"updated": "20230629233239"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "构建局部路由 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "参数中间件"
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", 此中间件仅在指定路由且待指定url参数时生效 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230619224409-eqm71k3",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230619224409-eqm71k3"
+							},
+							"Children": [
+								{
+									"ID": "20230619224409-cqbl1x8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230619224409-cqbl1x8"
+									},
+									"Children": [
+										{
+											"ID": "20230619224409-h3fnnjk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230619224409-h3fnnjk",
+												"updated": "20230619224449"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 中间件不执行 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "next()"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 将会卡住"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619225536-9k08csp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230619225536-9k08csp",
+						"updated": "20230629233241"
+					},
+					"Children": [
+						{
+							"ID": "20230619225536-0s28s8p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619225536-0s28s8p",
+								"updated": "20230629233241"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "9:11 - 参数中间件示例: 校验url参数id是否合格 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629220607-ppiyyy3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230629220607-ppiyyy3",
+				"updated": "20230629220607"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230629220607-m861me2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629220607-m861me2",
+				"updated": "20230629220607"
+			},
+			"Children": [
+				{
+					"ID": "20230629220607-oza5la7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629220607-oza5la7",
+						"updated": "20230629220607"
+					},
+					"Children": [
+						{
+							"ID": "20230629220607-ni99uui",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629220607-ni99uui",
+								"updated": "20230629220607"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619223951-rxgwior",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619223951-rxgwior",
+				"updated": "20230619223951"
+			}
+		},
+		{
+			"ID": "20230619225834-2mj48ha",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230619225834-2mj48ha",
+				"updated": "20230620215315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.19 连接多个路由级中间件函数"
+				}
+			]
+		},
+		{
+			"ID": "20230619225834-d1n4e3j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619225834-d1n4e3j",
+				"updated": "20230619225834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230619225834-33pv1as",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230619225834-33pv1as",
+				"updated": "20230629233246"
+			},
+			"Children": [
+				{
+					"ID": "20230619225834-4ra0q1f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619225834-4ra0q1f",
+						"updated": "20230619225834"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619225834-pjvhbnh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619225834-pjvhbnh",
+								"updated": "20230619225834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619225834-f07d2p4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619225834-f07d2p4",
+						"updated": "20230629233246"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619225834-hdris4p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619225834-hdris4p",
+								"updated": "20230619225834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230619225834-atgjc4z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230619225834-atgjc4z",
+						"updated": "20230629233246"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230619225834-2m5hcil",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230619225834-2m5hcil",
+								"updated": "20230619225834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619225834-9b9pta5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230619225834-9b9pta5",
+				"updated": "20230619225834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230620205148-ha3hzto",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230620205148-ha3hzto",
+				"updated": "20230629233248"
+			},
+			"Children": [
+				{
+					"ID": "20230620205150-vu3a0zd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230620205150-vu3a0zd",
+						"updated": "20230629233248"
+					},
+					"Children": [
+						{
+							"ID": "20230620205150-qxwum4t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620205150-qxwum4t",
+								"updated": "20230629233248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "7:13 - 路由中间件的使用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230620210343-yupoa14",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620210343-yupoa14",
+								"updated": "20230620210704"
+							},
+							"Children": [
+								{
+									"ID": "20230620210342-l9n0zfb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620210342-l9n0zfb",
+										"updated": "20230620210704"
+									},
+									"Children": [
+										{
+											"ID": "20230620210342-uc7o3bu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620210342-uc7o3bu",
+												"updated": "20230620210704"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在指定路由生效的中间件，一条路由可以放多个中间件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620210355-pdgnl8g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230620210355-pdgnl8g",
+										"updated": "20230620210416"
+									},
+									"Children": [
+										{
+											"ID": "20230620210355-0u42gjk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620210355-0u42gjk",
+												"updated": "20230620210416"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "常见: 登录校验，权限校验，错误校验等...， 特殊逻辑"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620205151-bdmeum2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230620205151-bdmeum2"
+					},
+					"Children": [
+						{
+							"ID": "20230620205151-dco5xip",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620205151-dco5xip",
+								"updated": "20230620205213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关于Node.js中间件相关类型以及常见示例"
+								}
+							]
+						},
+						{
+							"ID": "20230620205216-2b93fo6",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620205216-2b93fo6"
+							},
+							"Children": [
+								{
+									"ID": "20230620205216-5lip0bg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620205216-5lip0bg"
+									},
+									"Children": [
+										{
+											"ID": "20230620205216-0v0cie1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205216-0v0cie1",
+												"updated": "20230620205302"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "Node.js中间件类型?"
+												}
+											]
+										},
+										{
+											"ID": "20230620205232-9g0ftsd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205232-9g0ftsd",
+												"updated": "20230620205232"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在Node.js中，有多种类型的中间件可用于处理请求和响应。以下是一些常见的Node.js中间件类型："
+												}
+											]
+										},
+										{
+											"ID": "20230620205232-7y8vecq",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205232-7y8vecq",
+												"updated": "20230620205232"
+											},
+											"Children": [
+												{
+													"ID": "20230620205232-ck3jpx4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230620205232-ck3jpx4",
+														"updated": "20230620205232"
+													},
+													"Children": [
+														{
+															"ID": "20230620205232-i8lym1k",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205232-i8lym1k",
+																"updated": "20230620205232"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "应用级中间件（Application-Level Middleware）：这些中间件绑定到整个应用程序上，用于处理所有传入的请求。它们可以用来执行一些全局的操作，例如日志记录、身份验证、错误处理等。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620205232-slgg9n4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230620205232-slgg9n4",
+														"updated": "20230620205232"
+													},
+													"Children": [
+														{
+															"ID": "20230620205232-e979v7y",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205232-e979v7y",
+																"updated": "20230620205232"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "路由级中间件（Router-Level Middleware）：这些中间件与特定的路由相关联，用于处理特定路由下的请求。它们可以用来执行一些特定于路由的操作，例如身份验证、访问控制等。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620205232-56i53wb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230620205232-56i53wb",
+														"updated": "20230620205232"
+													},
+													"Children": [
+														{
+															"ID": "20230620205232-16b0lhe",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205232-16b0lhe",
+																"updated": "20230620205232"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "错误处理中间件（Error Handling Middleware）：这些中间件用于捕获应用程序中发生的错误。它们通常位于中间件链的末尾，并用于处理未被前面的中间件处理的错误情况。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620205232-gv2jps6",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230620205232-gv2jps6",
+														"updated": "20230620205232"
+													},
+													"Children": [
+														{
+															"ID": "20230620205232-j1598xk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205232-j1598xk",
+																"updated": "20230620205232"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "内置中间件（Built-in Middleware）：Node.js提供了一些内置的中间件，例如"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "express.static"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​用于提供静态文件，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "express.json"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​用于解析JSON请求体等。这些中间件可以通过简单的调用来使用，而无需进行额外的安装。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620205232-1rz7qzp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230620205232-1rz7qzp",
+														"updated": "20230620205232"
+													},
+													"Children": [
+														{
+															"ID": "20230620205232-xkgrqv6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205232-xkgrqv6",
+																"updated": "20230620205232"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "第三方中间件（Third-Party Middleware）：Node.js生态系统中有许多第三方中间件可供选择。这些中间件可以用于各种功能，例如身份验证、会话管理、表单解析等。常见的第三方中间件包括"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "body-parser"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "cors"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "helmet"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​等。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620205232-drtfaxq",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20230620205232-drtfaxq",
+														"updated": "20230620205232"
+													},
+													"Children": [
+														{
+															"ID": "20230620205232-arc4mky",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205232-arc4mky",
+																"updated": "20230620205232"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "自定义中间件（Custom Middleware）：您可以编写自己的中间件来处理特定的逻辑。自定义中间件可以执行各种操作，例如修改请求或响应对象、执行身份验证、记录日志等。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205232-7nyg2tc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205232-7nyg2tc",
+												"updated": "20230620205232"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在Express框架中，中间件使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "app.use"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​或"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "router.use"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​来添加到应用程序或路由中。中间件按照添加的顺序依次执行，并可以使用"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "next"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​参数将控制权传递给下一个中间件。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205232-y10r225",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205232-y10r225",
+												"updated": "20230620205232"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些是常见的Node.js中间件类型，每种类型都有不同的用途和特点。根据您的应用程序需求，您可以选择合适的中间件来实现所需的功能。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620205235-sfeaxlp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230620205235-sfeaxlp"
+									},
+									"Children": [
+										{
+											"ID": "20230620205235-w0axvlt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205235-w0axvlt",
+												"updated": "20230620205305"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "u",
+													"TextMarkTextContent": "Node.js中间件常见示例"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-p8kxx03",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205337-p8kxx03",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当涉及到中间件的实际例子时，以下是一些常见的示例："
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-6b9cm79",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205337-6b9cm79",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"ID": "20230620205337-xtb6b63",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230620205337-xtb6b63",
+														"updated": "20230620205337"
+													},
+													"Children": [
+														{
+															"ID": "20230620205337-i0imdcn",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205337-i0imdcn",
+																"updated": "20230620205337"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "日志记录中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-a0mzckd",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205337-a0mzckd",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "app.use((req, res, next) =\u003e {\n  console.log(`${req.method} ${req.url} - ${new Date()}`);\n  next();\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-g4gyw1y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205337-g4gyw1y",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "该中间件用于记录每个请求的方法、URL和时间戳，方便调试和跟踪请求。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-7qf7u1b",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205337-7qf7u1b",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"ID": "20230620205337-i2k4klb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230620205337-i2k4klb",
+														"updated": "20230620205337"
+													},
+													"Children": [
+														{
+															"ID": "20230620205337-cjcuuqr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205337-cjcuuqr",
+																"updated": "20230620205337"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "身份验证中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-stse0an",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205337-stse0an",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const authenticate = (req, res, next) =\u003e {\n  // 在这里执行身份验证逻辑\n  if (req.headers.authorization === 'Bearer token') {\n    // 身份验证通过\n    next();\n  } else {\n    // 身份验证失败\n    res.status(401).json({ message: '身份验证失败' });\n  }\n};\n\n// 在需要进行身份验证的路由上应用中间件\napp.get('/api/secure', authenticate, (req, res) =\u003e {\n  // 处理安全路由的逻辑\n  res.json({ message: '授权访问成功' });\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-aytpvhn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205337-aytpvhn",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在这个例子中，"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "authenticate"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​中间件执行身份验证逻辑，检查请求头中的授权令牌。如果身份验证通过，将控制权传递给下一个中间件；否则，返回401未授权的响应。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-2nwdckh",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205337-2nwdckh",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"ID": "20230620205337-1e80n26",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20230620205337-1e80n26",
+														"updated": "20230620205337"
+													},
+													"Children": [
+														{
+															"ID": "20230620205337-37qzz0f",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205337-37qzz0f",
+																"updated": "20230620205337"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "错误处理中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-568uk1w",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205337-568uk1w",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "app.use((err, req, res, next) =\u003e {\n  // 处理错误的逻辑\n  console.error(err);\n  res.status(500).json({ message: '服务器发生错误' });\n});\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-68rllro",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205337-68rllro",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这个错误处理中间件捕获应用程序中的错误，并返回一个500服务器错误的响应。它可以用于集中处理应用程序中的各种错误情况。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205337-h6ead03",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205337-h6ead03",
+												"updated": "20230620205337"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些只是一些中间件的简单示例，展示了它们的用途和功能。在实际开发中，您可以根据应用程序的需求编写自定义中间件，或使用第三方中间件来处理各种场景，例如会话管理、表单验证、安全性增强等。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-dnt6kh7",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205414-dnt6kh7",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"ID": "20230620205414-vxy5dju",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20230620205414-vxy5dju",
+														"updated": "20230620205414"
+													},
+													"Children": [
+														{
+															"ID": "20230620205414-cvuqfp1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205414-cvuqfp1",
+																"updated": "20230620205414"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "静态文件中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-mlih50n",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205414-mlih50n",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "app.use(express.static('public'));\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-o6oelcj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205414-o6oelcj",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这个中间件使用Express的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "express.static"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​函数将指定目录下的静态文件（例如CSS、JavaScript、图像文件等）提供给客户端。这样，您可以在浏览器中直接访问这些文件。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-h9jsswm",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205414-h9jsswm",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"ID": "20230620205414-grdh4r2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20230620205414-grdh4r2",
+														"updated": "20230620205414"
+													},
+													"Children": [
+														{
+															"ID": "20230620205414-00tlq85",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205414-00tlq85",
+																"updated": "20230620205414"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "请求体解析中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-p4717y0",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205414-p4717y0",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "app.use(express.json());\napp.use(express.urlencoded({ extended: false }));\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-gqcbpvp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205414-gqcbpvp",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些中间件用于解析请求体中的JSON数据和URL编码数据。它们使您能够方便地访问请求体中的数据，并将其转换为JavaScript对象，以供后续处理。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-wrjxhvp",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205414-wrjxhvp",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"ID": "20230620205414-jawsy91",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ni4=",
+														"Num": 6
+													},
+													"Properties": {
+														"id": "20230620205414-jawsy91",
+														"updated": "20230620205414"
+													},
+													"Children": [
+														{
+															"ID": "20230620205414-4hrh6oq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205414-4hrh6oq",
+																"updated": "20230620205414"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "CORS中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-fvxnes9",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205414-fvxnes9",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const cors = require('cors');\napp.use(cors());\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-6wbfig0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205414-6wbfig0",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "CORS中间件允许跨域资源共享。它添加了适当的响应头，以允许来自不同源的客户端请求访问您的服务器资源。这对于处理跨域请求非常有用。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-fjk62i4",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20230620205414-fjk62i4",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"ID": "20230620205414-4w67wc8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Ny4=",
+														"Num": 7
+													},
+													"Properties": {
+														"id": "20230620205414-4w67wc8",
+														"updated": "20230620205414"
+													},
+													"Children": [
+														{
+															"ID": "20230620205414-82m4jx8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620205414-82m4jx8",
+																"updated": "20230620205414"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "会话中间件："
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-tmo2m0s",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620205414-tmo2m0s",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YXNjcmlwdA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "const session = require('express-session');\napp.use(session({\n  secret: 'my-secret-key',\n  resave: false,\n  saveUninitialized: true\n}));\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-ycna6j6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205414-ycna6j6",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "会话中间件使用Express的"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "express-session"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​模块来管理用户会话。它为每个客户端分配一个唯一的会话ID，并将会话数据存储在服务器端。这对于跟踪用户身份、存储会话数据等非常有用。"
+												}
+											]
+										},
+										{
+											"ID": "20230620205414-5s9keqv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620205414-5s9keqv",
+												"updated": "20230620205414"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些示例展示了一些常见的中间件用法，但只是冰山一角。在Node.js的生态系统中，有大量的中间件可供选择，可以根据应用程序需求选择适当的中间件。您还可以编写自定义中间件来满足特定的需求，如身份验证、日志记录、请求验证等。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629222548-eoy3ac4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230629222548-eoy3ac4",
+				"updated": "20230629222548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230629222548-mu1p9ip",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629222548-mu1p9ip",
+				"updated": "20230629222548"
+			},
+			"Children": [
+				{
+					"ID": "20230629222548-v3hat1c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629222548-v3hat1c",
+						"updated": "20230629222548"
+					},
+					"Children": [
+						{
+							"ID": "20230629222548-qao1bot",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629222548-qao1bot",
+								"updated": "20230629222548"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230619225834-lh0w1z5",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230619225834-lh0w1z5",
+				"updated": "20230619225834"
+			}
+		},
+		{
+			"ID": "20230620210725-1e9ewuj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230620210725-1e9ewuj",
+				"updated": "20230620215323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.20 express配置静态文件目录"
+				}
+			]
+		},
+		{
+			"ID": "20230620210725-80fwptd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230620210725-80fwptd",
+				"updated": "20230620210725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230620210725-z9xjyk9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230620210725-z9xjyk9",
+				"updated": "20230629233257"
+			},
+			"Children": [
+				{
+					"ID": "20230620210725-rdu8otb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620210725-rdu8otb",
+						"updated": "20230620210725"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620210725-v3o58p4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620210725-v3o58p4",
+								"updated": "20230620210725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620210725-eoa2lis",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620210725-eoa2lis",
+						"updated": "20230629233256"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620210725-kca7moz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620210725-kca7moz",
+								"updated": "20230620210725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620210725-ouvxzvj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620210725-ouvxzvj",
+						"updated": "20230629233257"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620210725-yaa80yy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620210725-yaa80yy",
+								"updated": "20230620210725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620210725-5m8eiyl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230620210725-5m8eiyl",
+				"updated": "20230620210725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230620210725-81fvtm2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230620210725-81fvtm2",
+				"updated": "20230629233259"
+			},
+			"Children": [
+				{
+					"ID": "20230620210725-9ln1g5l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230620210725-9ln1g5l",
+						"updated": "20230629233259"
+					},
+					"Children": [
+						{
+							"ID": "20230620210725-c9n5560",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620210725-c9n5560",
+								"updated": "20230629233259"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4:06 - express配置静态文件目录 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629223412-d48gexu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230629223412-d48gexu",
+				"updated": "20230629223412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230629223412-pqax3bs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629223412-pqax3bs",
+				"updated": "20230629223412"
+			},
+			"Children": [
+				{
+					"ID": "20230629223412-mx62ntd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629223412-mx62ntd",
+						"updated": "20230629223412"
+					},
+					"Children": [
+						{
+							"ID": "20230629223412-bfe8y3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629223412-bfe8y3k",
+								"updated": "20230629223412"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620210725-lpx9epa",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230620210725-lpx9epa",
+				"updated": "20230620210725"
+			}
+		},
+		{
+			"ID": "20230620211940-71jsrli",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230620211940-71jsrli",
+				"updated": "20230620215325"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.21 Node.js环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20230620211940-7mj2ehm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230620211940-7mj2ehm",
+				"updated": "20230620211940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230620211940-hzckkbi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230620211940-hzckkbi",
+				"updated": "20230629233302"
+			},
+			"Children": [
+				{
+					"ID": "20230620211940-emhvp64",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620211940-emhvp64",
+						"updated": "20230620211940"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620211940-m0o0l47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620211940-m0o0l47",
+								"updated": "20230620211940"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620211940-8f33mzj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620211940-8f33mzj",
+						"updated": "20230629233301"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620211940-ybtditb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620211940-ybtditb",
+								"updated": "20230620211940"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620211940-lisonc1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620211940-lisonc1",
+						"updated": "20230629233302"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620211940-aj7vd34",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620211940-aj7vd34",
+								"updated": "20230620211940"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620211940-ymmgg4i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230620211940-ymmgg4i",
+				"updated": "20230620211940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230620211940-zewljup",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230620211940-zewljup",
+				"updated": "20230629233309"
+			},
+			"Children": [
+				{
+					"ID": "20230620211940-dl8b0hi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230620211940-dl8b0hi",
+						"updated": "20230620211940"
+					},
+					"Children": [
+						{
+							"ID": "20230620211940-kagv9qg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620211940-kagv9qg",
+								"updated": "20230620213120"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5:09 - 查看环境变量 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "process.env"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 在node.js环境下"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620213501-9kneubd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230620213501-9kneubd",
+						"updated": "20230629233304"
+					},
+					"Children": [
+						{
+							"ID": "20230620213501-7mot0hk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620213501-7mot0hk",
+								"updated": "20230629233304"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "9:00 - 建立环境变量文件 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "config.env"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620213120-8i1y5tx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230620213120-8i1y5tx",
+						"updated": "20230629233305"
+					},
+					"Children": [
+						{
+							"ID": "20230620213120-vm5exbc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620213120-vm5exbc",
+								"updated": "20230629233305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "10:00 - node.js配置环境变量文件 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230629224114-krfbgkm",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230629224114-krfbgkm"
+							},
+							"Children": [
+								{
+									"ID": "20230629224114-9hyobbo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230629224114-9hyobbo"
+									},
+									"Children": [
+										{
+											"ID": "20230629224114-yw1x3vu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629224114-yw1x3vu",
+												"updated": "20230629224127"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需要安装: "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "yarn add dotenv"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620213933-zabpcyi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230620213933-zabpcyi",
+						"updated": "20230629233307"
+					},
+					"Children": [
+						{
+							"ID": "20230620213933-d50hga4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620213933-d50hga4",
+								"updated": "20230629233307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "12:07 - 环境变量的使用: 当为开发环境时启动的中间件 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20230620214007-5kak06j",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620214007-5kak06j"
+							},
+							"Children": [
+								{
+									"ID": "20230620214007-2899myg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620214007-2899myg"
+									},
+									"Children": [
+										{
+											"ID": "20230620214007-j9c96ic",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620214007-j9c96ic",
+												"updated": "20230620214049"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "process.env.XXXX"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​ 可访问环境变量"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230629230452-77qqgf7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230629230452-77qqgf7"
+									},
+									"Children": [
+										{
+											"ID": "20230629230452-fmypuul",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230629230452-fmypuul",
+												"updated": "20230629230459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意: 环境变量配置要在，所有的变量最上方，方便其他文件访问环境变量 "
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"style": "color: var(--b3-font-color8);"
+													},
+													"TextMarkType": "text",
+													"TextMarkTextContent": "( 核心 )"
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620214513-kh6sdbo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230620214513-kh6sdbo",
+						"updated": "20230629233309"
+					},
+					"Children": [
+						{
+							"ID": "20230620214513-jzca4de",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620214513-jzca4de",
+								"updated": "20230629233309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "15:43 - 在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "package.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 改变node.js环境变量, 以用于区分生产和开发环境命令配置 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color4);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "( 完成笔记 )"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629231358-qn8x0wd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230629231358-qn8x0wd",
+				"updated": "20230629231358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230629231358-0tgacqu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629231358-0tgacqu",
+				"updated": "20230629231358"
+			},
+			"Children": [
+				{
+					"ID": "20230629231358-ha4gn9b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629231358-ha4gn9b",
+						"updated": "20230629231358"
+					},
+					"Children": [
+						{
+							"ID": "20230629231358-igog7as",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629231358-igog7as",
+								"updated": "20230629231358"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620211940-nufzqpt",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230620211940-nufzqpt",
+				"updated": "20230620211940"
+			}
+		},
+		{
+			"ID": "20230620214732-jpk8ci3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230620214732-jpk8ci3",
+				"updated": "20230620215328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.22 在VSCODE配置Eslint+Prettier"
+				}
+			]
+		},
+		{
+			"ID": "20230620214732-gqbm7ul",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230620214732-gqbm7ul",
+				"updated": "20230620214732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230620214732-79dv8c7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230620214732-79dv8c7",
+				"updated": "20230629233616"
+			},
+			"Children": [
+				{
+					"ID": "20230620214732-mtownpm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620214732-mtownpm",
+						"updated": "20230620214732"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620214732-usrlzf8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620214732-usrlzf8",
+								"updated": "20230620214732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620214732-fjlevr2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620214732-fjlevr2",
+						"updated": "20230629233616"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620214732-rzi4a8n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620214732-rzi4a8n",
+								"updated": "20230620214732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620214732-4mtb10q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620214732-4mtb10q",
+						"updated": "20230629233616"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620214732-sha0scw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620214732-sha0scw",
+								"updated": "20230620214732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620214732-qhab5vv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230620214732-qhab5vv",
+				"updated": "20230620214732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230620214811-lpgrtzt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230620214811-lpgrtzt",
+				"updated": "20230620224630"
+			},
+			"Children": [
+				{
+					"ID": "20230620214812-vt2kfr5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230620214812-vt2kfr5",
+						"updated": "20230620214812"
+					},
+					"Children": [
+						{
+							"ID": "20230620214812-slaqt35",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620214812-slaqt35",
+								"updated": "20230620222140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装VSCODE插件: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "dbaeumer.vscode-eslint"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "esbenp.prettier-vscode"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620215934-99tbjcz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230620215934-99tbjcz"
+					},
+					"Children": [
+						{
+							"ID": "20230620215934-5bxoih9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620215934-5bxoih9",
+								"updated": "20230620222158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装依赖: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "eslint"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 以及 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "prettier"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 依赖"
+								}
+							]
+						},
+						{
+							"ID": "20230620224234-conjx67",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620224234-conjx67",
+								"updated": "20230620224236"
+							},
+							"Children": [
+								{
+									"ID": "20230620224236-vvpqrak",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620224236-vvpqrak",
+										"updated": "20230620224236"
+									},
+									"Children": [
+										{
+											"ID": "20230620224236-r73bolz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224236-r73bolz",
+												"updated": "20230620224241"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码示例"
+												}
+											]
+										},
+										{
+											"ID": "20230620222200-t5lhu6s",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620222200-t5lhu6s",
+												"updated": "20230620222642"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anNvbg=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{  \n\t\"devDependencies\": {\n\t\t\"eslint\": \"^5.16.0\",\n\t  \t\"eslint-config-airbnb\": \"^17.1.0\",\n\t\t\"eslint-config-prettier\": \"^4.1.0\",\n\t        \"eslint-plugin-import\": \"^2.17.2\",\n\t        \"eslint-plugin-jsx-a11y\": \"^6.2.1\",\n\t        \"eslint-plugin-node\": \"^8.0.1\",\n\t        \"eslint-plugin-prettier\": \"^3.0.1\",\n\t        \"eslint-plugin-react\": \"^7.12.4\",\n\t        \"prettier\": \"^1.17.0\"\n  \t}\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620224251-aypg4ps",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230620224251-aypg4ps"
+									},
+									"Children": [
+										{
+											"ID": "20230620224251-8lbcrqy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224251-8lbcrqy",
+												"updated": "20230620224303"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码说明"
+												}
+											]
+										},
+										{
+											"ID": "20230620224417-wyjpdn2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224417-wyjpdn2",
+												"updated": "20230620224417"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这段代码是一个"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "package.json"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​​文件的示例，其中包含了一些开发环境下的依赖项（devDependencies）。这些依赖项通常用于开发过程中的代码质量控制和规范。"
+												}
+											]
+										},
+										{
+											"ID": "20230620224417-9ibjj49",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224417-9ibjj49",
+												"updated": "20230620224417"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "具体来说，这些依赖项是与代码规范、静态代码分析和格式化相关的工具和插件。以下是每个依赖项的简要说明："
+												}
+											]
+										},
+										{
+											"ID": "20230620224417-ijnq4xp",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20230620224417-ijnq4xp",
+												"updated": "20230620224417"
+											},
+											"Children": [
+												{
+													"ID": "20230620224417-l3cvf95",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-l3cvf95",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-dlexy4b",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-dlexy4b",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: JavaScript的静态代码分析工具，用于检查代码中的潜在问题和错误。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-muekkr5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-muekkr5",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-ekdwk6j",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-ekdwk6j",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-config-airbnb"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: Airbnb团队的ESLint配置规则集，用于实施一组广泛接受的JavaScript编码规范。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-ub0vfq2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-ub0vfq2",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-wv0njju",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-wv0njju",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-config-prettier"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: ESLint与Prettier的配置规则集，用于在两者之间实现规则的一致性。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-c749hra",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-c749hra",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-qgvgo46",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-qgvgo46",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-plugin-import"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: ESLint插件，用于检查和强制执行导入语句的一致性和规范性。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-78lfe1z",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-78lfe1z",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-kn07ff5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-kn07ff5",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-plugin-jsx-a11y"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: ESLint插件，用于提供JSX元素的无障碍性检查。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-96yj06k",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-96yj06k",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-lactb1r",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-lactb1r",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-plugin-node"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: ESLint插件，用于检查和规范Node.js代码的规则集。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-ihm6eqy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-ihm6eqy",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-fr3zda7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-fr3zda7",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-plugin-prettier"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: ESLint插件，用于将Prettier作为ESLint规则运行，并自动格式化代码。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-emm9947",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-emm9947",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-yqnwau3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-yqnwau3",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "eslint-plugin-react"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: ESLint插件，用于提供React相关的规则和检查。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224417-5ubd291",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224417-5ubd291",
+														"updated": "20230620224417"
+													},
+													"Children": [
+														{
+															"ID": "20230620224417-4x9j13a",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224417-4x9j13a",
+																"updated": "20230620224417"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "prettier"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 代码格式化工具，用于保持代码风格的一致性。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620224417-crch0z6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224417-crch0z6",
+												"updated": "20230620224417"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些依赖项可用于在开发过程中确保代码的一致性、可读性和质量。它们与代码编辑器或集成开发环境（IDE）集成使用，可以自动检测和修复代码中的潜在问题，并强制执行一致的代码风格和规范。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620222740-425wg4k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230620222740-425wg4k"
+					},
+					"Children": [
+						{
+							"ID": "20230620222740-pe6aupu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620222740-pe6aupu",
+								"updated": "20230620222758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文件目录"
+								}
+							]
+						},
+						{
+							"ID": "20230620222819-qtcizr5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620222819-qtcizr5",
+								"updated": "20230620222819"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20230620222819-rpulien.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620222827-ftvtgsz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230620222827-ftvtgsz",
+						"updated": "20230620224550"
+					},
+					"Children": [
+						{
+							"ID": "20230620222827-fhqgclx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620222827-fhqgclx",
+								"updated": "20230620222848"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".eslintrc.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 文件配置"
+								}
+							]
+						},
+						{
+							"ID": "20230620224453-mzqvt9f",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620224453-mzqvt9f",
+								"updated": "20230620224550"
+							},
+							"Children": [
+								{
+									"ID": "20230620224454-jss42ra",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620224454-jss42ra",
+										"updated": "20230620224454"
+									},
+									"Children": [
+										{
+											"ID": "20230620224454-ggn8tf2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224454-ggn8tf2",
+												"updated": "20230620224502"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "eslint官方文档: "
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://eslint.org/docs/latest/",
+													"TextMarkTextContent": "https://eslint.org/docs/latest/"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620224456-eypseqg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230620224456-eypseqg"
+									},
+									"Children": [
+										{
+											"ID": "20230620224456-swgj9tx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224456-swgj9tx",
+												"updated": "20230620224507"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码示例"
+												}
+											]
+										},
+										{
+											"ID": "20230620223704-ospdv4x",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620223704-ospdv4x",
+												"updated": "20230620224519"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anNvbg=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  \"extends\": [\"airbnb\", \"prettier\", \"plugin:node/recommended\"],\n  \"plugins\": [\"prettier\"],\n  \"rules\": {\n    \"prettier/prettier\": \"error\",\n    \"spaced-comment\": \"off\",\n    \"no-console\": \"warn\",\n    \"consistent-return\": \"off\",\n    \"func-names\": \"off\",\n    \"object-shorthand\": \"off\",\n    \"no-process-exit\": \"off\",\n    \"no-param-reassign\": \"off\",\n    \"no-return-await\": \"off\",\n    \"no-underscore-dangle\": \"off\",\n    \"class-methods-use-this\": \"off\",\n    \"prefer-destructuring\": [\"error\", { \"object\": true, \"array\": false }],\n    \"no-unused-vars\": [\"error\", { \"argsIgnorePattern\": \"req|res|next|val\" }]\n  }\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230620224524-lrd64kt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230620224524-lrd64kt",
+										"updated": "20230620224550"
+									},
+									"Children": [
+										{
+											"ID": "20230620224524-i2uzrqr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224524-i2uzrqr",
+												"updated": "20230620224535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码说明"
+												}
+											]
+										},
+										{
+											"ID": "20230620224550-l67nskn",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20230620224550-l67nskn",
+												"updated": "20230620224550"
+											},
+											"Children": [
+												{
+													"ID": "20230620224550-ltfb3hm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-ltfb3hm",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-e4e9wj9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-e4e9wj9",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;extends\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 定义了扩展配置，通过"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "airbnb"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "prettier"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​和"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "plugin:node/recommended"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​来继承一组规则和配置。"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "airbnb"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​扩展包含了一组广泛接受的JavaScript编码规范，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "prettier"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​扩展用于与Prettier进行规则一致性，"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "plugin:node/recommended"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​扩展包含了一些Node.js相关的推荐规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-20c1osi",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-20c1osi",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-r6bj3q7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-r6bj3q7",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;plugins\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 定义了插件列表，其中包括了"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "prettier"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​插件，用于与Prettier进行集成。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-iou2lz1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-iou2lz1",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-shpawcf",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-shpawcf",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;rules\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 定义了一组规则和其对应的配置。每个规则可以是一个字符串，表示错误级别，如"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;error\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;warn\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​，也可以是一个数组，其中第一个元素表示错误级别，第二个元素表示额外的配置选项。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620224550-cexxn1a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224550-cexxn1a",
+												"updated": "20230620224550"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "具体规则的含义和作用如下："
+												}
+											]
+										},
+										{
+											"ID": "20230620224550-dd72ziu",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20230620224550-dd72ziu",
+												"updated": "20230620224550"
+											},
+											"Children": [
+												{
+													"ID": "20230620224550-olmgrfw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-olmgrfw",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-21cn2in",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-21cn2in",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;prettier/prettier\u0026quot;: \u0026quot;error\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 强制使用Prettier的格式化规则，如果代码与Prettier的规则不一致，将抛出一个错误。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-3goixv7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-3goixv7",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-ezc1azt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-ezc1azt",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;spaced-comment\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭在注释前需要空格的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-8pvnewd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-8pvnewd",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-bwjl8od",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-bwjl8od",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;no-console\u0026quot;: \u0026quot;warn\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 警告不允许使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "console"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​语句。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-i3rvloh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-i3rvloh",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-ed5aoqc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-ed5aoqc",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;consistent-return\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭要求函数中的返回语句保持一致的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-tsge79v",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-tsge79v",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-m2btzok",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-m2btzok",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;func-names\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭要求函数表达式具有命名的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-smwvv6o",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-smwvv6o",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-p5p49nr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-p5p49nr",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;object-shorthand\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭要求对象字面量中的方法和属性使用简洁语法的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-dotvb6h",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-dotvb6h",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-9n6lh2n",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-9n6lh2n",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;no-process-exit\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭不允许使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "process.exit()"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-o9sebxp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-o9sebxp",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-h0l8zp0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-h0l8zp0",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;no-param-reassign\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭不允许对函数参数进行重新赋值的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-gxh94q8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-gxh94q8",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-l71s6xj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-l71s6xj",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;no-return-await\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭不允许在"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "return"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​语句中使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "await"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-efv6nrl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-efv6nrl",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-cyy8vhj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-cyy8vhj",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;no-underscore-dangle\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭不允许使用下划线作为标识符的规则。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620224550-z5pcw5x",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20230620224550-z5pcw5x",
+												"updated": "20230620224550"
+											},
+											"Children": [
+												{
+													"ID": "20230620224550-7flmyac",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-7flmyac",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-ht64wet",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-ht64wet",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;class-methods-use-this\u0026quot;: \u0026quot;off\u0026quot;"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 关闭要求类方法中使用"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "this"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​的规则。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-wbpscf8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-wbpscf8",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-xj3uq22",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-xj3uq22",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;prefer-destructuring\u0026quot;: [\u0026quot;error\u0026quot;, { \u0026quot;object\u0026quot;: true, \u0026quot;array\u0026quot;: false }]"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 强制使用解构赋值来访问对象和数组的规则，但不要求数组解构。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230620224550-8x5h4ec",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20230620224550-8x5h4ec",
+														"updated": "20230620224550"
+													},
+													"Children": [
+														{
+															"ID": "20230620224550-n4rro4c",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230620224550-n4rro4c",
+																"updated": "20230620224550"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "\u0026quot;no-unused-vars\u0026quot;: [\u0026quot;error\u0026quot;, { \u0026quot;argsIgnorePattern\u0026quot;: \u0026quot;req|res|next|val\u0026quot; }]"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​: 警告未使用的变量，但忽略"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "req"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "res"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​、"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "next"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​和"
+																},
+																{
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "code",
+																	"TextMarkTextContent": "val"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​​的参数。"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20230620224550-vjwz4j6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224550-vjwz4j6",
+												"updated": "20230620224550"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这些配置和规则可以根据项目需求进行调整和自定义。它们用于在开发过程中提供代码质量控制和规范，并帮助开发者遵循一致的代码风格和最佳实践。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620222855-qkwolp8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20230620222855-qkwolp8",
+						"updated": "20230620224630"
+					},
+					"Children": [
+						{
+							"ID": "20230620222855-gxj6lq8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620222855-gxj6lq8",
+								"updated": "20230620222912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".prettierrc"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 文件配置"
+								}
+							]
+						},
+						{
+							"ID": "20230620224608-xfmsfzr",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230620224608-xfmsfzr",
+								"updated": "20230620224630"
+							},
+							"Children": [
+								{
+									"ID": "20230620224610-myy2d9d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230620224610-myy2d9d",
+										"updated": "20230620224630"
+									},
+									"Children": [
+										{
+											"ID": "20230620224610-fb7n6qi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230620224610-fb7n6qi",
+												"updated": "20230620224614"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码示例"
+												}
+											]
+										},
+										{
+											"ID": "20230620224615-rskwnkv",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20230620224615-rskwnkv",
+												"updated": "20230620224630"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anNvbg=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "{\n  \"singleQuote\": true\n}\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230629231430-npvd13p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230629231430-npvd13p",
+				"updated": "20230629231430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考笔记"
+				}
+			]
+		},
+		{
+			"ID": "20230629231430-vce3qqs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230629231430-vce3qqs",
+				"updated": "20230629231430"
+			},
+			"Children": [
+				{
+					"ID": "20230629231430-gxm7gud",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230629231430-gxm7gud",
+						"updated": "20230629231430"
+					},
+					"Children": [
+						{
+							"ID": "20230629231430-2mjbdz0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230629231430-2mjbdz0",
+								"updated": "20230629231430"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20230627221302-q33h513",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "6.12 express中间件  ( 案例 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620214732-9iqart9",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230620214732-9iqart9",
+				"updated": "20230620214732"
+			}
+		},
+		{
+			"ID": "20230620225521-osr1l96",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230620225521-osr1l96",
+				"style": "background-color: var(--b3-font-background13); color: var(--b3-font-color13);",
+				"updated": "20230620225530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. MongoDB"
+				}
+			]
+		},
+		{
+			"ID": "20230620225521-t4d292h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"id": "20230620225521-t4d292h",
+				"updated": "20230620225539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.1 章节简介"
+				}
+			]
+		},
+		{
+			"ID": "20230620225521-8g3663u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230620225521-8g3663u",
+				"updated": "20230620225521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习状态"
+				}
+			]
+		},
+		{
+			"ID": "20230620225521-sxprxwm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230620225521-sxprxwm",
+				"updated": "20230620225521"
+			},
+			"Children": [
+				{
+					"ID": "20230620225521-8c2efhh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620225521-8c2efhh",
+						"updated": "20230620225521"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620225521-zn978sc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620225521-zn978sc",
+								"updated": "20230620225521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已学习"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620225521-fln6589",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620225521-fln6589",
+						"updated": "20230620225521"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620225521-echv9co",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620225521-echv9co",
+								"updated": "20230620225521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已笔记 ( 含无需笔记 )"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230620225521-4tdpnas",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230620225521-4tdpnas",
+						"updated": "20230620225521"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230620225521-v9jgtil",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620225521-v9jgtil",
+								"updated": "20230620225521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "已练习 ( 含无需练习 )"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620225521-333bu9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230620225521-333bu9i",
+				"updated": "20230620225521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学习日志"
+				}
+			]
+		},
+		{
+			"ID": "20230620225521-4dcvryw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230620225521-4dcvryw",
+				"updated": "20230620225521"
+			},
+			"Children": [
+				{
+					"ID": "20230620225521-8d0dhk4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230620225521-8d0dhk4",
+						"updated": "20230620225521"
+					},
+					"Children": [
+						{
+							"ID": "20230620225521-f5hqkv2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230620225521-f5hqkv2",
+								"updated": "20230620225521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "章节介绍"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230620225521-zxsko25",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230620225521-zxsko25",
+				"updated": "20230620225521"
 			}
 		}
 	]
