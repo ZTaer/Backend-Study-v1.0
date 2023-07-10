@@ -7,7 +7,7 @@
 		"id": "20230419172518-jo23cet",
 		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230419172518-jo23cet\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230419172518-8dbqiei\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230628212732-lp13hqy\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230423204442-8tfdgba\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "第三方库记载",
-		"updated": "20230629233552"
+		"updated": "20230704214817"
 	},
 	"Children": [
 		{
@@ -43,7 +43,7 @@
 			"Properties": {
 				"colgroup": "width: 218px;|width: 247px;|width: 155px;|width: 189px;|width: 174px;|width: 344px;|width: 293px;|width: 392px;|width: 359px;|width: 329px;",
 				"id": "20230423204543-a8tpdzr",
-				"updated": "20230629233552"
+				"updated": "20230704214817"
 			},
 			"Children": [
 				{
@@ -433,8 +433,83 @@
 							]
 						}
 					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PM2"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PM2（Process Manager 2）是一个用于管理Node.js应用程序的生产过程的进程管理器，进程管理：PM2可以启动、停止、重启和管理多个Node.js进程。守护进程日志管理：监控和负载均衡它还支持负载均衡，可以将请求分发给多个Node.js进程，以提高应用程序的性能和可伸缩性。"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						}
+					]
 				}
 			]
+		},
+		{
+			"ID": "20230704214656-lsj9t9w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230704214656-lsj9t9w"
+			}
 		},
 		{
 			"ID": "20230419172518-jzu67qp",
