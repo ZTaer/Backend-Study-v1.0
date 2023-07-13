@@ -1,0 +1,758 @@
+{
+	"ID": "20230711180927-unif5oj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230711180927-unif5oj",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230711180927-unif5oj\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230713173334-lgkvlc7\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230713173334-3itra05\u0026quot;,\u0026quot;scrollTop\u0026quot;:195,\u0026quot;focusId\u0026quot;:\u0026quot;20230713174751-9h86lwl\u0026quot;,\u0026quot;focusStart\u0026quot;:34,\u0026quot;focusEnd\u0026quot;:34\u0026#125;",
+		"title": "8.2 - 项目连接MongoDB 本地\u0026amp;远程数据库 ( 案例 )",
+		"updated": "20230713175159"
+	},
+	"Children": [
+		{
+			"ID": "20230713173334-lgkvlc7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713173334-lgkvlc7",
+				"updated": "20230713173334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 案例说明"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-bv87fs9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230713173334-bv87fs9",
+				"updated": "20230713174331"
+			},
+			"Children": [
+				{
+					"ID": "20230713173334-ew8x6yw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230713173334-ew8x6yw",
+						"updated": "20230713174331"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-s71jqbh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-s71jqbh",
+								"updated": "20230713174331"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "源代码参考: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/ZTaer/Backend-Study/tree/main/%E7%B3%BB%E7%BB%9F%E6%80%A7%E5%AD%A6%E4%B9%A0/Node.js%20-%20Jonas%20v2023",
+									"TextMarkTextContent": "https://github.com/ZTaer/Backend-Study/tree/main/%E7%B3%BB%E7%BB%9F%E6%80%A7%E5%AD%A6%E4%B9%A0/Node.js%20-%20Jonas%20v2023"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713173334-bodw7i4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230713173334-bodw7i4",
+						"updated": "20230713174249"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-e4uy5da",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-e4uy5da",
+								"updated": "20230713174136"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "此笔记主要记录: "
+								}
+							]
+						},
+						{
+							"ID": "20230713174146-p1gc9yf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20230713174146-p1gc9yf",
+								"updated": "20230713174249"
+							},
+							"Children": [
+								{
+									"ID": "20230713174146-deku9nz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230713174146-deku9nz"
+									},
+									"Children": [
+										{
+											"ID": "20230713174146-v3ehxqn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713174146-v3ehxqn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Node.js 通过 Mongoose 连接 MongoDB 远程/本地数据库"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230713174149-zfzeotr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20230713174149-zfzeotr",
+										"updated": "20230713174249"
+									},
+									"Children": [
+										{
+											"ID": "20230713174149-9rt9di4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230713174149-9rt9di4",
+												"updated": "20230713174249"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本的 Mongoose Schema 数据模型使用, 使数据规则入库"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-wo5aw04",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713173334-wo5aw04",
+				"updated": "20230713173334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 要求功能"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-juxwcuz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230713173334-juxwcuz",
+				"updated": "20230713174537"
+			},
+			"Children": [
+				{
+					"ID": "20230713173334-ecwqu1x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713173334-ecwqu1x",
+						"updated": "20230713173334"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-8yeeu67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-8yeeu67",
+								"updated": "20230713174449"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Node.js 通过 Mongoose 连接 MongoDB 远程/本地数据库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713173334-wzb3oe5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713173334-wzb3oe5",
+						"updated": "20230713173334"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-f8qz3y1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-f8qz3y1",
+								"updated": "20230713174452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本的 Mongoose Schema 数据模型使用, 使数据规则入库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713174500-yl93nvc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230713174500-yl93nvc",
+						"updated": "20230713174537"
+					},
+					"Children": [
+						{
+							"ID": "20230713174500-7hcp2fz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713174500-7hcp2fz",
+								"updated": "20230713174537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注意: 此案例主要以测试功能为主，因此代码不规整"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-orukaun",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713173334-orukaun",
+				"updated": "20230713173334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 项目结构"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-72sr2j6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713173334-72sr2j6",
+				"updated": "20230713174654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20230713174654-g7ncyz4.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-k67yapt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713173334-k67yapt",
+				"updated": "20230713173334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 基本代码"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-ixs5h3p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230713173334-ixs5h3p",
+				"updated": "20230713175159"
+			},
+			"Children": [
+				{
+					"ID": "20230713173334-p73hqbq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713173334-p73hqbq",
+						"updated": "20230713174816"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-axy2uqx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-axy2uqx",
+								"updated": "20230713173334"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "package.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 文件"
+								}
+							]
+						},
+						{
+							"ID": "20230713174751-9h86lwl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713174751-9h86lwl",
+								"updated": "20230713174816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增加了"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mongoose"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "yarn add mongoose"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20230713173334-nq6fo5a",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230713173334-nq6fo5a",
+								"updated": "20230713174747"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"name\": \"api-test\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"app.js\",\n  \"devDependencies\": {\n    \"eslint\": \"^8.43.0\",\n    \"eslint-config-airbnb\": \"^19.0.4\",\n    \"eslint-config-prettier\": \"^8.8.0\",\n    \"eslint-plugin-import\": \"^2.27.5\",\n    \"eslint-plugin-jsx-a11y\": \"^6.7.1\",\n    \"eslint-plugin-node\": \"^11.1.0\",\n    \"eslint-plugin-prettier\": \"^4.2.1\",\n    \"eslint-plugin-react\": \"^7.32.2\",\n    \"nodemon\": \"^2.0.22\",\n    \"prettier\": \"^2.8.8\"\n  },\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" \u0026\u0026 exit 1\",\n    \"start:dev\": \"nodemon server.js\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"dotenv\": \"^16.3.1\",\n    \"express\": \"^4.18.2\",\n    \"mongoose\": \"^7.3.4\",\n    \"morgan\": \"^1.10.0\"\n  },\n  \"engines\": {\n    \"node\": \"\u003e=10.6.0\"\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230713173334-j1iivn8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230713173334-j1iivn8",
+						"updated": "20230713175159"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-cmza6ef",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-cmza6ef",
+								"updated": "20230713173334"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "config.env"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 环境变量文件"
+								}
+							]
+						},
+						{
+							"ID": "20230713175152-ck8n7rn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713175152-ck8n7rn",
+								"updated": "20230713175159"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库相关配置"
+								}
+							]
+						},
+						{
+							"ID": "20230713173334-x3otfrr",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230713173334-x3otfrr",
+								"updated": "20230713174835"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZW52"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 环境变量文件\n\nNODE_ENV = development\nPORT = 3000\n\n# 数据库相关\nDATABASE_SERVER = mongodb+srv://oo7:\u003cpassword\u003e@hk.slahtw7.mongodb.net/nature-project # 连接远程MongoDB数据库nature-project\nDATABASE_LOCAL = mongodb://127.0.0.1:27017/nature-project # 连接本地MongoDB数据库nature-project\nDATABASE_PASSWORD = a3979897\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-azt87jm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713173334-azt87jm",
+				"updated": "20230713173334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 核心代码"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-nzc72lt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230713173334-nzc72lt",
+				"updated": "20230713175028"
+			},
+			"Children": [
+				{
+					"ID": "20230713173334-bwz7cjo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230713173334-bwz7cjo",
+						"updated": "20230713175028"
+					},
+					"Children": [
+						{
+							"ID": "20230713173334-nodhrpv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-nodhrpv",
+								"updated": "20230713173334"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "server.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 初始化server文件"
+								}
+							]
+						},
+						{
+							"ID": "20230713173334-5otmxi3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713173334-5otmxi3",
+								"updated": "20230713175002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接MongoDB数据库"
+								}
+							]
+						},
+						{
+							"ID": "20230713175014-9xx3d7s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713175014-9xx3d7s",
+								"updated": "20230713175014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方式一: 使用Mongoose创建简单的数据模型,以tour示例 ( 不推荐 )"
+								}
+							]
+						},
+						{
+							"ID": "20230713175028-niag4if",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230713175028-niag4if",
+								"updated": "20230713175028"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建MongoDB文档(合集), 写入数据测试数据模型"
+								}
+							]
+						},
+						{
+							"ID": "20230713173334-417yoz8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230713173334-417yoz8",
+								"updated": "20230713174922"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const dotenv = require('dotenv');\n// eslint-disable-next-line import/no-extraneous-dependencies\nconst mongoose = require('mongoose');\n\n/**\n * 配置环境变量文件\n *    a) process.env.XXX 可访问\n *    b) 注意: 环境变量配置要在，所有的变量最上方，方便其他文件访问环境变量 ( 核心 )\n *    c) 注意: 在 `package.json` 改变node.js环境变量, 以用于区分生产和开发环境命令配置\n */\ndotenv.config({\n  path: `${__dirname}/config.env`,\n});\n\nconst app = require('./app');\n\n/**\n * 连接MongoDB数据库\n */\n// 线上数据库\n// const DB = process.env.DATABASE_SERVER.replace(\n//   '\u003cpassword\u003e',\n//   process.env.DATABASE_PASSWORD\n// );\n// 本地数据库, 注意开启mongod\nconst DB = process.env.DATABASE_LOCAL;\n\nmongoose\n  .connect(DB, {\n    // 这些选项是为了消除一些警告, 因版本问题部分选项会报错\n    useNewUrlParser: true,\n    // useCreateIndex: true,\n    // useFindAndModify: false,\n  })\n  .then(() =\u003e {\n    console.log('connect db success');\n  })\n  .catch((err) =\u003e {\n    console.log('connect db fail', err);\n  });\n\n/**\n * 方式一: 使用Mongoose创建简单的数据模型,以tour示例 ( 不推荐 )\n *      a) 规则入库\n */\nconst toursSchema = new mongoose.Schema({\n  name: {\n    type: String, // 字段内容类型: String, Number,\n    require: [true, 'Required name string'], // 是否必填: [ 必填开关, 报错内容 ]\n    unique: true, // 唯一: 字段内容不可重复\n    index: true, // 确保索引存在,保证unique正常\n  },\n  rating: {\n    type: Number,\n    default: 10,\n  },\n  price: {\n    type: Number,\n    required: [true, 'Required price number'],\n  },\n});\nconst Tours = mongoose.model('Tours', toursSchema);\n\n/***\n * 创建MongoDB文档(合集), 写入数据测试数据模型\n */\nconst testTour = new Tours({\n  name: 'TourTitle',\n  rating: 8.5,\n  price: 120,\n});\n\n// 写入数据\ntestTour\n  .save()\n  .then((msg) =\u003e {\n    console.log('save success', msg);\n  })\n  .catch((err) =\u003e {\n    console.log('save fail', err);\n  });\n\n/**\n * 初始化server\n */\nconst port = process.env.PORT || 3000;\napp.listen(port, () =\u003e {\n  console.log('start:3000');\n});\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-2dip72t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230713173334-2dip72t",
+				"updated": "20230713173334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 最终效果"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-s9czwzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713173334-s9czwzc",
+				"updated": "20230713175104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20230713175104-4x4xv34.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20230713173334-3itra05",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230713173334-3itra05",
+				"updated": "20230713173334"
+			}
+		}
+	]
+}

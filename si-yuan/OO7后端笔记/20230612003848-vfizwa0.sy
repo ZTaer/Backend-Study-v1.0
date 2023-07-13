@@ -5,9 +5,9 @@
 	"Properties": {
 		"icon": "1f9ea",
 		"id": "20230612003848-vfizwa0",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230612003848-o0efkn8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230614171054-bhhxoaa\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230612004451-6h60eu8\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230612003848-vfizwa0\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230612003848-o0efkn8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230711233143-xy7tng3\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230612004051-rq0ij4c\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4\u0026#125;",
 		"title": "研究项目",
-		"updated": "20230614171054"
+		"updated": "20230711233740"
 	},
 	"Children": [
 		{
@@ -48,7 +48,7 @@
 			},
 			"Properties": {
 				"id": "20230612004051-lsxqq1z",
-				"updated": "20230612004339"
+				"updated": "20230711233157"
 			},
 			"Children": [
 				{
@@ -123,12 +123,11 @@
 					},
 					"Properties": {
 						"id": "20230612004226-dri1tlx",
-						"updated": "20230612004339"
+						"updated": "20230711233157"
 					},
 					"Children": [
 						{
-							"Type": "NodeTaskListItemMarker",
-							"TaskListItemChecked": true
+							"Type": "NodeTaskListItemMarker"
 						},
 						{
 							"ID": "20230612004226-aci9d8c",
@@ -203,12 +202,206 @@
 			]
 		},
 		{
-			"ID": "20230612004437-dqyfqr7",
+			"ID": "20230711233143-tcc8ikx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230711233143-tcc8ikx",
+				"updated": "20230711233152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 架构师方向探索"
+				}
+			]
+		},
+		{
+			"ID": "20230711233143-skyv1ou",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230711233143-skyv1ou",
+				"updated": "20230711233143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究状态"
+				}
+			]
+		},
+		{
+			"ID": "20230711233143-yasslr0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20230711233143-yasslr0",
+				"updated": "20230711233143"
+			},
+			"Children": [
+				{
+					"ID": "20230711233143-7pnccsy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230711233143-7pnccsy",
+						"updated": "20230711233143"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230711233143-nmdlulu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711233143-nmdlulu",
+								"updated": "20230711233143"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "成功"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711233143-gz2tyzv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230711233143-gz2tyzv",
+						"updated": "20230711233143"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20230711233143-tcgwb3y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711233143-tcgwb3y",
+								"updated": "20230711233143"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "失败"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230711233143-grxkelh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230711233143-grxkelh",
+						"updated": "20230711233143"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20230711233143-wnvijq4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711233143-wnvijq4",
+								"updated": "20230711233143"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "研究中"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230711233143-xo1akvk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20230711233143-xo1akvk",
+				"updated": "20230711233143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "研究要求"
+				}
+			]
+		},
+		{
+			"ID": "20230711233143-ixgd97v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230711233143-ixgd97v",
+				"updated": "20230711233427"
+			},
+			"Children": [
+				{
+					"ID": "20230711233143-vthy7t4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230711233143-vthy7t4",
+						"updated": "20230711233427"
+					},
+					"Children": [
+						{
+							"ID": "20230711233143-sxq19v5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230711233143-sxq19v5",
+								"updated": "20230711233427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个人顶一个团队"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230711233143-55e360j",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20230612004437-dqyfqr7",
-				"updated": "20230612004446"
+				"id": "20230711233143-55e360j",
+				"updated": "20230711233143"
 			},
 			"Children": [
 				{
@@ -218,18 +411,18 @@
 			]
 		},
 		{
-			"ID": "20230612004447-92w9djb",
+			"ID": "20230711233143-xy7tng3",
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1
 			},
 			"Properties": {
-				"id": "20230612004447-92w9djb",
-				"updated": "20230612004448"
+				"id": "20230711233143-xy7tng3",
+				"updated": "20230711233740"
 			},
 			"Children": [
 				{
-					"ID": "20230612004451-ldcst8d",
+					"ID": "20230711233143-xctfhcw",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -238,28 +431,33 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20230612004451-ldcst8d",
-						"updated": "20230612004451"
+						"id": "20230711233143-xctfhcw",
+						"updated": "20230711233740"
 					},
 					"Children": [
 						{
-							"ID": "20230612004451-6h60eu8",
+							"ID": "20230711233143-omvdd0t",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20230612004451-6h60eu8",
-								"updated": "20230612004451"
-							}
+								"id": "20230711233143-omvdd0t",
+								"updated": "20230711233740"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参考文件目录: "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/ZTaer/Backend-Study/tree/main/%E7%A0%94%E7%A9%B6%E9%A1%B9%E7%9B%AE/2.%20%E6%9E%B6%E6%9E%84%E5%B8%88%E6%96%B9%E5%90%91%E6%8E%A2%E7%B4%A2",
+									"TextMarkTextContent": "https://github.com/ZTaer/Backend-Study/tree/main/%E7%A0%94%E7%A9%B6%E9%A1%B9%E7%9B%AE/2.%20%E6%9E%B6%E6%9E%84%E5%B8%88%E6%96%B9%E5%90%91%E6%8E%A2%E7%B4%A2"
+								}
+							]
 						}
 					]
 				}
 			]
-		},
-		{
-			"ID": "20230614171054-bhhxoaa",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20230614171054-bhhxoaa"
-			}
 		}
 	]
 }

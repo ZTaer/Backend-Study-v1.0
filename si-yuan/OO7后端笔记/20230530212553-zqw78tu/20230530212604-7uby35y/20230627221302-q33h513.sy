@@ -4,9 +4,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20230627221302-q33h513",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230627221302-q33h513\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230627221302-g6zt1cv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230627223050-elhx4nz\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
-		"title": "6.12 express中间件  ( 案例 )",
-		"updated": "20230629232959"
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230627221302-q33h513\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230627221302-g6zt1cv\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230627223050-elhx4nz\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230627221302-ztbev7n\u0026quot;,\u0026quot;focusStart\u0026quot;:129,\u0026quot;focusEnd\u0026quot;:129\u0026#125;",
+		"title": "6.12 - express中间件  ( 案例 )",
+		"updated": "20230713174343"
 	},
 	"Children": [
 		{
@@ -30,7 +30,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20230627221302-nlhopyk",
-				"updated": "20230627221644"
+				"updated": "20230713174343"
 			},
 			"Children": [
 				{
@@ -42,7 +42,7 @@
 					},
 					"Properties": {
 						"id": "20230627221302-wehweuf",
-						"updated": "20230627221644"
+						"updated": "20230713174343"
 					},
 					"Children": [
 						{
@@ -50,12 +50,18 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20230627221302-ztbev7n",
-								"updated": "20230627221644"
+								"updated": "20230713174343"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "源代码参考: ( 等待补充 )"
+									"Data": "源代码参考:"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/ZTaer/Backend-Study/tree/main/%E7%B3%BB%E7%BB%9F%E6%80%A7%E5%AD%A6%E4%B9%A0/Node.js%20-%20Jonas%20v2023",
+									"TextMarkTextContent": " https://github.com/ZTaer/Backend-Study/tree/main/%E7%B3%BB%E7%BB%9F%E6%80%A7%E5%AD%A6%E4%B9%A0/Node.js%20-%20Jonas%20v2023"
 								}
 							]
 						}

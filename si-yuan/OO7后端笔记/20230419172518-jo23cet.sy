@@ -5,9 +5,9 @@
 	"Properties": {
 		"icon": "2764",
 		"id": "20230419172518-jo23cet",
-		"scroll": "{\u0026quot;rootId\u0026quot;:\u0026quot;20230419172518-jo23cet\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230419172518-8dbqiei\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230628212732-lp13hqy\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230423204442-8tfdgba\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "\u0026#123;\u0026quot;rootId\u0026quot;:\u0026quot;20230419172518-jo23cet\u0026quot;,\u0026quot;startId\u0026quot;:\u0026quot;20230419172518-8dbqiei\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230628212732-lp13hqy\u0026quot;,\u0026quot;scrollTop\u0026quot;:400,\u0026quot;focusId\u0026quot;:\u0026quot;20230419172518-jzu67qp\u0026quot;,\u0026quot;focusStart\u0026quot;:8,\u0026quot;focusEnd\u0026quot;:8\u0026#125;",
 		"title": "第三方库记载",
-		"updated": "20230704214817"
+		"updated": "20230713175549"
 	},
 	"Children": [
 		{
@@ -527,11 +527,283 @@
 			]
 		},
 		{
-			"ID": "20230423204442-8tfdgba",
-			"Type": "NodeParagraph",
+			"ID": "20230713175231-xsy7ekk",
+			"Type": "NodeTable",
+			"TableAligns": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2
+			],
 			"Properties": {
-				"id": "20230423204442-8tfdgba"
-			}
+				"colgroup": "width: 218px;|width: 247px;|width: 155px;|width: 189px;|width: 174px;|width: 344px;|width: 293px;|width: 392px;|width: 359px;|width: 329px;",
+				"id": "20230713175231-xsy7ekk",
+				"updated": "20230713175549"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "库名"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述内容"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "推荐程度"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "支持语言"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "支持框架"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "安装命令"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "使用方式"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "社区库地址"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Github地址"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "官方文档"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mongoose"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Mongoose是一个在Node.js中使用MongoDB的对象建模工具。它为Node.js应用程序提供了一种简单而强大的方式来与MongoDB数据库进行交互。"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "❤❤❤"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "node.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "yarn add mongoose"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.npmjs.com/package/mongoose",
+									"TextMarkTextContent": "https://www.npmjs.com/package/mongoose"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/Automattic/mongoose",
+									"TextMarkTextContent": "https://github.com/Automattic/mongoose"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://mongoosejs.com/docs/queries.html",
+									"TextMarkTextContent": "https://mongoosejs.com/docs/queries.html"
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"ID": "20230419172518-nxop4me",
